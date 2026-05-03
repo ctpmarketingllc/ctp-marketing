@@ -1,0 +1,599 @@
+{
+  "jonah_jerkbait": {
+    "variants": [
+      {
+        "title": "Jonah 1:17 (Clown)",
+        "color": "Clown",
+        "image": "images/copperred/jonah-jerkbait/clown.jpg"
+      },
+      {
+        "title": "Jonah 1:17 (Emerald Green)",
+        "color": "Emerald Green",
+        "image": "images/copperred/jonah-jerkbait/emerald-green.jpg"
+      },
+      {
+        "title": "Jonah 1:17 (Matte Blue)",
+        "color": "Matte Blue",
+        "image": "images/copperred/jonah-jerkbait/matte-blue.jpg"
+      },
+      {
+        "title": "Jonah 1:17 (Ozark Shad)",
+        "color": "Ozark Shad",
+        "image": "images/copperred/jonah-jerkbait/ozark-shad.jpg"
+      },
+      {
+        "title": "Jonah 1:17 (Pearl)",
+        "color": "Pearl",
+        "image": "images/copperred/jonah-jerkbait/pearl.jpg"
+      },
+      {
+        "title": "Jonah 1:17 (Pearl) Tackle Store",
+        "color": "Pearl",
+        "image": "images/copperred/jonah-jerkbait/pearl.jpg"
+      },
+      {
+        "title": "Jonah 1:17 (Perch)",
+        "color": "Perch",
+        "image": "images/copperred/jonah-jerkbait/perch.jpg"
+      },
+      {
+        "title": "Jonah 1:17 (Pro Blue)",
+        "color": "Pro Blue",
+        "image": "images/copperred/jonah-jerkbait/pro-blue.jpg"
+      },
+      {
+        "title": "Jonah 1:17 (Pro Blue)Tackle Store",
+        "color": "Pro Blue",
+        "image": "images/copperred/jonah-jerkbait/pro-blue.jpg"
+      },
+      {
+        "title": "Jonah 1:17 (Pro-Blue Chrome)",
+        "color": "Pro-Blue Chrome",
+        "image": "images/copperred/jonah-jerkbait/pro-blue-chrome.jpg"
+      },
+      {
+        "title": "Jonah 1:17 (Pro-Blue Chrome)Tackle Store",
+        "color": "Pro-Blue Chrome",
+        "image": "images/copperred/jonah-jerkbait/pro-blue-chrome.jpg"
+      },
+      {
+        "title": "Jonah 1:17 (Pro-Olive)",
+        "color": "Pro-Olive",
+        "image": "images/copperred/jonah-jerkbait/pro-olive.jpg"
+      },
+      {
+        "title": "Jonah 1:17 (Purple Chartreuse)",
+        "color": "Purple Chartreuse",
+        "image": "images/copperred/jonah-jerkbait/purple-chartreuse.jpg"
+      },
+      {
+        "title": "Jonah 1:17 (Shiner)",
+        "color": "Shiner",
+        "image": "images/copperred/jonah-jerkbait/shiner.jpg"
+      },
+      {
+        "title": "Jonah 1:17 (Wasaki)",
+        "color": "Wasaki",
+        "image": "images/copperred/jonah-jerkbait/wasaki.jpg"
+      }
+    ]
+  },
+  "loud_mouth": {
+    "variants": [
+      {
+        "title": "Loud Mouth Edition (Bone)",
+        "color": "Bone",
+        "image": "images/copperred/loud-mouth/bone.jpg"
+      },
+      {
+        "title": "Loud Mouth Edition (Bubblegum)",
+        "color": "Bubblegum",
+        "image": "images/copperred/loud-mouth/bubblegum.jpg"
+      },
+      {
+        "title": "Loud Mouth Edition (Bubblegum) Tackle Store",
+        "color": "Bubblegum",
+        "image": "images/copperred/loud-mouth/bubblegum.jpg"
+      },
+      {
+        "title": "Loud Mouth Edition (Dirty Rat)",
+        "color": "Dirty Rat",
+        "image": "images/copperred/loud-mouth/dirty-rat.jpg"
+      },
+      {
+        "title": "Loud Mouth Edition (Folding Money)",
+        "color": "Folding Money",
+        "image": "images/copperred/loud-mouth/folding-money.jpg"
+      },
+      {
+        "title": "Loud Mouth Edition (Golden Nugget)",
+        "color": "Golden Nugget",
+        "image": "images/copperred/loud-mouth/golden-nugget.jpg"
+      },
+      {
+        "title": "Loud Mouth Edition (Junebug) Pitman Creek",
+        "color": "Junebug",
+        "image": "images/copperred/loud-mouth/junebug.jpg"
+      },
+      {
+        "title": "Loud Mouth Edition (Leopard Frog)",
+        "color": "Leopard Frog",
+        "image": "images/copperred/loud-mouth/leopard-frog.jpg"
+      },
+      {
+        "title": "Loud Mouth Edition (Magma)",
+        "color": "Magma",
+        "image": "images/copperred/loud-mouth/magma.jpg"
+      },
+      {
+        "title": "Loud Mouth Edition (Midnight)",
+        "color": "Midnight",
+        "image": "images/copperred/loud-mouth/midnight.jpg"
+      },
+      {
+        "title": "Loud Mouth Edition (Natural Gill) Pitman Creek",
+        "color": "Natural Gill",
+        "image": "images/copperred/loud-mouth/natural-gill.jpg"
+      },
+      {
+        "title": "Loud Mouth Edition (Purple Shad)",
+        "color": "Purple Shad",
+        "image": "images/copperred/loud-mouth/purple-shad.jpg"
+      },
+      {
+        "title": "Loud Mouth Edition (Salt-n-Pepper)",
+        "color": "Salt-n-Pepper",
+        "image": "images/copperred/loud-mouth/salt-n-pepper.jpg"
+      },
+      {
+        "title": "Loud Mouth Edition (Spicy Meatball)",
+        "color": "Spicy Meatball",
+        "image": "images/copperred/loud-mouth/spicy-meatball.jpg"
+      },
+      {
+        "title": "Loud Mouth Edition (Stranded Shad)",
+        "color": "Stranded Shad",
+        "image": "images/copperred/loud-mouth/stranded-shad.jpg"
+      },
+      {
+        "title": "Loud Mouth Edition (Whiteout)",
+        "color": "Whiteout",
+        "image": "images/copperred/loud-mouth/whiteout.jpg"
+      }
+    ]
+  },
+  "ripple_frog": {
+    "variants": [
+      {
+        "title": "Ripple Frog (Bubblegum)",
+        "color": "Bubblegum",
+        "image": "images/copperred/ripple-frog/bubblegum.jpg"
+      },
+      {
+        "title": "Ripple Frog (Cantaloupe)",
+        "color": "Cantaloupe",
+        "image": "images/copperred/ripple-frog/cantaloupe.jpg"
+      },
+      {
+        "title": "Ripple Frog (Dirty Rat)",
+        "color": "Dirty Rat",
+        "image": "images/copperred/ripple-frog/dirty-rat.jpg"
+      },
+      {
+        "title": "Ripple Frog (Dirty Rat) Tackle Store",
+        "color": "Dirty Rat",
+        "image": "images/copperred/ripple-frog/dirty-rat.jpg"
+      },
+      {
+        "title": "Ripple Frog (Golden Nugget)",
+        "color": "Golden Nugget",
+        "image": "images/copperred/ripple-frog/golden-nugget.jpg"
+      },
+      {
+        "title": "Ripple Frog (Golden Nugget) Tackle Store",
+        "color": "Golden Nugget",
+        "image": "images/copperred/ripple-frog/golden-nugget.jpg"
+      },
+      {
+        "title": "Ripple Frog (Leopard Frog)",
+        "color": "Leopard Frog",
+        "image": "images/copperred/ripple-frog/leopard-frog.jpg"
+      },
+      {
+        "title": "Ripple Frog (Magma)",
+        "color": "Magma",
+        "image": "images/copperred/ripple-frog/magma.jpg"
+      },
+      {
+        "title": "Ripple Frog (Magma) Tackle Store",
+        "color": "Magma",
+        "image": "images/copperred/ripple-frog/magma.jpg"
+      },
+      {
+        "title": "Ripple Frog (Midnight)",
+        "color": "Midnight",
+        "image": "images/copperred/ripple-frog/midnight.jpg"
+      },
+      {
+        "title": "Ripple Frog (Purple Shad)",
+        "color": "Purple Shad",
+        "image": "images/copperred/ripple-frog/purple-shad.jpg"
+      },
+      {
+        "title": "Ripple Frog (Salt-n-Pepper) Pitman Creek",
+        "color": "Salt-n-Pepper",
+        "image": "images/copperred/ripple-frog/salt-n-pepper.jpg"
+      },
+      {
+        "title": "Ripple Frog (Smoke)",
+        "color": "Smoke",
+        "image": "images/copperred/ripple-frog/smoke.jpg"
+      },
+      {
+        "title": "Ripple Frog (Spicy Meatball)",
+        "color": "Spicy Meatball",
+        "image": "images/copperred/ripple-frog/spicy-meatball.jpg"
+      },
+      {
+        "title": "Ripple Frog (Stranded Shad)",
+        "color": "Stranded Shad",
+        "image": "images/copperred/ripple-frog/stranded-shad.jpg"
+      },
+      {
+        "title": "Ripple Frog (Whiteout)",
+        "color": "Whiteout",
+        "image": "images/copperred/ripple-frog/whiteout.jpg"
+      }
+    ]
+  },
+  "snatchin_shad_half_rattling": {
+    "variants": [
+      {
+        "title": "Snatchin Shad - Rattling (Bone)",
+        "color": "Bone",
+        "image": "images/copperred/snatchin-shad-half-rattling/bone.jpg"
+      },
+      {
+        "title": "Snatchin Shad - Rattling (Chili Chartreuse)",
+        "color": "Chili Chartreuse",
+        "image": "images/copperred/snatchin-shad-half-rattling/chili-chartreuse.jpg"
+      },
+      {
+        "title": "Snatchin Shad - Rattling (Chrome &amp; Black)",
+        "color": "Chrome &amp; Black",
+        "image": "images/copperred/snatchin-shad-half-rattling/chrome-amp-black.jpg"
+      },
+      {
+        "title": "Snatchin Shad - Rattling (Gold Chrome)",
+        "color": "Gold Chrome",
+        "image": "images/copperred/snatchin-shad-half-rattling/gold-chrome.jpg"
+      },
+      {
+        "title": "Snatchin Shad - Rattling (Oxbow)",
+        "color": "Oxbow",
+        "image": "images/copperred/snatchin-shad-half-rattling/oxbow.jpg"
+      },
+      {
+        "title": "Snatchin Shad - Rattling (Pro-Olive)",
+        "color": "Pro-Olive",
+        "image": "images/copperred/snatchin-shad-half-rattling/pro-olive.jpg"
+      },
+      {
+        "title": "Snatchin Shad - Rattling (Rayburn Red)",
+        "color": "Rayburn Red",
+        "image": "images/copperred/snatchin-shad-half-rattling/rayburn-red.jpg"
+      },
+      {
+        "title": "Snatchin Shad - Rattling (Royal Purple)",
+        "color": "Royal Purple",
+        "image": "images/copperred/snatchin-shad-half-rattling/royal-purple.jpg"
+      },
+      {
+        "title": "Snatchin Shad - Rattling (Royal Purple) Pitman Creek",
+        "color": "Royal Purple",
+        "image": "images/copperred/snatchin-shad-half-rattling/royal-purple.jpg"
+      },
+      {
+        "title": "Snatchin Shad - Rattling (Royal Red)",
+        "color": "Royal Red",
+        "image": "images/copperred/snatchin-shad-half-rattling/royal-red.jpg"
+      },
+      {
+        "title": "Snatchin Shad - Rattling (Sexy Chrome)",
+        "color": "Sexy Chrome",
+        "image": "images/copperred/snatchin-shad-half-rattling/sexy-chrome.jpg"
+      }
+    ]
+  },
+  "snatchin_shad_half_silent": {
+    "variants": [
+      {
+        "title": "Snatchin Shad - Silent (Bluegill)",
+        "color": "Bluegill",
+        "image": "images/copperred/snatchin-shad-half-silent/bluegill.jpg"
+      },
+      {
+        "title": "Snatchin Shad - Silent (Clear Shad)",
+        "color": "Clear Shad",
+        "image": "images/copperred/snatchin-shad-half-silent/clear-shad.jpg"
+      },
+      {
+        "title": "Snatchin Shad - Silent (Ghost Shad)",
+        "color": "Ghost Shad",
+        "image": "images/copperred/snatchin-shad-half-silent/ghost-shad.jpg"
+      },
+      {
+        "title": "Snatchin Shad - Silent (Gizzard)",
+        "color": "Gizzard",
+        "image": "images/copperred/snatchin-shad-half-silent/gizzard.jpg"
+      },
+      {
+        "title": "Snatchin Shad - Silent (Gold Dust)",
+        "color": "Gold Dust",
+        "image": "images/copperred/snatchin-shad-half-silent/gold-dust.jpg"
+      },
+      {
+        "title": "Snatchin Shad - Silent (Green Halo)",
+        "color": "Green Halo",
+        "image": "images/copperred/snatchin-shad-half-silent/green-halo.jpg"
+      },
+      {
+        "title": "Snatchin Shad - Silent (Pro-Olive)",
+        "color": "Pro-Olive",
+        "image": "images/copperred/snatchin-shad-half-silent/pro-olive.jpg"
+      },
+      {
+        "title": "Snatchin Shad - Silent (Rayburn Red)",
+        "color": "Rayburn Red",
+        "image": "images/copperred/snatchin-shad-half-silent/rayburn-red.jpg"
+      },
+      {
+        "title": "Snatchin Shad - Silent (Threadfin)",
+        "color": "Threadfin",
+        "image": "images/copperred/snatchin-shad-half-silent/threadfin.jpg"
+      },
+      {
+        "title": "Snatchin Shad - Silent (Veil)",
+        "color": "Veil",
+        "image": "images/copperred/snatchin-shad-half-silent/veil.jpg"
+      }
+    ]
+  },
+  "the_shank": {
+    "variants": [
+      {
+        "title": "The Shank (Cold Steel)",
+        "color": "Cold Steel",
+        "image": "images/copperred/the-shank/cold-steel.jpg"
+      },
+      {
+        "title": "The Shank (Naked)",
+        "color": "Naked",
+        "image": "images/copperred/the-shank/naked.jpg"
+      },
+      {
+        "title": "The Shank (Purple Foil)",
+        "color": "Purple Foil",
+        "image": "images/copperred/the-shank/purple-foil.jpg"
+      },
+      {
+        "title": "The Shank (Sexy Foil)",
+        "color": "Sexy Foil",
+        "image": "images/copperred/the-shank/sexy-foil.jpg"
+      }
+    ]
+  },
+  "tsunami_frog": {
+    "variants": [
+      {
+        "title": "Tsunami Frog (Bubblegum)",
+        "color": "Bubblegum",
+        "image": "images/copperred/tsunami-frog/bubblegum.jpg"
+      },
+      {
+        "title": "Tsunami Frog (Bullfrog)",
+        "color": "Bullfrog",
+        "image": "images/copperred/tsunami-frog/bullfrog.jpg"
+      },
+      {
+        "title": "Tsunami Frog (Cantaloupe)",
+        "color": "Cantaloupe",
+        "image": "images/copperred/tsunami-frog/cantaloupe.jpg"
+      },
+      {
+        "title": "Tsunami Frog (Dirty Rat)",
+        "color": "Dirty Rat",
+        "image": "images/copperred/tsunami-frog/dirty-rat.jpg"
+      },
+      {
+        "title": "Tsunami Frog (Golden Nugget)",
+        "color": "Golden Nugget",
+        "image": "images/copperred/tsunami-frog/golden-nugget.jpg"
+      },
+      {
+        "title": "Tsunami Frog (Leopard Frog)",
+        "color": "Leopard Frog",
+        "image": "images/copperred/tsunami-frog/leopard-frog.jpg"
+      },
+      {
+        "title": "Tsunami Frog (Magma)",
+        "color": "Magma",
+        "image": "images/copperred/tsunami-frog/magma.jpg"
+      },
+      {
+        "title": "Tsunami Frog (Midnight)",
+        "color": "Midnight",
+        "image": "images/copperred/tsunami-frog/midnight.jpg"
+      },
+      {
+        "title": "Tsunami Frog (Natural Gill)",
+        "color": "Natural Gill",
+        "image": "images/copperred/tsunami-frog/natural-gill.jpg"
+      },
+      {
+        "title": "Tsunami Frog (Purple Shad)",
+        "color": "Purple Shad",
+        "image": "images/copperred/tsunami-frog/purple-shad.jpg"
+      },
+      {
+        "title": "Tsunami Frog (Salt-n-Pepper)",
+        "color": "Salt-n-Pepper",
+        "image": "images/copperred/tsunami-frog/salt-n-pepper.jpg"
+      },
+      {
+        "title": "Tsunami Frog (Sexy Shad)",
+        "color": "Sexy Shad",
+        "image": "images/copperred/tsunami-frog/sexy-shad.jpg"
+      },
+      {
+        "title": "Tsunami Frog (Spicy Meatball)",
+        "color": "Spicy Meatball",
+        "image": "images/copperred/tsunami-frog/spicy-meatball.jpg"
+      },
+      {
+        "title": "Tsunami Frog (Stranded Shad)",
+        "color": "Stranded Shad",
+        "image": "images/copperred/tsunami-frog/stranded-shad.jpg"
+      },
+      {
+        "title": "Tsunami Frog (Whiteout)",
+        "color": "Whiteout",
+        "image": "images/copperred/tsunami-frog/whiteout.jpg"
+      }
+    ]
+  },
+  "wave_frog": {
+    "variants": [
+      {
+        "title": "Wave Frog (Bone)",
+        "color": "Bone",
+        "image": "images/copperred/wave-frog/bone.jpg"
+      },
+      {
+        "title": "Wave Frog (Bubblegum)",
+        "color": "Bubblegum",
+        "image": "images/copperred/wave-frog/bubblegum.jpg"
+      },
+      {
+        "title": "Wave Frog (Bullfrog)",
+        "color": "Bullfrog",
+        "image": "images/copperred/wave-frog/bullfrog.jpg"
+      },
+      {
+        "title": "Wave Frog (Cantaloupe)",
+        "color": "Cantaloupe",
+        "image": "images/copperred/wave-frog/cantaloupe.jpg"
+      },
+      {
+        "title": "Wave Frog (Cantaloupe) Tackle Store",
+        "color": "Cantaloupe",
+        "image": "images/copperred/wave-frog/cantaloupe.jpg"
+      },
+      {
+        "title": "Wave Frog (Desert Storm)",
+        "color": "Desert Storm",
+        "image": "images/copperred/wave-frog/desert-storm.jpg"
+      },
+      {
+        "title": "Wave Frog (Dirty Rat)",
+        "color": "Dirty Rat",
+        "image": "images/copperred/wave-frog/dirty-rat.jpg"
+      },
+      {
+        "title": "Wave Frog (Folding Money)",
+        "color": "Folding Money",
+        "image": "images/copperred/wave-frog/folding-money.jpg"
+      },
+      {
+        "title": "Wave Frog (Frozen Tomato)",
+        "color": "Frozen Tomato",
+        "image": "images/copperred/wave-frog/frozen-tomato.jpg"
+      },
+      {
+        "title": "Wave Frog (Golden Nugget)",
+        "color": "Golden Nugget",
+        "image": "images/copperred/wave-frog/golden-nugget.jpg"
+      },
+      {
+        "title": "Wave Frog (Killer Gill)",
+        "color": "Killer Gill",
+        "image": "images/copperred/wave-frog/killer-gill.jpg"
+      },
+      {
+        "title": "Wave Frog (Leopard Frog)",
+        "color": "Leopard Frog",
+        "image": "images/copperred/wave-frog/leopard-frog.jpg"
+      },
+      {
+        "title": "Wave Frog (Magma)",
+        "color": "Magma",
+        "image": "images/copperred/wave-frog/magma.jpg"
+      },
+      {
+        "title": "Wave Frog (Meteor) Pitman Creek",
+        "color": "Meteor",
+        "image": "images/copperred/wave-frog/meteor.jpg"
+      },
+      {
+        "title": "Wave Frog (Midnight)",
+        "color": "Midnight",
+        "image": "images/copperred/wave-frog/midnight.jpg"
+      },
+      {
+        "title": "Wave Frog (Papa Smurf)",
+        "color": "Papa Smurf",
+        "image": "images/copperred/wave-frog/papa-smurf.jpg"
+      },
+      {
+        "title": "Wave Frog (Purple Mat Shad)",
+        "color": "Purple Mat Shad",
+        "image": "images/copperred/wave-frog/purple-mat-shad.jpg"
+      },
+      {
+        "title": "Wave Frog (Purple Shad)",
+        "color": "Purple Shad",
+        "image": "images/copperred/wave-frog/purple-shad.jpg"
+      },
+      {
+        "title": "Wave Frog (Rayburn Red)",
+        "color": "Rayburn Red",
+        "image": "images/copperred/wave-frog/rayburn-red.jpg"
+      },
+      {
+        "title": "Wave Frog (Salt-n-Pepper)",
+        "color": "Salt-n-Pepper",
+        "image": "images/copperred/wave-frog/salt-n-pepper.jpg"
+      },
+      {
+        "title": "Wave Frog (Sexy Shad)",
+        "color": "Sexy Shad",
+        "image": "images/copperred/wave-frog/sexy-shad.jpg"
+      },
+      {
+        "title": "Wave Frog (Smoke)",
+        "color": "Smoke",
+        "image": "images/copperred/wave-frog/smoke.jpg"
+      },
+      {
+        "title": "Wave Frog (Sparrow)",
+        "color": "Sparrow",
+        "image": "images/copperred/wave-frog/sparrow.jpg"
+      },
+      {
+        "title": "Wave Frog (Spicy Meatball)",
+        "color": "Spicy Meatball",
+        "image": "images/copperred/wave-frog/spicy-meatball.jpg"
+      },
+      {
+        "title": "Wave Frog (Stranded Shad)",
+        "color": "Stranded Shad",
+        "image": "images/copperred/wave-frog/stranded-shad.jpg"
+      },
+      {
+        "title": "Wave Frog (Whiteout)",
+        "color": "Whiteout",
+        "image": "images/copperred/wave-frog/whiteout.jpg"
+      }
+    ]
+  }
+}

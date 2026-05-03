@@ -157,6 +157,66 @@
   td { padding: 10px 14px; vertical-align: middle; }
   td.right { text-align: right; color: var(--muted); }
   td.bold { font-weight: 500; }
+  td.product-thumb-cell { width: 72px; padding: 6px; text-align: center; }
+  .product-thumb {
+    width: 56px;
+    height: 56px;
+    object-fit: cover;
+    border-radius: 4px;
+    border: 1px solid var(--border);
+    background: var(--navy);
+    display: block;
+    margin: 0 auto;
+    cursor: zoom-in;
+    transition: transform 0.15s, border-color 0.15s;
+  }
+  .product-thumb:hover { transform: scale(1.05); border-color: var(--teal); }
+  #imgLightbox {
+    display: none;
+    position: fixed;
+    inset: 0;
+    background: rgba(10,22,40,0.92);
+    z-index: 9999;
+    align-items: center;
+    justify-content: center;
+    cursor: zoom-out;
+    padding: 40px;
+  }
+  #imgLightbox.open { display: flex; }
+  #imgLightbox img {
+    max-width: min(90vw, 800px);
+    max-height: 90vh;
+    border-radius: 6px;
+    border: 2px solid var(--teal);
+    box-shadow: 0 20px 60px rgba(0,0,0,0.6);
+  }
+  #imgLightbox .lb-close {
+    position: absolute;
+    top: 24px;
+    right: 32px;
+    background: none;
+    border: 1px solid var(--teal);
+    color: var(--teal);
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 14px;
+    letter-spacing: 2px;
+    padding: 6px 14px;
+    border-radius: 3px;
+    cursor: pointer;
+  }
+  #imgLightbox .lb-close:hover { background: var(--teal); color: var(--navy); }
+  .product-thumb-placeholder {
+    display: inline-block;
+    width: 56px;
+    height: 56px;
+    line-height: 56px;
+    text-align: center;
+    color: var(--muted);
+    font-size: 11px;
+    background: rgba(0,180,166,0.04);
+    border: 1px dashed var(--border);
+    border-radius: 4px;
+  }
   .sku { font-size: 11px; color: var(--muted); font-family: monospace; }
   .qty-input {
     width: 70px;
@@ -421,7 +481,7 @@
         <div class="section-label">Products — Enter Quantity to Order</div>
         <div class="category-header"><span class="category-name">Prodigy</span><span class="category-desc">Soft Plastic Swimbaits</span></div>
         <table><thead><tr>
-          <th>Product</th><th>SKU</th><th>Color</th><th>Size / Pack</th>
+          <th class="center">Image</th><th>Product</th><th>SKU</th><th>Color</th><th>Size / Pack</th>
           <th class="right">Wholesale</th><th class="right">Retail</th>
           <th class="center">Qty</th><th class="right">Line Total</th>
         </tr></thead><tbody id="prodigy-rows"></tbody></table>
@@ -429,7 +489,7 @@
       <div class="product-section">
         <div class="category-header"><span class="category-name">Echo</span><span class="category-desc">Finesse Minnow — Sonar/Hover Rig</span></div>
         <table><thead><tr>
-          <th>Product</th><th>SKU</th><th>Color</th><th>Size / Pack</th>
+          <th class="center">Image</th><th>Product</th><th>SKU</th><th>Color</th><th>Size / Pack</th>
           <th class="right">Wholesale</th><th class="right">Retail</th>
           <th class="center">Qty</th><th class="right">Line Total</th>
         </tr></thead><tbody id="echo-rows"></tbody></table>
@@ -437,7 +497,7 @@
       <div class="product-section">
         <div class="category-header"><span class="category-name">Nova</span><span class="category-desc">Neko Worm</span></div>
         <table><thead><tr>
-          <th>Product</th><th>SKU</th><th>Color</th><th>Size / Pack</th>
+          <th class="center">Image</th><th>Product</th><th>SKU</th><th>Color</th><th>Size / Pack</th>
           <th class="right">Wholesale</th><th class="right">Retail</th>
           <th class="center">Qty</th><th class="right">Line Total</th>
         </tr></thead><tbody id="nova-rows"></tbody></table>
@@ -445,7 +505,7 @@
       <div class="product-section">
         <div class="category-header"><span class="category-name">X12 Casting Braid</span><span class="category-desc">330–440 Yard Spools</span></div>
         <table><thead><tr>
-          <th>Product</th><th>SKU</th><th>Color</th><th>Size / Pack</th>
+          <th class="center">Image</th><th>Product</th><th>SKU</th><th>Color</th><th>Size / Pack</th>
           <th class="right">Wholesale</th><th class="right">Retail</th>
           <th class="center">Qty</th><th class="right">Line Total</th>
         </tr></thead><tbody id="x12-rows"></tbody></table>
@@ -453,7 +513,7 @@
       <div class="product-section">
         <div class="category-header"><span class="category-name">BFS Casting Braid</span><span class="category-desc">150 Yard Spools</span></div>
         <table><thead><tr>
-          <th>Product</th><th>SKU</th><th>Color</th><th>Size / Pack</th>
+          <th class="center">Image</th><th>Product</th><th>SKU</th><th>Color</th><th>Size / Pack</th>
           <th class="right">Wholesale</th><th class="right">Retail</th>
           <th class="center">Qty</th><th class="right">Line Total</th>
         </tr></thead><tbody id="bfs-rows"></tbody></table>
@@ -466,7 +526,7 @@
         <div class="section-label">Products — Enter Quantity to Order</div>
         <div class="category-header"><span class="category-name">FeatherMoon Outdoors</span><span class="category-desc">Game Calls &amp; Hunting Accessories</span></div>
         <table><thead><tr>
-          <th>Product</th><th>SKU</th><th>Notes</th>
+          <th class="center">Image</th><th>Product</th><th>SKU</th><th>Notes</th>
           <th class="right">Wholesale</th><th class="right">Retail</th>
           <th class="center">Qty</th><th class="right">Line Total</th>
         </tr></thead><tbody id="feathermoon-rows"></tbody></table>
@@ -487,49 +547,49 @@
         <div class="section-label">Products — Enter Quantity to Order</div>
 
         <div class="category-header"><span class="category-name">Finesse Worm</span><span class="category-desc">10 Pack</span></div>
-        <table><thead><tr><th class="center">Qty</th><th>SKU</th><th>Item #</th><th>Color / Description</th><th class="center">Pack</th><th class="right">Wholesale</th><th class="right">Line Total</th></tr></thead><tbody id="lb-finesse_worm-rows"></tbody></table>
+        <table><thead><tr><th class="center">Qty</th><th class="center">Image</th><th>SKU</th><th>Item #</th><th>Color / Description</th><th class="center">Pack</th><th class="right">Wholesale</th><th class="right">Line Total</th></tr></thead><tbody id="lb-finesse_worm-rows"></tbody></table>
 
         <div class="category-header"><span class="category-name">Jerk Shad</span><span class="category-desc">7 Pack</span></div>
-        <table><thead><tr><th class="center">Qty</th><th>SKU</th><th>Item #</th><th>Color / Description</th><th class="center">Pack</th><th class="right">Wholesale</th><th class="right">Line Total</th></tr></thead><tbody id="lb-jerk_shad-rows"></tbody></table>
+        <table><thead><tr><th class="center">Qty</th><th class="center">Image</th><th>SKU</th><th>Item #</th><th>Color / Description</th><th class="center">Pack</th><th class="right">Wholesale</th><th class="right">Line Total</th></tr></thead><tbody id="lb-jerk_shad-rows"></tbody></table>
 
         <div class="category-header"><span class="category-name">Hover Shad</span><span class="category-desc">7 Pack</span></div>
-        <table><thead><tr><th class="center">Qty</th><th>SKU</th><th>Item #</th><th>Color / Description</th><th class="center">Pack</th><th class="right">Wholesale</th><th class="right">Line Total</th></tr></thead><tbody id="lb-hover_shad-rows"></tbody></table>
+        <table><thead><tr><th class="center">Qty</th><th class="center">Image</th><th>SKU</th><th>Item #</th><th>Color / Description</th><th class="center">Pack</th><th class="right">Wholesale</th><th class="right">Line Total</th></tr></thead><tbody id="lb-hover_shad-rows"></tbody></table>
 
         <div class="category-header"><span class="category-name">Swim Minnow</span><span class="category-desc">6 Pack</span></div>
-        <table><thead><tr><th class="center">Qty</th><th>SKU</th><th>Item #</th><th>Color / Description</th><th class="center">Pack</th><th class="right">Wholesale</th><th class="right">Line Total</th></tr></thead><tbody id="lb-swim_minnow-rows"></tbody></table>
+        <table><thead><tr><th class="center">Qty</th><th class="center">Image</th><th>SKU</th><th>Item #</th><th>Color / Description</th><th class="center">Pack</th><th class="right">Wholesale</th><th class="right">Line Total</th></tr></thead><tbody id="lb-swim_minnow-rows"></tbody></table>
 
         <div class="category-header"><span class="category-name">Hooch Craw</span><span class="category-desc">6 Pack</span></div>
-        <table><thead><tr><th class="center">Qty</th><th>SKU</th><th>Item #</th><th>Color / Description</th><th class="center">Pack</th><th class="right">Wholesale</th><th class="right">Line Total</th></tr></thead><tbody id="lb-hooch_craw-rows"></tbody></table>
+        <table><thead><tr><th class="center">Qty</th><th class="center">Image</th><th>SKU</th><th>Item #</th><th>Color / Description</th><th class="center">Pack</th><th class="right">Wholesale</th><th class="right">Line Total</th></tr></thead><tbody id="lb-hooch_craw-rows"></tbody></table>
 
         <div class="category-header"><span class="category-name">Shakey / Ned Jig Head</span><span class="category-desc">3 Pack — Lead</span></div>
-        <table><thead><tr><th class="center">Qty</th><th>SKU</th><th>Item #</th><th>Color / Description</th><th class="center">Pack</th><th class="right">Wholesale</th><th class="right">Line Total</th></tr></thead><tbody id="lb-shakey_ned-rows"></tbody></table>
+        <table><thead><tr><th class="center">Qty</th><th class="center">Image</th><th>SKU</th><th>Item #</th><th>Color / Description</th><th class="center">Pack</th><th class="right">Wholesale</th><th class="right">Line Total</th></tr></thead><tbody id="lb-shakey_ned-rows"></tbody></table>
 
         <div class="category-header"><span class="category-name">Ball Jig Head</span><span class="category-desc">3 Pack — Lead</span></div>
-        <table><thead><tr><th class="center">Qty</th><th>SKU</th><th>Item #</th><th>Color / Description</th><th class="center">Pack</th><th class="right">Wholesale</th><th class="right">Line Total</th></tr></thead><tbody id="lb-ball_jig-rows"></tbody></table>
+        <table><thead><tr><th class="center">Qty</th><th class="center">Image</th><th>SKU</th><th>Item #</th><th>Color / Description</th><th class="center">Pack</th><th class="right">Wholesale</th><th class="right">Line Total</th></tr></thead><tbody id="lb-ball_jig-rows"></tbody></table>
 
         <div class="category-header"><span class="category-name">Damiki Jig Head</span><span class="category-desc">3 Pack — Lead</span></div>
-        <table><thead><tr><th class="center">Qty</th><th>SKU</th><th>Item #</th><th>Color / Description</th><th class="center">Pack</th><th class="right">Wholesale</th><th class="right">Line Total</th></tr></thead><tbody id="lb-damiki-rows"></tbody></table>
+        <table><thead><tr><th class="center">Qty</th><th class="center">Image</th><th>SKU</th><th>Item #</th><th>Color / Description</th><th class="center">Pack</th><th class="right">Wholesale</th><th class="right">Line Total</th></tr></thead><tbody id="lb-damiki-rows"></tbody></table>
 
         <div class="category-header"><span class="category-name">Dropshot Weights</span><span class="category-desc">Lead</span></div>
-        <table><thead><tr><th class="center">Qty</th><th>SKU</th><th>Item #</th><th>Color / Description</th><th class="center">Pack</th><th class="right">Wholesale</th><th class="right">Line Total</th></tr></thead><tbody id="lb-dropshot-rows"></tbody></table>
+        <table><thead><tr><th class="center">Qty</th><th class="center">Image</th><th>SKU</th><th>Item #</th><th>Color / Description</th><th class="center">Pack</th><th class="right">Wholesale</th><th class="right">Line Total</th></tr></thead><tbody id="lb-dropshot-rows"></tbody></table>
 
         <div class="category-header"><span class="category-name">E-Liminator</span><span class="category-desc">Lead</span></div>
-        <table><thead><tr><th class="center">Qty</th><th>SKU</th><th>Item #</th><th>Color / Description</th><th class="center">Pack</th><th class="right">Wholesale</th><th class="right">Line Total</th></tr></thead><tbody id="lb-eliminator-rows"></tbody></table>
+        <table><thead><tr><th class="center">Qty</th><th class="center">Image</th><th>SKU</th><th>Item #</th><th>Color / Description</th><th class="center">Pack</th><th class="right">Wholesale</th><th class="right">Line Total</th></tr></thead><tbody id="lb-eliminator-rows"></tbody></table>
 
         <div class="category-header"><span class="category-name">Hooks</span><span class="category-desc">LJ's Series</span></div>
-        <table><thead><tr><th class="center">Qty</th><th>SKU</th><th>Item #</th><th>Color / Description</th><th class="center">Pack</th><th class="right">Wholesale</th><th class="right">Line Total</th></tr></thead><tbody id="lb-hooks-rows"></tbody></table>
+        <table><thead><tr><th class="center">Qty</th><th class="center">Image</th><th>SKU</th><th>Item #</th><th>Color / Description</th><th class="center">Pack</th><th class="right">Wholesale</th><th class="right">Line Total</th></tr></thead><tbody id="lb-hooks-rows"></tbody></table>
 
         <div class="category-header"><span class="category-name">Swivels</span><span class="category-desc">Barrel Swivels</span></div>
-        <table><thead><tr><th class="center">Qty</th><th>SKU</th><th>Item #</th><th>Color / Description</th><th class="center">Pack</th><th class="right">Wholesale</th><th class="right">Line Total</th></tr></thead><tbody id="lb-swivels-rows"></tbody></table>
+        <table><thead><tr><th class="center">Qty</th><th class="center">Image</th><th>SKU</th><th>Item #</th><th>Color / Description</th><th class="center">Pack</th><th class="right">Wholesale</th><th class="right">Line Total</th></tr></thead><tbody id="lb-swivels-rows"></tbody></table>
 
         <div class="category-header"><span class="category-name">Spoons</span><span class="category-desc">1/2oz &amp; 3/4oz</span></div>
-        <table><thead><tr><th class="center">Qty</th><th>SKU</th><th>Item #</th><th>Color / Description</th><th class="center">Pack</th><th class="right">Wholesale</th><th class="right">Line Total</th></tr></thead><tbody id="lb-spoons-rows"></tbody></table>
+        <table><thead><tr><th class="center">Qty</th><th class="center">Image</th><th>SKU</th><th>Item #</th><th>Color / Description</th><th class="center">Pack</th><th class="right">Wholesale</th><th class="right">Line Total</th></tr></thead><tbody id="lb-spoons-rows"></tbody></table>
 
         <div class="category-header"><span class="category-name">Shad Spin</span><span class="category-desc">Underspin Jig</span></div>
-        <table><thead><tr><th class="center">Qty</th><th>SKU</th><th>Item #</th><th>Color / Description</th><th class="center">Pack</th><th class="right">Wholesale</th><th class="right">Line Total</th></tr></thead><tbody id="lb-shad_spin-rows"></tbody></table>
+        <table><thead><tr><th class="center">Qty</th><th class="center">Image</th><th>SKU</th><th>Item #</th><th>Color / Description</th><th class="center">Pack</th><th class="right">Wholesale</th><th class="right">Line Total</th></tr></thead><tbody id="lb-shad_spin-rows"></tbody></table>
 
         <div class="category-header"><span class="category-name">Hard Swimmer</span><span class="category-desc">Jointed 125mm Swimbait</span></div>
-        <table><thead><tr><th class="center">Qty</th><th>SKU</th><th>Item #</th><th>Color / Description</th><th class="center">Pack</th><th class="right">Wholesale</th><th class="right">Line Total</th></tr></thead><tbody id="lb-hard_swimmer-rows"></tbody></table>
+        <table><thead><tr><th class="center">Qty</th><th class="center">Image</th><th>SKU</th><th>Item #</th><th>Color / Description</th><th class="center">Pack</th><th class="right">Wholesale</th><th class="right">Line Total</th></tr></thead><tbody id="lb-hard_swimmer-rows"></tbody></table>
 
       </div>
     </div>
@@ -700,69 +760,69 @@ document.getElementById('signoutBtn').addEventListener('click', async () => {
 // ── Cast Fishing Co catalog ───────────────────────────────────
 const castCatalog = {
   prodigy: [
-    { sku:'CFC-PRODIGY-ETHER-3',      color:'Ether',             size:'3" / 8 Pack',   wholesale:5.40, retail:9.99 },
-    { sku:'CFC-PRODIGY-BBHERRING-3',  color:'Blue Back Herring', size:'3" / 8 Pack',   wholesale:5.40, retail:9.99 },
-    { sku:'CFC-PRODIGY-TITAN-3',      color:'Titan',             size:'3" / 8 Pack',   wholesale:6.90, retail:9.99 },
-    { sku:'CFC-PRODIGY-OZARK-3',      color:'Ozark',             size:'3" / 8 Pack',   wholesale:5.40, retail:9.99 },
-    { sku:'CFC-PRODIGY-CARBON-3',     color:'Carbon',            size:'3" / 8 Pack',   wholesale:5.40, retail:9.99 },
-    { sku:'CFC-PRODIGY-AMETHYST-3',   color:'Amethyst',          size:'3" / 8 Pack',   wholesale:5.40, retail:9.99 },
-    { sku:'CFC-PRODIGY-LANIER-3',     color:'Lanier',            size:'3" / 8 Pack',   wholesale:5.40, retail:9.99 },
-    { sku:'CFC-PRODIGY-ETHER-4',      color:'Ether',             size:'4.1" / 6 Pack', wholesale:5.95, retail:10.99 },
-    { sku:'CFC-PRODIGY-BBHERRING-4',  color:'Blue Back Herring', size:'4.1" / 6 Pack', wholesale:5.95, retail:10.99 },
-    { sku:'CFC-PRODIGY-TITAN-4',      color:'Titan',             size:'4.1" / 6 Pack', wholesale:7.50, retail:10.99 },
-    { sku:'CFC-PRODIGY-OZARK-4',      color:'Ozark',             size:'4.1" / 6 Pack', wholesale:5.95, retail:10.99 },
-    { sku:'CFC-PRODIGY-CARBON-4',     color:'Carbon',            size:'4.1" / 6 Pack', wholesale:5.95, retail:10.99 },
-    { sku:'CFC-PRODIGY-AMETHYST-4',   color:'Amethyst',          size:'4.1" / 6 Pack', wholesale:5.95, retail:10.99 },
-    { sku:'CFC-PRODIGY-LANIER-4',     color:'Lanier',            size:'4.1" / 6 Pack', wholesale:5.95, retail:10.99 },
+    { sku:'CFC-PRODIGY-ETHER-3',      color:'Ether',             size:'3" / 8 Pack',   wholesale:5.40, retail:9.99, image:'images/cast/prodigy/prodigy-3-prodigy3ether.jpg' },
+    { sku:'CFC-PRODIGY-BBHERRING-3',  color:'Blue Back Herring', size:'3" / 8 Pack',   wholesale:5.40, retail:9.99, image:'images/cast/prodigy/prodigy-3-prodigy3bluebackherring.jpg' },
+    { sku:'CFC-PRODIGY-TITAN-3',      color:'Titan',             size:'3" / 8 Pack',   wholesale:6.90, retail:9.99, image:'images/cast/prodigy/prodigy-3-main.jpg' },
+    { sku:'CFC-PRODIGY-OZARK-3',      color:'Ozark',             size:'3" / 8 Pack',   wholesale:5.40, retail:9.99, image:'images/cast/prodigy/prodigy-3-prodigy3ozark.jpg' },
+    { sku:'CFC-PRODIGY-CARBON-3',     color:'Carbon',            size:'3" / 8 Pack',   wholesale:5.40, retail:9.99, image:'images/cast/prodigy/prodigy-3-prodigy3carbon.jpg' },
+    { sku:'CFC-PRODIGY-AMETHYST-3',   color:'Amethyst',          size:'3" / 8 Pack',   wholesale:5.40, retail:9.99, image:'images/cast/prodigy/prodigy-3-prodigy3amethyst.jpg' },
+    { sku:'CFC-PRODIGY-LANIER-3',     color:'Lanier',            size:'3" / 8 Pack',   wholesale:5.40, retail:9.99, image:'images/cast/prodigy/prodigy-3-prodigy3lanier72f5d2c85678485ea7f461367769579f.jpg' },
+    { sku:'CFC-PRODIGY-ETHER-4',      color:'Ether',             size:'4.1" / 6 Pack', wholesale:5.95, retail:10.99, image:'images/cast/prodigy/prodigy-41-prodigy41ether.jpg' },
+    { sku:'CFC-PRODIGY-BBHERRING-4',  color:'Blue Back Herring', size:'4.1" / 6 Pack', wholesale:5.95, retail:10.99, image:'images/cast/prodigy/prodigy-41-prodigy41bluebackherring.jpg' },
+    { sku:'CFC-PRODIGY-TITAN-4',      color:'Titan',             size:'4.1" / 6 Pack', wholesale:7.50, retail:10.99, image:'images/cast/prodigy/prodigy-41-prodigy41titan.jpg' },
+    { sku:'CFC-PRODIGY-OZARK-4',      color:'Ozark',             size:'4.1" / 6 Pack', wholesale:5.95, retail:10.99, image:'images/cast/prodigy/prodigy-41-prodigy41ozark.jpg' },
+    { sku:'CFC-PRODIGY-CARBON-4',     color:'Carbon',            size:'4.1" / 6 Pack', wholesale:5.95, retail:10.99, image:'images/cast/prodigy/prodigy-41-prodigy41carbon.jpg' },
+    { sku:'CFC-PRODIGY-AMETHYST-4',   color:'Amethyst',          size:'4.1" / 6 Pack', wholesale:5.95, retail:10.99, image:'images/cast/prodigy/prodigy-41-prodigy41amethyst.jpg' },
+    { sku:'CFC-PRODIGY-LANIER-4',     color:'Lanier',            size:'4.1" / 6 Pack', wholesale:5.95, retail:10.99, image:'images/cast/prodigy/prodigy-41-prodigy41lanier.jpg' },
   ],
   echo: [
-    { sku:'CFC-ECHO-ETHER-2.75',      color:'Ether',             size:'2.75" / 8 Pack', wholesale:5.40, retail:9.99 },
-    { sku:'CFC-ECHO-BBHERRING-2.75',  color:'Blue Back Herring', size:'2.75" / 8 Pack', wholesale:5.40, retail:9.99 },
-    { sku:'CFC-ECHO-TITAN-2.75',      color:'Titan',             size:'2.75" / 8 Pack', wholesale:6.90, retail:9.99 },
-    { sku:'CFC-ECHO-OZARK-2.75',      color:'Ozark',             size:'2.75" / 8 Pack', wholesale:5.40, retail:9.99 },
-    { sku:'CFC-ECHO-CARBON-2.75',     color:'Carbon',            size:'2.75" / 8 Pack', wholesale:5.40, retail:9.99 },
-    { sku:'CFC-ECHO-AMETHYST-2.75',   color:'Amethyst',          size:'2.75" / 8 Pack', wholesale:5.40, retail:9.99 },
-    { sku:'CFC-ECHO-LANIER-2.75',     color:'Lanier',            size:'2.75" / 8 Pack', wholesale:5.40, retail:9.99 },
-    { sku:'CFC-ECHO-ETHER-3',         color:'Ether',             size:'3.5" / 8 Pack',  wholesale:5.40, retail:9.99 },
-    { sku:'CFC-ECHO-BBHERRING-3',     color:'Blue Back Herring', size:'3.5" / 8 Pack',  wholesale:5.40, retail:9.99 },
-    { sku:'CFC-ECHO-TITAN-3',         color:'Titan',             size:'3.5" / 8 Pack',  wholesale:6.90, retail:9.99 },
-    { sku:'CFC-ECHO-OZARK-3',         color:'Ozark',             size:'3.5" / 8 Pack',  wholesale:5.40, retail:9.99 },
-    { sku:'CFC-ECHO-CARBON-3',        color:'Carbon',            size:'3.5" / 8 Pack',  wholesale:5.40, retail:9.99 },
-    { sku:'CFC-ECHO-AMETHYST-3',      color:'Amethyst',          size:'3.5" / 8 Pack',  wholesale:5.40, retail:9.99 },
-    { sku:'CFC-ECHO-LANIER-3',        color:'Lanier',            size:'3.5" / 8 Pack',  wholesale:5.40, retail:9.99 },
-    { sku:'CFC-ECHO-ETHER-5',         color:'Ether',             size:'5.4" / 6 Pack',  wholesale:7.10, retail:11.99 },
-    { sku:'CFC-ECHO-BBHERRING-5',     color:'Blue Back Herring', size:'5.4" / 6 Pack',  wholesale:7.10, retail:11.99 },
-    { sku:'CFC-ECHO-TITAN-5',         color:'Titan',             size:'5.4" / 6 Pack',  wholesale:8.10, retail:11.99 },
-    { sku:'CFC-ECHO-OZARK-5',         color:'Ozark',             size:'5.4" / 6 Pack',  wholesale:7.10, retail:11.99 },
-    { sku:'CFC-ECHO-CARBON-5',        color:'Carbon',            size:'5.4" / 6 Pack',  wholesale:7.10, retail:11.99 },
-    { sku:'CFC-ECHO-AMETHYST-5',      color:'Amethyst',          size:'5.4" / 6 Pack',  wholesale:7.10, retail:11.99 },
-    { sku:'CFC-ECHO-LANIER-5',        color:'Lanier',            size:'5.4" / 6 Pack',  wholesale:7.10, retail:11.99 },
-    { sku:'CFC-ECHO-ETHER-7',         color:'Ether',             size:'7.2" / 5 Pack',  wholesale:7.65, retail:12.99 },
-    { sku:'CFC-ECHO-BBHERRING-7',     color:'Blue Back Herring', size:'7.2" / 5 Pack',  wholesale:7.65, retail:12.99 },
-    { sku:'CFC-ECHO-TITAN-7',         color:'Titan',             size:'7.2" / 5 Pack',  wholesale:8.65, retail:12.99 },
-    { sku:'CFC-ECHO-OZARK-7',         color:'Ozark',             size:'7.2" / 5 Pack',  wholesale:7.65, retail:12.99 },
-    { sku:'CFC-ECHO-CARBON-7',        color:'Carbon',            size:'7.2" / 5 Pack',  wholesale:7.65, retail:12.99 },
-    { sku:'CFC-ECHO-AMETHYST-7',      color:'Amethyst',          size:'7.2" / 5 Pack',  wholesale:7.65, retail:12.99 },
-    { sku:'CFC-ECHO-LANIER-7',        color:'Lanier',            size:'7.2" / 5 Pack',  wholesale:7.65, retail:12.99 },
+    { sku:'CFC-ECHO-ETHER-2.75',      color:'Ether',             size:'2.75" / 8 Pack', wholesale:5.40, retail:9.99, image:'images/cast/echo/echo-275-echo275etherac37598f00264019af8029814e599321.jpg' },
+    { sku:'CFC-ECHO-BBHERRING-2.75',  color:'Blue Back Herring', size:'2.75" / 8 Pack', wholesale:5.40, retail:9.99, image:'images/cast/echo/echo-275-echo275bluebackherring.jpg' },
+    { sku:'CFC-ECHO-TITAN-2.75',      color:'Titan',             size:'2.75" / 8 Pack', wholesale:6.90, retail:9.99, image:'images/cast/echo/echo-275-echo275titan.jpg' },
+    { sku:'CFC-ECHO-OZARK-2.75',      color:'Ozark',             size:'2.75" / 8 Pack', wholesale:5.40, retail:9.99, image:'images/cast/echo/echo-275-echo275ozark.jpg' },
+    { sku:'CFC-ECHO-CARBON-2.75',     color:'Carbon',            size:'2.75" / 8 Pack', wholesale:5.40, retail:9.99, image:'images/cast/echo/echo-275-echo275carbon.jpg' },
+    { sku:'CFC-ECHO-AMETHYST-2.75',   color:'Amethyst',          size:'2.75" / 8 Pack', wholesale:5.40, retail:9.99, image:'images/cast/echo/echo-275-echo275amethyst.jpg' },
+    { sku:'CFC-ECHO-LANIER-2.75',     color:'Lanier',            size:'2.75" / 8 Pack', wholesale:5.40, retail:9.99, image:'images/cast/echo/echo-275-echo275lanier.jpg' },
+    { sku:'CFC-ECHO-ETHER-3',         color:'Ether',             size:'3.5" / 8 Pack',  wholesale:5.40, retail:9.99, image:'images/cast/echo/echo-35-echo35ether.jpg' },
+    { sku:'CFC-ECHO-BBHERRING-3',     color:'Blue Back Herring', size:'3.5" / 8 Pack',  wholesale:5.40, retail:9.99, image:'images/cast/echo/echo-35-echobluebackherring.jpg' },
+    { sku:'CFC-ECHO-TITAN-3',         color:'Titan',             size:'3.5" / 8 Pack',  wholesale:6.90, retail:9.99, image:'images/cast/echo/echo-35-echo35titan.jpg' },
+    { sku:'CFC-ECHO-OZARK-3',         color:'Ozark',             size:'3.5" / 8 Pack',  wholesale:5.40, retail:9.99, image:'images/cast/echo/echo-35-echoozark35.jpg' },
+    { sku:'CFC-ECHO-CARBON-3',        color:'Carbon',            size:'3.5" / 8 Pack',  wholesale:5.40, retail:9.99, image:'images/cast/echo/echo-35-echo35carbon.jpg' },
+    { sku:'CFC-ECHO-AMETHYST-3',      color:'Amethyst',          size:'3.5" / 8 Pack',  wholesale:5.40, retail:9.99, image:'images/cast/echo/echo-35-echo35amethyst.jpg' },
+    { sku:'CFC-ECHO-LANIER-3',        color:'Lanier',            size:'3.5" / 8 Pack',  wholesale:5.40, retail:9.99, image:'images/cast/echo/echo-35-echo35lanier.jpg' },
+    { sku:'CFC-ECHO-ETHER-5',         color:'Ether',             size:'5.4" / 6 Pack',  wholesale:7.10, retail:11.99, image:'images/cast/echo/echo-54-echo72ether.jpg' },
+    { sku:'CFC-ECHO-BBHERRING-5',     color:'Blue Back Herring', size:'5.4" / 6 Pack',  wholesale:7.10, retail:11.99, image:'images/cast/echo/echo-54-echo72bluebackherring4dc09b1e1ba74ba492fd974f5d9e9b83.jpg' },
+    { sku:'CFC-ECHO-TITAN-5',         color:'Titan',             size:'5.4" / 6 Pack',  wholesale:8.10, retail:11.99, image:'images/cast/echo/echo-54-echo72titan.jpg' },
+    { sku:'CFC-ECHO-OZARK-5',         color:'Ozark',             size:'5.4" / 6 Pack',  wholesale:7.10, retail:11.99, image:'images/cast/echo/echo-54-echo72ozark.jpg' },
+    { sku:'CFC-ECHO-CARBON-5',        color:'Carbon',            size:'5.4" / 6 Pack',  wholesale:7.10, retail:11.99, image:'images/cast/echo/echo-54-echo72carbon.jpg' },
+    { sku:'CFC-ECHO-AMETHYST-5',      color:'Amethyst',          size:'5.4" / 6 Pack',  wholesale:7.10, retail:11.99, image:'images/cast/echo/echo-54-echo72amethyst16be05163be84c50bb45dbdb0192fd55.jpg' },
+    { sku:'CFC-ECHO-LANIER-5',        color:'Lanier',            size:'5.4" / 6 Pack',  wholesale:7.10, retail:11.99, image:'images/cast/echo/echo-54-echo72lanier2c6022cad565420087fc1b19f8b95e23.jpg' },
+    { sku:'CFC-ECHO-ETHER-7',         color:'Ether',             size:'7.2" / 5 Pack',  wholesale:7.65, retail:12.99, image:'images/cast/echo/echo-72-echo72ether.jpg' },
+    { sku:'CFC-ECHO-BBHERRING-7',     color:'Blue Back Herring', size:'7.2" / 5 Pack',  wholesale:7.65, retail:12.99, image:'images/cast/echo/echo-72-echo72bluebackherring4dc09b1e1ba74ba492fd974f5d9e9b83.jpg' },
+    { sku:'CFC-ECHO-TITAN-7',         color:'Titan',             size:'7.2" / 5 Pack',  wholesale:8.65, retail:12.99, image:'images/cast/echo/echo-72-echo72titan.jpg' },
+    { sku:'CFC-ECHO-OZARK-7',         color:'Ozark',             size:'7.2" / 5 Pack',  wholesale:7.65, retail:12.99, image:'images/cast/echo/echo-72-echo72ozark.jpg' },
+    { sku:'CFC-ECHO-CARBON-7',        color:'Carbon',            size:'7.2" / 5 Pack',  wholesale:7.65, retail:12.99, image:'images/cast/echo/echo-72-echo72carbon.jpg' },
+    { sku:'CFC-ECHO-AMETHYST-7',      color:'Amethyst',          size:'7.2" / 5 Pack',  wholesale:7.65, retail:12.99, image:'images/cast/echo/echo-72-echo72amethyst16be05163be84c50bb45dbdb0192fd55.jpg' },
+    { sku:'CFC-ECHO-LANIER-7',        color:'Lanier',            size:'7.2" / 5 Pack',  wholesale:7.65, retail:12.99, image:'images/cast/echo/echo-72-echo72lanier2c6022cad565420087fc1b19f8b95e23.jpg' },
   ],
   nova: [
-    { sku:'CFC-NOVA-MAMBA-4.5',         color:'Mamba',          size:'4.5" / 10 Pack', wholesale:5.50, retail:8.99 },
-    { sku:'CFC-NOVA-LANIER-4.5',        color:'Lanier',         size:'4.5" / 10 Pack', wholesale:5.50, retail:8.99 },
-    { sku:'CFC-NOVA-AMETHYST-4.5',      color:'Amethyst',       size:'4.5" / 10 Pack', wholesale:5.50, retail:8.99 },
-    { sku:'CFC-NOVA-SPIKEDPUMPKIN-4.5', color:'Spiced Pumpkin', size:'4.5" / 10 Pack', wholesale:5.50, retail:8.99 },
-    { sku:'CFC-NOVA-SPACEJAM-4.5',      color:'Spacejam',       size:'4.5" / 10 Pack', wholesale:5.50, retail:8.99 },
+    { sku:'CFC-NOVA-MAMBA-4.5',         color:'Mamba',          size:'4.5" / 10 Pack', wholesale:5.50, retail:8.99, image:'images/cast/nova/nova-45-nova45webtilemamba5a678a7881724d1ba74005b642632545.jpg' },
+    { sku:'CFC-NOVA-LANIER-4.5',        color:'Lanier',         size:'4.5" / 10 Pack', wholesale:5.50, retail:8.99, image:'images/cast/nova/nova-45-nova45webtilelanier66c8c046ca1448d091d28dcbce7d65ad.jpg' },
+    { sku:'CFC-NOVA-AMETHYST-4.5',      color:'Amethyst',       size:'4.5" / 10 Pack', wholesale:5.50, retail:8.99, image:'images/cast/nova/nova-45-nova45webtileamethyst556972b2d8044a4e89fefa8ff0f0f4b4.jpg' },
+    { sku:'CFC-NOVA-SPIKEDPUMPKIN-4.5', color:'Spiced Pumpkin', size:'4.5" / 10 Pack', wholesale:5.50, retail:8.99, image:'images/cast/nova/nova-45-nova45webtilespikedpumpkin811cb014294a49218dc053b6b2b21003.jpg' },
+    { sku:'CFC-NOVA-SPACEJAM-4.5',      color:'Spacejam',       size:'4.5" / 10 Pack', wholesale:5.50, retail:8.99, image:'images/cast/nova/nova-45-nova45webtilespacejam487b9ee7410e4d3c83e834d653c68010.jpg' },
   ],
   x12: [
-    { sku:'CFC-X12-12LB', color:'Atoll', size:'12LB / 330 Yds', wholesale:40.00, retail:59.99 },
-    { sku:'CFC-X12-20LB', color:'Atoll', size:'20LB / 330 Yds', wholesale:40.00, retail:59.99 },
-    { sku:'CFC-X12-30LB', color:'Atoll', size:'30LB / 330 Yds', wholesale:40.00, retail:59.99 },
-    { sku:'CFC-X12-50LB', color:'Atoll', size:'50LB / 330 Yds', wholesale:40.00, retail:59.99 },
-    { sku:'CFC-X12-65LB', color:'Atoll', size:'65LB / 440 Yds', wholesale:40.00, retail:59.99 },
-    { sku:'CFC-X12-80LB', color:'Atoll', size:'80LB / 440 Yds', wholesale:40.00, retail:59.99 },
+    { sku:'CFC-X12-12LB', color:'Atoll', size:'12LB / 330 Yds', wholesale:40.00, retail:59.99, image:'images/cast/x12/x12-330-main.jpg' },
+    { sku:'CFC-X12-20LB', color:'Atoll', size:'20LB / 330 Yds', wholesale:40.00, retail:59.99, image:'images/cast/x12/x12-330-main.jpg' },
+    { sku:'CFC-X12-30LB', color:'Atoll', size:'30LB / 330 Yds', wholesale:40.00, retail:59.99, image:'images/cast/x12/x12-330-main.jpg' },
+    { sku:'CFC-X12-50LB', color:'Atoll', size:'50LB / 330 Yds', wholesale:40.00, retail:59.99, image:'images/cast/x12/x12-330-main.jpg' },
+    { sku:'CFC-X12-65LB', color:'Atoll', size:'65LB / 440 Yds', wholesale:40.00, retail:59.99, image:'images/cast/x12/x12-330-main.jpg' },
+    { sku:'CFC-X12-80LB', color:'Atoll', size:'80LB / 440 Yds', wholesale:40.00, retail:59.99, image:'images/cast/x12/x12-330-main.jpg' },
   ],
   bfs: [
-    { sku:'CFC-BFS-8LB',  color:'Grape', size:'8LB / 150 Yds',  wholesale:20.00, retail:29.99 },
-    { sku:'CFC-BFS-10LB', color:'Grape', size:'10LB / 150 Yds', wholesale:20.00, retail:29.99 },
+    { sku:'CFC-BFS-8LB',  color:'Grape', size:'8LB / 150 Yds',  wholesale:20.00, retail:29.99, image:'images/cast/bfs/bfs-150-main.jpg' },
+    { sku:'CFC-BFS-10LB', color:'Grape', size:'10LB / 150 Yds', wholesale:20.00, retail:29.99, image:'images/cast/bfs/bfs-150-main.jpg' },
   ]
 };
 const castProductNames = { prodigy:'Prodigy Swimbait', echo:'Echo Finesse Minnow', nova:'Nova Neko Worm', x12:'X12 Casting Braid', bfs:'BFS Casting Braid' };
@@ -771,7 +831,11 @@ function renderCastRows(cat, tbodyId) {
   const tbody = document.getElementById(tbodyId);
   castCatalog[cat].forEach(p => {
     const tr = document.createElement('tr');
+    const imgCell = p.image
+      ? `<img src="${p.image}" alt="${castProductNames[cat]} ${p.color}" class="product-thumb" loading="lazy">`
+      : '<span class="product-thumb-placeholder">—</span>';
     tr.innerHTML = `
+      <td class="product-thumb-cell">${imgCell}</td>
       <td class="bold">${castProductNames[cat]}</td>
       <td class="sku">${p.sku}</td>
       <td><span style="display:inline-block;width:8px;height:8px;border-radius:50%;margin-right:6px;background:var(--teal);opacity:0.6;"></span>${p.color}</td>
@@ -790,28 +854,32 @@ function renderCastRows(cat, tbodyId) {
 
 // ── FeatherMoon Outdoors catalog ─────────────────────────────
 const feathermoonCatalog = [
-  { sku:'FM-MOUTHCALL-1',  desc:'1 Mouth Call',     notes:'',                                   retail:8.49,  wholesale:5.59  },
-  { sku:'FM-MOUTHCALL-3',  desc:'3 Mouth Calls',    notes:'Hunters 3 Pk',                       retail:19.99, wholesale:11.99 },
-  { sku:'FM-WALNUTSLATE',  desc:'Walnut Slate Pot',  notes:'',                                   retail:51.49, wholesale:37.50 },
-  { sku:'FM-NEWLAMINATE',  desc:'New Laminate Pot',  notes:'',                                   retail:75.00, wholesale:60.00 },
-  { sku:'FM-LAMINATE',     desc:'Laminate Pot',      notes:'',                                   retail:75.00, wholesale:60.00 },
-  { sku:'FM-CHERRYPOT',    desc:'Cherry Pot',        notes:'',                                   retail:51.49, wholesale:37.50 },
-  { sku:'FM-CHERRYFLIP',   desc:'Cherry Flip',       notes:'The Game Changer, Glass over Slate', retail:51.49, wholesale:37.50 },
-  { sku:'FM-CAMOFLIP',     desc:'Camo Flip',         notes:'',                                   retail:22.99, wholesale:16.99 },
-  { sku:'FM-GRUNTCALL',    desc:'Grunt Call',        notes:'',                                   retail:22.99, wholesale:17.50 },
-  { sku:'FM-WALNUTFLIP',   desc:'Walnut Flip',       notes:'',                                   retail:51.49, wholesale:37.50 },
-  { sku:'FM-PREDCALL',     desc:'Pred Call',         notes:'',                                   retail:15.49, wholesale:11.75 },
-  { sku:'FM-CONDSTONES',   desc:'Cond. Stones',      notes:'',                                   retail:9.99,  wholesale:6.50  },
-  { sku:'FM-CROWCALL',     desc:'Crow Call',         notes:'',                                   retail:14.49, wholesale:11.25 },
-  { sku:'FM-BLEATCAN',     desc:'Bleat Can',         notes:'',                                   retail:10.99, wholesale:7.99  },
-  { sku:'FM-OWLHOOTER',    desc:'Owl Hooter',        notes:'',                                   retail:25.00, wholesale:12.60 },
+  { sku:'FM-MOUTHCALL-1',  desc:'1 Mouth Call',     notes:'',                                   retail:8.49,  wholesale:5.59, image:'images/feathermoon/mouthcall-1.jpg'  },
+  { sku:'FM-MOUTHCALL-3',  desc:'3 Mouth Calls',    notes:'Hunters 3 Pk',                       retail:19.99, wholesale:11.99, image:'images/feathermoon/mouthcall-3.jpg' },
+  { sku:'FM-WALNUTSLATE',  desc:'Walnut Slate Pot',  notes:'',                                   retail:51.49, wholesale:37.50, image:'images/feathermoon/walnutslate.jpg' },
+  { sku:'FM-NEWLAMINATE',  desc:'New Laminate Pot',  notes:'',                                   retail:75.00, wholesale:60.00, image:'images/feathermoon/newlaminate.jpg' },
+  { sku:'FM-LAMINATE',     desc:'Laminate Pot',      notes:'',                                   retail:75.00, wholesale:60.00, image:'images/feathermoon/laminate.jpg' },
+  { sku:'FM-CHERRYPOT',    desc:'Cherry Pot',        notes:'',                                   retail:51.49, wholesale:37.50, image:'images/feathermoon/cherrypot.jpg' },
+  { sku:'FM-CHERRYFLIP',   desc:'Cherry Flip',       notes:'The Game Changer, Glass over Slate', retail:51.49, wholesale:37.50, image:'images/feathermoon/cherryflip.jpg' },
+  { sku:'FM-CAMOFLIP',     desc:'Camo Flip',         notes:'',                                   retail:22.99, wholesale:16.99, image:'images/feathermoon/camoflip.jpg' },
+  { sku:'FM-GRUNTCALL',    desc:'Grunt Call',        notes:'',                                   retail:22.99, wholesale:17.50, image:'images/feathermoon/gruntcall.jpg' },
+  { sku:'FM-WALNUTFLIP',   desc:'Walnut Flip',       notes:'',                                   retail:51.49, wholesale:37.50, image:'images/feathermoon/walnutflip.jpg' },
+  { sku:'FM-PREDCALL',     desc:'Pred Call',         notes:'',                                   retail:15.49, wholesale:11.75, image:'images/feathermoon/predcall.jpg' },
+  { sku:'FM-CONDSTONES',   desc:'Cond. Stones',      notes:'',                                   retail:9.99,  wholesale:6.50, image:'images/feathermoon/condstones.jpg'  },
+  { sku:'FM-CROWCALL',     desc:'Crow Call',         notes:'',                                   retail:14.49, wholesale:11.25, image:'images/feathermoon/crowcall.jpg' },
+  { sku:'FM-BLEATCAN',     desc:'Bleat Can',         notes:'',                                   retail:10.99, wholesale:7.99, image:'images/feathermoon/bleatcan.jpg'  },
+  { sku:'FM-OWLHOOTER',    desc:'Owl Hooter',        notes:'',                                   retail:25.00, wholesale:12.60, image:'images/feathermoon/owlhooter.jpg' },
 ];
 
 function renderFeathermoonRows() {
   const tbody = document.getElementById('feathermoon-rows');
   feathermoonCatalog.forEach(p => {
     const tr = document.createElement('tr');
+    const imgCell = p.image
+      ? `<img src="${p.image}" alt="${p.desc.replace(/"/g,'&quot;')}" class="product-thumb" loading="lazy">`
+      : '<span class="product-thumb-placeholder">—</span>';
     tr.innerHTML = `
+      <td class="product-thumb-cell">${imgCell}</td>
       <td class="bold">${p.desc}</td>
       <td class="sku">${p.sku}</td>
       <td style="font-size:11px;color:var(--muted)">${p.notes}</td>
@@ -866,7 +934,7 @@ function renderAllQTSections() {
       </div>
       <table>
         <thead><tr>
-          <th class="center">Qty</th><th>SKU</th><th>UPC</th><th>Description</th>
+          <th class="center">Qty</th><th class="center">Image</th><th>SKU</th><th>UPC</th><th>Description</th>
           <th class="right">Wholesale</th><th class="right">MSRP</th><th class="right">Line Total</th>
         </tr></thead>
         <tbody id="${tbodyId}"></tbody>
@@ -879,109 +947,109 @@ function renderAllQTSections() {
 // ── Lanier Baits catalog ──────────────────────────────────────
 const lanierCatalog = {
   finesse_worm: [
-    { sku:'LB-101', item:101, color:"LJ's Craze",     pack:10, wholesale:3.49 },
-    { sku:'LB-102', item:102, color:'Martian Candy',  pack:10, wholesale:3.49 },
-    { sku:'LB-103', item:103, color:'Sweet Rosey',    pack:10, wholesale:3.49 },
-    { sku:'LB-104', item:104, color:'Blue Lily',      pack:10, wholesale:3.49 },
-    { sku:'LB-105', item:105, color:'Shindig',        pack:10, wholesale:3.49 },
-    { sku:'LB-106', item:106, color:'Amy Gill',       pack:10, wholesale:3.49 },
-    { sku:'LB-107', item:107, color:'Bruised Tomato', pack:10, wholesale:3.49 },
-    { sku:'LB-108', item:108, color:'Purple Rain',    pack:10, wholesale:3.49 },
-    { sku:'LB-109', item:109, color:'Epik Flash',     pack:10, wholesale:3.49 },
-    { sku:'LB-110', item:110, color:'Lily Jade',      pack:10, wholesale:3.49 },
-    { sku:'LB-111', item:111, color:'FZNH2O',         pack:10, wholesale:3.49 },
+    { sku:'LB-101', item:101, color:"LJ's Craze",     pack:10, wholesale:3.49, image:'images/lanier/finesse-worm.jpg' },
+    { sku:'LB-102', item:102, color:'Martian Candy',  pack:10, wholesale:3.49, image:'images/lanier/finesse-worm.jpg' },
+    { sku:'LB-103', item:103, color:'Sweet Rosey',    pack:10, wholesale:3.49, image:'images/lanier/finesse-worm.jpg' },
+    { sku:'LB-104', item:104, color:'Blue Lily',      pack:10, wholesale:3.49, image:'images/lanier/finesse-worm.jpg' },
+    { sku:'LB-105', item:105, color:'Shindig',        pack:10, wholesale:3.49, image:'images/lanier/finesse-worm.jpg' },
+    { sku:'LB-106', item:106, color:'Amy Gill',       pack:10, wholesale:3.49, image:'images/lanier/finesse-worm.jpg' },
+    { sku:'LB-107', item:107, color:'Bruised Tomato', pack:10, wholesale:3.49, image:'images/lanier/finesse-worm.jpg' },
+    { sku:'LB-108', item:108, color:'Purple Rain',    pack:10, wholesale:3.49, image:'images/lanier/finesse-worm.jpg' },
+    { sku:'LB-109', item:109, color:'Epik Flash',     pack:10, wholesale:3.49, image:'images/lanier/finesse-worm.jpg' },
+    { sku:'LB-110', item:110, color:'Lily Jade',      pack:10, wholesale:3.49, image:'images/lanier/finesse-worm.jpg' },
+    { sku:'LB-111', item:111, color:'FZNH2O',         pack:10, wholesale:3.49, image:'images/lanier/finesse-worm.jpg' },
   ],
   jerk_shad: [
-    { sku:'LB-201', item:201, color:'5Gills Glitter Shad', pack:7, wholesale:3.49 },
-    { sku:'LB-202', item:202, color:'Limeade',             pack:7, wholesale:3.49 },
-    { sku:'LB-203', item:203, color:'Blue Ghost',          pack:7, wholesale:3.49 },
-    { sku:'LB-204', item:204, color:'Purple Ghost',        pack:7, wholesale:3.49 },
-    { sku:'LB-205', item:205, color:'Bow Trout',           pack:7, wholesale:3.49 },
-    { sku:'LB-206', item:206, color:'Storm',               pack:7, wholesale:3.49 },
-    { sku:'LB-207', item:207, color:'Natty Shad',          pack:7, wholesale:3.49 },
-    { sku:'LB-208', item:208, color:'FznH2o',              pack:7, wholesale:3.49 },
-    { sku:'LB-209', item:209, color:'Diet FZNH2O',         pack:7, wholesale:3.49 },
-    { sku:'LB-210', item:210, color:'Char Tail',           pack:7, wholesale:3.49 },
-    { sku:'LB-211', item:211, color:'Herring',             pack:7, wholesale:3.49 },
-    { sku:'LB-212', item:212, color:'Martian Candy',       pack:7, wholesale:3.49 },
-    { sku:'LB-213', item:213, color:'Melon Rose',          pack:7, wholesale:3.49 },
-    { sku:'LB-214', item:214, color:'Pearl',               pack:7, wholesale:3.49 },
-    { sku:'LB-215', item:215, color:'Confetti',            pack:7, wholesale:3.49 },
+    { sku:'LB-201', item:201, color:'5Gills Glitter Shad', pack:7, wholesale:3.49, image:'images/lanier/jerk-shad.jpg' },
+    { sku:'LB-202', item:202, color:'Limeade',             pack:7, wholesale:3.49, image:'images/lanier/jerk-shad.jpg' },
+    { sku:'LB-203', item:203, color:'Blue Ghost',          pack:7, wholesale:3.49, image:'images/lanier/jerk-shad.jpg' },
+    { sku:'LB-204', item:204, color:'Purple Ghost',        pack:7, wholesale:3.49, image:'images/lanier/jerk-shad.jpg' },
+    { sku:'LB-205', item:205, color:'Bow Trout',           pack:7, wholesale:3.49, image:'images/lanier/jerk-shad.jpg' },
+    { sku:'LB-206', item:206, color:'Storm',               pack:7, wholesale:3.49, image:'images/lanier/jerk-shad.jpg' },
+    { sku:'LB-207', item:207, color:'Natty Shad',          pack:7, wholesale:3.49, image:'images/lanier/jerk-shad.jpg' },
+    { sku:'LB-208', item:208, color:'FznH2o',              pack:7, wholesale:3.49, image:'images/lanier/jerk-shad.jpg' },
+    { sku:'LB-209', item:209, color:'Diet FZNH2O',         pack:7, wholesale:3.49, image:'images/lanier/jerk-shad.jpg' },
+    { sku:'LB-210', item:210, color:'Char Tail',           pack:7, wholesale:3.49, image:'images/lanier/jerk-shad.jpg' },
+    { sku:'LB-211', item:211, color:'Herring',             pack:7, wholesale:3.49, image:'images/lanier/jerk-shad.jpg' },
+    { sku:'LB-212', item:212, color:'Martian Candy',       pack:7, wholesale:3.49, image:'images/lanier/jerk-shad.jpg' },
+    { sku:'LB-213', item:213, color:'Melon Rose',          pack:7, wholesale:3.49, image:'images/lanier/jerk-shad.jpg' },
+    { sku:'LB-214', item:214, color:'Pearl',               pack:7, wholesale:3.49, image:'images/lanier/jerk-shad.jpg' },
+    { sku:'LB-215', item:215, color:'Confetti',            pack:7, wholesale:3.49, image:'images/lanier/jerk-shad.jpg' },
   ],
   hover_shad: [
-    { sku:'LB-301', item:301, color:'5Gills Glitter Shad', pack:7, wholesale:3.49 },
-    { sku:'LB-302', item:302, color:'Limeade',             pack:7, wholesale:3.49 },
-    { sku:'LB-303', item:303, color:'Blue Ghost',          pack:7, wholesale:3.49 },
-    { sku:'LB-304', item:304, color:'Purple Ghost',        pack:7, wholesale:3.49 },
-    { sku:'LB-305', item:305, color:'Bow Trout',           pack:7, wholesale:3.49 },
-    { sku:'LB-306', item:306, color:'Storm',               pack:7, wholesale:3.49 },
-    { sku:'LB-307', item:307, color:'Natty Shad',          pack:7, wholesale:3.49 },
-    { sku:'LB-308', item:308, color:'FznH2o',              pack:7, wholesale:3.49 },
-    { sku:'LB-309', item:309, color:'Diet FZNH2O',         pack:7, wholesale:3.49 },
-    { sku:'LB-310', item:310, color:'Char Tail',           pack:7, wholesale:3.49 },
-    { sku:'LB-311', item:311, color:'Melon Rose',          pack:7, wholesale:3.49 },
-    { sku:'LB-312', item:312, color:'Magic Shad',          pack:7, wholesale:3.49 },
+    { sku:'LB-301', item:301, color:'5Gills Glitter Shad', pack:7, wholesale:3.49, image:'images/lanier/hover-shad.jpg' },
+    { sku:'LB-302', item:302, color:'Limeade',             pack:7, wholesale:3.49, image:'images/lanier/hover-shad.jpg' },
+    { sku:'LB-303', item:303, color:'Blue Ghost',          pack:7, wholesale:3.49, image:'images/lanier/hover-shad.jpg' },
+    { sku:'LB-304', item:304, color:'Purple Ghost',        pack:7, wholesale:3.49, image:'images/lanier/hover-shad.jpg' },
+    { sku:'LB-305', item:305, color:'Bow Trout',           pack:7, wholesale:3.49, image:'images/lanier/hover-shad.jpg' },
+    { sku:'LB-306', item:306, color:'Storm',               pack:7, wholesale:3.49, image:'images/lanier/hover-shad.jpg' },
+    { sku:'LB-307', item:307, color:'Natty Shad',          pack:7, wholesale:3.49, image:'images/lanier/hover-shad.jpg' },
+    { sku:'LB-308', item:308, color:'FznH2o',              pack:7, wholesale:3.49, image:'images/lanier/hover-shad.jpg' },
+    { sku:'LB-309', item:309, color:'Diet FZNH2O',         pack:7, wholesale:3.49, image:'images/lanier/hover-shad.jpg' },
+    { sku:'LB-310', item:310, color:'Char Tail',           pack:7, wholesale:3.49, image:'images/lanier/hover-shad.jpg' },
+    { sku:'LB-311', item:311, color:'Melon Rose',          pack:7, wholesale:3.49, image:'images/lanier/hover-shad.jpg' },
+    { sku:'LB-312', item:312, color:'Magic Shad',          pack:7, wholesale:3.49, image:'images/lanier/hover-shad.jpg' },
   ],
   swim_minnow: [
-    { sku:'LB-401', item:401, color:'Herring',     pack:6, wholesale:4.30 },
-    { sku:'LB-402', item:402, color:'Limeade',     pack:6, wholesale:4.30 },
-    { sku:'LB-403', item:403, color:'Diet FZNH2O', pack:6, wholesale:4.30 },
-    { sku:'LB-404', item:404, color:'FZNH2O',      pack:6, wholesale:4.30 },
-    { sku:'LB-405', item:405, color:'Melon Rose',  pack:6, wholesale:4.30 },
-    { sku:'LB-406', item:406, color:'Storm',       pack:6, wholesale:4.30 },
-    { sku:'LB-407', item:407, color:'Natty Shad',  pack:6, wholesale:4.30 },
-    { sku:'LB-408', item:408, color:'Pearl',       pack:6, wholesale:4.30 },
-    { sku:'LB-409', item:409, color:'Magic Shad',  pack:6, wholesale:4.30 },
+    { sku:'LB-401', item:401, color:'Herring',     pack:6, wholesale:4.30, image:'images/lanier/swim-minnow.jpg' },
+    { sku:'LB-402', item:402, color:'Limeade',     pack:6, wholesale:4.30, image:'images/lanier/swim-minnow.jpg' },
+    { sku:'LB-403', item:403, color:'Diet FZNH2O', pack:6, wholesale:4.30, image:'images/lanier/swim-minnow.jpg' },
+    { sku:'LB-404', item:404, color:'FZNH2O',      pack:6, wholesale:4.30, image:'images/lanier/swim-minnow.jpg' },
+    { sku:'LB-405', item:405, color:'Melon Rose',  pack:6, wholesale:4.30, image:'images/lanier/swim-minnow.jpg' },
+    { sku:'LB-406', item:406, color:'Storm',       pack:6, wholesale:4.30, image:'images/lanier/swim-minnow.jpg' },
+    { sku:'LB-407', item:407, color:'Natty Shad',  pack:6, wholesale:4.30, image:'images/lanier/swim-minnow.jpg' },
+    { sku:'LB-408', item:408, color:'Pearl',       pack:6, wholesale:4.30, image:'images/lanier/swim-minnow.jpg' },
+    { sku:'LB-409', item:409, color:'Magic Shad',  pack:6, wholesale:4.30, image:'images/lanier/swim-minnow.jpg' },
   ],
   hooch_craw: [
-    { sku:'LB-501', item:501, color:'Dirty Craw', pack:6, wholesale:4.30 },
-    { sku:'LB-502', item:502, color:'Fresh Craw', pack:6, wholesale:4.30 },
-    { sku:'LB-503', item:503, color:'Money Craw', pack:6, wholesale:4.30 },
+    { sku:'LB-501', item:501, color:'Dirty Craw', pack:6, wholesale:4.30, image:'images/lanier/hooch-craw.jpg' },
+    { sku:'LB-502', item:502, color:'Fresh Craw', pack:6, wholesale:4.30, image:'images/lanier/hooch-craw.jpg' },
+    { sku:'LB-503', item:503, color:'Money Craw', pack:6, wholesale:4.30, image:'images/lanier/hooch-craw.jpg' },
   ],
   shakey_ned: [
-    { sku:'LB-600', item:600, color:'Unpainted', pack:3, wholesale:2.65, size:'1/8oz 3/0' },
-    { sku:'LB-601', item:601, color:'Unpainted', pack:3, wholesale:2.65, size:'3/16oz 3/0' },
+    { sku:'LB-600', item:600, color:'Unpainted', pack:3, wholesale:2.65, size:'1/8oz 3/0', image:'images/lanier/shakey-ned.jpg' },
+    { sku:'LB-601', item:601, color:'Unpainted', pack:3, wholesale:2.65, size:'3/16oz 3/0', image:'images/lanier/shakey-ned.jpg' },
   ],
   ball_jig: [
-    { sku:'LB-610', item:610, color:'Unpainted', pack:3, wholesale:2.65, size:'1/8oz 3/0' },
-    { sku:'LB-611', item:611, color:'Unpainted', pack:3, wholesale:2.65, size:'3/16oz 3/0' },
-    { sku:'LB-612', item:612, color:'Unpainted', pack:3, wholesale:2.65, size:'1/4oz 3/0' },
+    { sku:'LB-610', item:610, color:'Unpainted', pack:3, wholesale:2.65, size:'1/8oz 3/0', image:'images/lanier/ball-jig.jpg' },
+    { sku:'LB-611', item:611, color:'Unpainted', pack:3, wholesale:2.65, size:'3/16oz 3/0', image:'images/lanier/ball-jig.jpg' },
+    { sku:'LB-612', item:612, color:'Unpainted', pack:3, wholesale:2.65, size:'1/4oz 3/0', image:'images/lanier/ball-jig.jpg' },
   ],
   damiki: [
-    { sku:'LB-620', item:620, color:'Unpainted', pack:3, wholesale:2.35, size:'1/4 Big Eye' },
-    { sku:'LB-621', item:621, color:'Unpainted', pack:3, wholesale:2.35, size:'3/8 Big Eye' },
-    { sku:'LB-622', item:622, color:'White',     pack:3, wholesale:2.35, size:'1/4 Big Eye' },
-    { sku:'LB-623', item:623, color:'White',     pack:3, wholesale:2.35, size:'3/8 Big Eye' },
-    { sku:'LB-624', item:624, color:'Unpainted', pack:3, wholesale:2.65, size:'1/4 Spy Head' },
+    { sku:'LB-620', item:620, color:'Unpainted', pack:3, wholesale:2.35, size:'1/4 Big Eye', image:'images/lanier/damiki.jpg' },
+    { sku:'LB-621', item:621, color:'Unpainted', pack:3, wholesale:2.35, size:'3/8 Big Eye', image:'images/lanier/damiki.jpg' },
+    { sku:'LB-622', item:622, color:'White',     pack:3, wholesale:2.35, size:'1/4 Big Eye', image:'images/lanier/damiki.jpg' },
+    { sku:'LB-623', item:623, color:'White',     pack:3, wholesale:2.35, size:'3/8 Big Eye', image:'images/lanier/damiki.jpg' },
+    { sku:'LB-624', item:624, color:'Unpainted', pack:3, wholesale:2.65, size:'1/4 Spy Head', image:'images/lanier/damiki.jpg' },
   ],
   dropshot: [
-    { sku:'LB-630', item:630, color:'Unpainted', pack:5, wholesale:1.75, size:'3/8 Cylinder' },
-    { sku:'LB-631', item:631, color:'Unpainted', pack:5, wholesale:2.65, size:'3/8 Mortar' },
-    { sku:'LB-632', item:632, color:'Unpainted', pack:5, wholesale:2.65, size:'1/4 Mortar' },
+    { sku:'LB-630', item:630, color:'Unpainted', pack:5, wholesale:1.75, size:'3/8 Cylinder', image:'images/lanier/dropshot.jpg' },
+    { sku:'LB-631', item:631, color:'Unpainted', pack:5, wholesale:2.65, size:'3/8 Mortar', image:'images/lanier/dropshot.jpg' },
+    { sku:'LB-632', item:632, color:'Unpainted', pack:5, wholesale:2.65, size:'1/4 Mortar', image:'images/lanier/dropshot.jpg' },
   ],
   eliminator: [
-    { sku:'LB-640', item:640, color:'Unpainted', pack:2, wholesale:2.59, size:'Big E-Liminator' },
+    { sku:'LB-640', item:640, color:'Unpainted', pack:2, wholesale:2.59, size:'Big E-Liminator', image:'images/lanier/eliminator.jpg' },
   ],
   hooks: [
-    { sku:'LB-650', item:650, color:'Bronze', pack:5, wholesale:2.25, size:"LJ's Long Shank DS 1/0" },
-    { sku:'LB-651', item:651, color:'Bronze', pack:5, wholesale:1.50, size:"LJ's Small DS #2" },
+    { sku:'LB-650', item:650, color:'Bronze', pack:5, wholesale:2.25, size:"LJ's Long Shank DS 1/0", image:'images/lanier/hooks.jpg' },
+    { sku:'LB-651', item:651, color:'Bronze', pack:5, wholesale:1.50, size:"LJ's Small DS #2", image:'images/lanier/hooks.jpg' },
   ],
   swivels: [
-    { sku:'LB-660', item:660, color:'Black', pack:10, wholesale:2.00, size:'#10 — 30lb' },
+    { sku:'LB-660', item:660, color:'Black', pack:10, wholesale:2.00, size:'#10 — 30lb', image:'images/lanier/swivels.jpg' },
   ],
   spoons: [
-    { sku:'LB-670', item:670, color:'White/Silver Flake', pack:1, wholesale:2.65, size:'1/2oz & 3/4oz' },
-    { sku:'LB-671', item:671, color:'Blue/White',         pack:1, wholesale:2.65, size:'1/2oz & 3/4oz' },
+    { sku:'LB-670', item:670, color:'White/Silver Flake', pack:1, wholesale:2.65, size:'1/2oz & 3/4oz', image:'images/lanier/spoons.jpg' },
+    { sku:'LB-671', item:671, color:'Blue/White',         pack:1, wholesale:2.65, size:'1/2oz & 3/4oz', image:'images/lanier/spoons.jpg' },
   ],
   shad_spin: [
-    { sku:'LB-801', item:801, color:'White', pack:1, wholesale:3.10, size:'3/8oz' },
-    { sku:'LB-802', item:802, color:'White', pack:1, wholesale:3.10, size:'1/2oz' },
+    { sku:'LB-801', item:801, color:'White', pack:1, wholesale:3.10, size:'3/8oz', image:'images/lanier/shad-spin.jpg' },
+    { sku:'LB-802', item:802, color:'White', pack:1, wholesale:3.10, size:'1/2oz', image:'images/lanier/shad-spin.jpg' },
   ],
   hard_swimmer: [
-    { sku:'LB-700', item:700, color:'Blueback Herring', pack:1, wholesale:25.00, size:'Jointed 125mm' },
-    { sku:'LB-701', item:701, color:'FZNH2O',           pack:1, wholesale:25.00, size:'Jointed 125mm' },
-    { sku:'LB-702', item:702, color:'Chrome (Gen 1)',   pack:1, wholesale:25.00, size:'Jointed 125mm' },
-    { sku:'LB-703', item:703, color:'Green Ghost',      pack:1, wholesale:25.00, size:'Jointed 125mm' },
+    { sku:'LB-700', item:700, color:'Blueback Herring', pack:1, wholesale:25.00, size:'Jointed 125mm', image:'images/lanier/hard-swimmer.jpg' },
+    { sku:'LB-701', item:701, color:'FZNH2O',           pack:1, wholesale:25.00, size:'Jointed 125mm', image:'images/lanier/hard-swimmer.jpg' },
+    { sku:'LB-702', item:702, color:'Chrome (Gen 1)',   pack:1, wholesale:25.00, size:'Jointed 125mm', image:'images/lanier/hard-swimmer.jpg' },
+    { sku:'LB-703', item:703, color:'Green Ghost',      pack:1, wholesale:25.00, size:'Jointed 125mm', image:'images/lanier/hard-swimmer.jpg' },
   ],
 };
 
@@ -1001,11 +1069,15 @@ function renderLanierRows(cat, tbodyId) {
   lanierCatalog[cat].forEach(p => {
     const desc = p.size ? `${p.size} — ${p.color}` : p.color;
     const tr = document.createElement('tr');
+    const imgCell = p.image
+      ? `<img src="${p.image}" alt="${desc.replace(/"/g,'&quot;')}" class="product-thumb" loading="lazy">`
+      : '<span class="product-thumb-placeholder">—</span>';
     tr.innerHTML = `
       <td style="text-align:center"><input class="qty-input" type="number" min="0" step="1"
         data-sku="${p.sku}" data-wholesale="${p.wholesale}"
         data-product="${desc.replace(/"/g,'&quot;')}" data-color="${p.color}" data-retail="0"
         placeholder="0" autocomplete="off"></td>
+      <td class="product-thumb-cell">${imgCell}</td>
       <td class="sku">${p.sku.replace('LB-','')}</td>
       <td class="sku">${p.item}</td>
       <td class="bold">${desc}</td>
@@ -1224,5 +1296,33 @@ document.getElementById('submitBtn').addEventListener('click', async () => {
   <a href="/privacy.html" style="color:var(--teal);text-decoration:none;">Privacy Policy</a> &nbsp;·&nbsp;
   <a href="/terms.html" style="color:var(--teal);text-decoration:none;">Terms of Service</a>
 </footer>
+
+<div id="imgLightbox" role="dialog" aria-modal="true" aria-label="Product image">
+  <button class="lb-close" type="button">CLOSE ✕</button>
+  <img id="imgLightboxImg" src="" alt="">
+</div>
+<script>
+  (function() {
+    const lb = document.getElementById('imgLightbox');
+    const lbImg = document.getElementById('imgLightboxImg');
+    document.addEventListener('click', e => {
+      const thumb = e.target.closest('.product-thumb');
+      if (thumb && thumb.tagName === 'IMG') {
+        lbImg.src = thumb.src;
+        lbImg.alt = thumb.alt || '';
+        lb.classList.add('open');
+      } else if (e.target.closest('#imgLightbox')) {
+        lb.classList.remove('open');
+        lbImg.src = '';
+      }
+    });
+    document.addEventListener('keydown', e => {
+      if (e.key === 'Escape' && lb.classList.contains('open')) {
+        lb.classList.remove('open');
+        lbImg.src = '';
+      }
+    });
+  })();
+</script>
 </body>
 </html>

@@ -1,0 +1,92 @@
+{
+  "FM-MOUTHCALL-1": {
+    "title": "Feathermoon Smack Talker Mouth Call – New for 2025",
+    "slug": "feathermoon-smack-talker-mouth-call-new-for-2025",
+    "isFallback": false,
+    "image": "images/feathermoon/mouthcall-1.jpg"
+  },
+  "FM-MOUTHCALL-3": {
+    "title": "Hunter Series (3 pack)",
+    "slug": "hunter-series-3-pack",
+    "isFallback": false,
+    "image": "images/feathermoon/mouthcall-3.jpg"
+  },
+  "FM-WALNUTSLATE": {
+    "title": "Walnut Pot Call",
+    "slug": "walnut-pot-call",
+    "isFallback": false,
+    "image": "images/feathermoon/walnutslate.jpg"
+  },
+  "FM-NEWLAMINATE": {
+    "title": "Walnut Pot Call",
+    "slug": "walnut-pot-call",
+    "isFallback": true,
+    "image": "images/feathermoon/newlaminate.jpg"
+  },
+  "FM-LAMINATE": {
+    "title": "Walnut Pot Call",
+    "slug": "walnut-pot-call",
+    "isFallback": true,
+    "image": "images/feathermoon/laminate.jpg"
+  },
+  "FM-CHERRYPOT": {
+    "title": "Cherry Pot Call",
+    "slug": "palm-t723h",
+    "isFallback": false,
+    "image": "images/feathermoon/cherrypot.jpg"
+  },
+  "FM-CHERRYFLIP": {
+    "title": "The Game Changer",
+    "slug": "the-game-changer",
+    "isFallback": false,
+    "image": "images/feathermoon/cherryflip.jpg"
+  },
+  "FM-CAMOFLIP": {
+    "title": "Walnut Pot Call",
+    "slug": "walnut-pot-call",
+    "isFallback": true,
+    "image": "images/feathermoon/camoflip.jpg"
+  },
+  "FM-GRUNTCALL": {
+    "title": "Grunt Call",
+    "slug": "pencil-plant-6r8kh",
+    "isFallback": false,
+    "image": "images/feathermoon/gruntcall.jpg"
+  },
+  "FM-WALNUTFLIP": {
+    "title": "Walnut Pot Call",
+    "slug": "walnut-pot-call",
+    "isFallback": false,
+    "image": "images/feathermoon/walnutflip.jpg"
+  },
+  "FM-PREDCALL": {
+    "title": "Rabbit Distress Call",
+    "slug": "rabbit-distress-call",
+    "isFallback": false,
+    "image": "images/feathermoon/predcall.jpg"
+  },
+  "FM-CONDSTONES": {
+    "title": "3-in-1 Conditioning Stone",
+    "slug": "3-in-1-conditioning-stone",
+    "isFallback": false,
+    "image": "images/feathermoon/condstones.jpg"
+  },
+  "FM-CROWCALL": {
+    "title": "Crow Call",
+    "slug": "snake-jlw7h",
+    "isFallback": false,
+    "image": "images/feathermoon/crowcall.jpg"
+  },
+  "FM-BLEATCAN": {
+    "title": "Hot Spot Bleat Can",
+    "slug": "lily-kejg9",
+    "isFallback": false,
+    "image": "images/feathermoon/bleatcan.jpg"
+  },
+  "FM-OWLHOOTER": {
+    "title": "Owl Hooter",
+    "slug": "owl-hooter",
+    "isFallback": false,
+    "image": "images/feathermoon/owlhooter.jpg"
+  }
+}

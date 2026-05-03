@@ -1,0 +1,1626 @@
+{
+  "wide_gap": {
+    "_slugs": [
+      "wide-gap-jig-heads-standard"
+    ],
+    "variants": [
+      {
+        "color": null,
+        "size": "18-oz",
+        "pack": "5",
+        "image": "images/spotsticker/wide-gap/main-18-oz.jpg"
+      },
+      {
+        "color": null,
+        "size": "14-oz",
+        "pack": "5",
+        "image": "images/spotsticker/wide-gap/main-14-oz.jpg"
+      },
+      {
+        "color": null,
+        "size": "316",
+        "pack": "5",
+        "image": "images/spotsticker/wide-gap/main-316.jpg"
+      },
+      {
+        "color": null,
+        "size": "18-oz",
+        "pack": "25",
+        "image": "images/spotsticker/wide-gap/main-18-oz.jpg"
+      },
+      {
+        "color": null,
+        "size": "14-oz",
+        "pack": "25",
+        "image": "images/spotsticker/wide-gap/main-14-oz.jpg"
+      },
+      {
+        "color": null,
+        "size": "316",
+        "pack": "25",
+        "image": "images/spotsticker/wide-gap/main-316.jpg"
+      }
+    ],
+    "_main": "images/spotsticker/wide-gap/_main.jpg"
+  },
+  "long_shank": {
+    "_slugs": [
+      "long-shank-jig-heads-standard"
+    ],
+    "variants": [
+      {
+        "color": null,
+        "size": "14-oz",
+        "pack": "5",
+        "image": "images/spotsticker/long-shank/main-14-oz.jpg"
+      },
+      {
+        "color": null,
+        "size": "116-oz",
+        "pack": "5",
+        "image": "images/spotsticker/long-shank/main-116-oz.jpg"
+      },
+      {
+        "color": null,
+        "size": "316-oz",
+        "pack": "5",
+        "image": "images/spotsticker/long-shank/main-316-oz.jpg"
+      },
+      {
+        "color": null,
+        "size": "18-oz",
+        "pack": "25",
+        "image": "images/spotsticker/long-shank/main-18-oz.jpg"
+      },
+      {
+        "color": null,
+        "size": "14-oz",
+        "pack": "25",
+        "image": "images/spotsticker/long-shank/main-14-oz.jpg"
+      },
+      {
+        "color": null,
+        "size": "18-oz",
+        "pack": "5",
+        "image": "images/spotsticker/long-shank/main-18-oz.jpg"
+      },
+      {
+        "color": null,
+        "size": "116-oz",
+        "pack": "25",
+        "image": "images/spotsticker/long-shank/main-116-oz.jpg"
+      },
+      {
+        "color": null,
+        "size": "316-oz",
+        "pack": "25",
+        "image": "images/spotsticker/long-shank/main-316-oz.jpg"
+      }
+    ],
+    "_main": "images/spotsticker/long-shank/_main.jpg"
+  },
+  "magnum": {
+    "_slugs": [
+      "magnum-jig-heads-standard"
+    ],
+    "variants": [
+      {
+        "color": null,
+        "size": "14-oz",
+        "pack": "5",
+        "image": "images/spotsticker/magnum/main-14-oz.jpg"
+      },
+      {
+        "color": null,
+        "size": "18-oz",
+        "pack": "5",
+        "image": "images/spotsticker/magnum/main-18-oz.jpg"
+      },
+      {
+        "color": null,
+        "size": "316-oz",
+        "pack": "5",
+        "image": "images/spotsticker/magnum/main-316-oz.jpg"
+      },
+      {
+        "color": null,
+        "size": "14-oz",
+        "pack": "25",
+        "image": "images/spotsticker/magnum/main-14-oz.jpg"
+      },
+      {
+        "color": null,
+        "size": "18-oz",
+        "pack": "25",
+        "image": "images/spotsticker/magnum/main-18-oz.jpg"
+      },
+      {
+        "color": null,
+        "size": "316-oz",
+        "pack": "25",
+        "image": "images/spotsticker/magnum/main-316-oz.jpg"
+      }
+    ],
+    "_main": "images/spotsticker/magnum/_main.jpg"
+  },
+  "pro_ball": {
+    "_slugs": [
+      "green-jig-heads-pro-series-ball-head-2",
+      "black-jig-heads-pro-series-ball-head-2"
+    ],
+    "variants": [
+      {
+        "color": "Green Pumpkin",
+        "size": "316-oz",
+        "pack": "25",
+        "image": "images/spotsticker/pro-ball/green-pumpkin-316-oz.jpg"
+      },
+      {
+        "color": "Green Pumpkin",
+        "size": "14-oz",
+        "pack": "25",
+        "image": "images/spotsticker/pro-ball/green-pumpkin-14-oz.jpg"
+      },
+      {
+        "color": "Green Pumpkin",
+        "size": "18-oz",
+        "pack": "25",
+        "image": "images/spotsticker/pro-ball/green-pumpkin-18-oz.jpg"
+      },
+      {
+        "color": "Green Pumpkin",
+        "size": "18-oz",
+        "pack": "5",
+        "image": "images/spotsticker/pro-ball/green-pumpkin-18-oz.jpg"
+      },
+      {
+        "color": "Green Pumpkin",
+        "size": "316-oz",
+        "pack": "5",
+        "image": "images/spotsticker/pro-ball/green-pumpkin-316-oz.jpg"
+      },
+      {
+        "color": "Green Pumpkin",
+        "size": "14-oz",
+        "pack": "5",
+        "image": "images/spotsticker/pro-ball/green-pumpkin-14-oz.jpg"
+      },
+      {
+        "color": "Black",
+        "size": "14-oz",
+        "pack": "25",
+        "image": "images/spotsticker/pro-ball/black-14-oz.jpg"
+      },
+      {
+        "color": "Black",
+        "size": "316-oz",
+        "pack": "25",
+        "image": "images/spotsticker/pro-ball/black-316-oz.jpg"
+      },
+      {
+        "color": "Black",
+        "size": "18-oz",
+        "pack": "25",
+        "image": "images/spotsticker/pro-ball/black-18-oz.jpg"
+      },
+      {
+        "color": "Black",
+        "size": "18-oz",
+        "pack": "5",
+        "image": "images/spotsticker/pro-ball/black-18-oz.jpg"
+      },
+      {
+        "color": "Black",
+        "size": "14-oz",
+        "pack": "5",
+        "image": "images/spotsticker/pro-ball/black-14-oz.jpg"
+      },
+      {
+        "color": "Black",
+        "size": "316-oz",
+        "pack": "5",
+        "image": "images/spotsticker/pro-ball/black-316-oz.jpg"
+      }
+    ],
+    "_main": "images/spotsticker/pro-ball/_main.jpg"
+  },
+  "pro_football": {
+    "_slugs": [
+      "black-jig-heads-pro-series-football-head"
+    ],
+    "variants": [
+      {
+        "color": "green-pumpkin",
+        "size": "38-oz",
+        "pack": null,
+        "image": "images/spotsticker/pro-football/green-pumpkin-38-oz.jpg"
+      },
+      {
+        "color": "green-pumpkin",
+        "size": "14-oz",
+        "pack": null,
+        "image": "images/spotsticker/pro-football/green-pumpkin-14-oz.jpg"
+      },
+      {
+        "color": "green-pumpkin",
+        "size": "316-oz",
+        "pack": null,
+        "image": "images/spotsticker/pro-football/green-pumpkin-316-oz.jpg"
+      },
+      {
+        "color": "green-pumpkin",
+        "size": "18-oz",
+        "pack": null,
+        "image": "images/spotsticker/pro-football/green-pumpkin-18-oz.jpg"
+      },
+      {
+        "color": "black",
+        "size": "18-oz",
+        "pack": null,
+        "image": "images/spotsticker/pro-football/black-18-oz.jpg"
+      },
+      {
+        "color": "black",
+        "size": "316-oz",
+        "pack": null,
+        "image": "images/spotsticker/pro-football/black-316-oz.jpg"
+      },
+      {
+        "color": "black",
+        "size": "14-oz",
+        "pack": null,
+        "image": "images/spotsticker/pro-football/black-14-oz.jpg"
+      },
+      {
+        "color": "black",
+        "size": "38-oz",
+        "pack": null,
+        "image": "images/spotsticker/pro-football/black-38-oz.jpg"
+      }
+    ],
+    "_main": "images/spotsticker/pro-football/_main.jpg"
+  },
+  "football_ewg": {
+    "_slugs": [
+      "black-jig-heads-football-ewg-head"
+    ],
+    "variants": [
+      {
+        "color": "green-pumpkin",
+        "size": "14-oz",
+        "pack": null,
+        "image": "images/spotsticker/football-ewg/green-pumpkin-14-oz.jpg"
+      },
+      {
+        "color": "green-pumpkin",
+        "size": "316-oz",
+        "pack": null,
+        "image": "images/spotsticker/football-ewg/green-pumpkin-316-oz.jpg"
+      },
+      {
+        "color": "green-pumpkin",
+        "size": "18-oz",
+        "pack": null,
+        "image": "images/spotsticker/football-ewg/green-pumpkin-18-oz.jpg"
+      },
+      {
+        "color": "black",
+        "size": "14-oz",
+        "pack": null,
+        "image": "images/spotsticker/football-ewg/black-14-oz.jpg"
+      },
+      {
+        "color": "black",
+        "size": "316-oz",
+        "pack": null,
+        "image": "images/spotsticker/football-ewg/black-316-oz.jpg"
+      },
+      {
+        "color": "black",
+        "size": "18-oz",
+        "pack": null,
+        "image": "images/spotsticker/football-ewg/black-18-oz.jpg"
+      }
+    ],
+    "_main": "images/spotsticker/football-ewg/_main.jpg"
+  },
+  "screwball_shaky": {
+    "_slugs": [
+      "pro-series-screwball-shaky"
+    ],
+    "variants": [
+      {
+        "color": "green-pumpkin",
+        "size": "18-oz",
+        "pack": "4",
+        "image": "images/spotsticker/screwball-shaky/green-pumpkin-18-oz.jpg"
+      },
+      {
+        "color": "green-pumpkin",
+        "size": "316-oz",
+        "pack": "4",
+        "image": "images/spotsticker/screwball-shaky/green-pumpkin-316-oz.jpg"
+      },
+      {
+        "color": "green-pumpkin",
+        "size": "14-oz",
+        "pack": "15",
+        "image": "images/spotsticker/screwball-shaky/green-pumpkin-14-oz.jpg"
+      },
+      {
+        "color": "green-pumpkin",
+        "size": "14-oz",
+        "pack": "4",
+        "image": "images/spotsticker/screwball-shaky/green-pumpkin-14-oz.jpg"
+      },
+      {
+        "color": "black",
+        "size": "14-oz",
+        "pack": "4",
+        "image": "images/spotsticker/screwball-shaky/black-14-oz.jpg"
+      },
+      {
+        "color": "green-pumpkin",
+        "size": "316-oz",
+        "pack": "15",
+        "image": "images/spotsticker/screwball-shaky/green-pumpkin-316-oz.jpg"
+      },
+      {
+        "color": "black",
+        "size": "316-oz",
+        "pack": "4",
+        "image": "images/spotsticker/screwball-shaky/black-316-oz.jpg"
+      },
+      {
+        "color": "black",
+        "size": "18-oz",
+        "pack": "4",
+        "image": "images/spotsticker/screwball-shaky/black-18-oz.jpg"
+      },
+      {
+        "color": "black",
+        "size": "14-oz",
+        "pack": "15",
+        "image": "images/spotsticker/screwball-shaky/black-14-oz.jpg"
+      },
+      {
+        "color": "black",
+        "size": "18-oz",
+        "pack": "15",
+        "image": "images/spotsticker/screwball-shaky/black-18-oz.jpg"
+      },
+      {
+        "color": "black",
+        "size": "316-oz",
+        "pack": "15",
+        "image": "images/spotsticker/screwball-shaky/black-316-oz.jpg"
+      },
+      {
+        "color": "green-pumpkin",
+        "size": "18-oz",
+        "pack": "15",
+        "image": "images/spotsticker/screwball-shaky/green-pumpkin-18-oz.jpg"
+      }
+    ],
+    "_main": "images/spotsticker/screwball-shaky/_main.jpg"
+  },
+  "crawler_heads": {
+    "_slugs": [
+      "green-pumpkin-crawler-heads"
+    ],
+    "variants": [
+      {
+        "color": "green-pumpkin",
+        "size": "38-oz",
+        "pack": null,
+        "image": "images/spotsticker/crawler-heads/green-pumpkin-38-oz.jpg"
+      },
+      {
+        "color": "green-pumpkin",
+        "size": "18-oz",
+        "pack": null,
+        "image": "images/spotsticker/crawler-heads/green-pumpkin-18-oz.jpg"
+      },
+      {
+        "color": "green-pumpkin",
+        "size": "14-oz",
+        "pack": null,
+        "image": "images/spotsticker/crawler-heads/green-pumpkin-14-oz.jpg"
+      },
+      {
+        "color": "black",
+        "size": "18-oz",
+        "pack": null,
+        "image": "images/spotsticker/crawler-heads/black-18-oz.jpg"
+      },
+      {
+        "color": "black",
+        "size": "14-oz",
+        "pack": null,
+        "image": "images/spotsticker/crawler-heads/black-14-oz.jpg"
+      },
+      {
+        "color": "black",
+        "size": "38-oz",
+        "pack": null,
+        "image": "images/spotsticker/crawler-heads/black-38-oz.jpg"
+      },
+      {
+        "color": "brown",
+        "size": "18-oz",
+        "pack": null,
+        "image": "images/spotsticker/crawler-heads/brown-18-oz.jpg"
+      },
+      {
+        "color": "brown",
+        "size": "14-oz",
+        "pack": null,
+        "image": "images/spotsticker/crawler-heads/brown-14-oz.jpg"
+      },
+      {
+        "color": "brown",
+        "size": "38-oz",
+        "pack": null,
+        "image": "images/spotsticker/crawler-heads/brown-38-oz.jpg"
+      }
+    ],
+    "_main": "images/spotsticker/crawler-heads/_main.jpg"
+  },
+  "dropshot_cylinder": {
+    "_slugs": [
+      "finesse-dropshot-weights-cylinder"
+    ],
+    "variants": [
+      {
+        "color": null,
+        "size": "18-oz",
+        "pack": null,
+        "image": "images/spotsticker/dropshot-cylinder/main-18-oz.jpg"
+      },
+      {
+        "color": null,
+        "size": "316-oz",
+        "pack": null,
+        "image": "images/spotsticker/dropshot-cylinder/main-316-oz.jpg"
+      },
+      {
+        "color": null,
+        "size": "14-oz",
+        "pack": null,
+        "image": "images/spotsticker/dropshot-cylinder/main-14-oz.jpg"
+      },
+      {
+        "color": null,
+        "size": "38-oz",
+        "pack": null,
+        "image": "images/spotsticker/dropshot-cylinder/main-38-oz.jpg"
+      }
+    ],
+    "_main": "images/spotsticker/dropshot-cylinder/_main.jpg"
+  },
+  "dropshot_teardrop": {
+    "_slugs": [
+      "finesse-dropshot-weights-teardrop"
+    ],
+    "variants": [
+      {
+        "color": null,
+        "size": "12-oz",
+        "pack": null,
+        "image": "images/spotsticker/dropshot-teardrop/main-12-oz.jpg"
+      },
+      {
+        "color": null,
+        "size": "18-oz",
+        "pack": null,
+        "image": "images/spotsticker/dropshot-teardrop/main-18-oz.jpg"
+      },
+      {
+        "color": null,
+        "size": "316-oz",
+        "pack": null,
+        "image": "images/spotsticker/dropshot-teardrop/main-316-oz.jpg"
+      },
+      {
+        "color": null,
+        "size": "14-oz",
+        "pack": null,
+        "image": "images/spotsticker/dropshot-teardrop/main-14-oz.jpg"
+      },
+      {
+        "color": null,
+        "size": "38-oz",
+        "pack": null,
+        "image": "images/spotsticker/dropshot-teardrop/main-38-oz.jpg"
+      }
+    ],
+    "_main": "images/spotsticker/dropshot-teardrop/_main.jpg"
+  },
+  "underspins": {
+    "_slugs": [
+      "albino-underspins",
+      "ark-shiner-underspins",
+      "white-underspins",
+      "pearl-white-pearl-underspin"
+    ],
+    "variants": [
+      {
+        "color": "Albino",
+        "size": null,
+        "pack": null,
+        "image": "images/spotsticker/underspins/albino.jpg"
+      },
+      {
+        "color": "Ark Shiner",
+        "size": null,
+        "pack": null,
+        "image": "images/spotsticker/underspins/ark-shiner.jpg"
+      },
+      {
+        "color": "White",
+        "size": null,
+        "pack": null,
+        "image": "images/spotsticker/underspins/white.jpg"
+      },
+      {
+        "color": "White (Painted)",
+        "size": null,
+        "pack": null,
+        "image": "images/spotsticker/underspins/white-painted.jpg"
+      }
+    ],
+    "_main": "images/spotsticker/underspins/_main.jpg"
+  },
+  "football_swimbait": {
+    "_slugs": [
+      "football-swimbait-head"
+    ],
+    "variants": [
+      {
+        "color": null,
+        "size": "38-oz",
+        "pack": null,
+        "image": "images/spotsticker/football-swimbait/main-38-oz.jpg"
+      },
+      {
+        "color": null,
+        "size": "12-oz",
+        "pack": null,
+        "image": "images/spotsticker/football-swimbait/main-12-oz.jpg"
+      },
+      {
+        "color": null,
+        "size": "34-oz",
+        "pack": null,
+        "image": "images/spotsticker/football-swimbait/main-34-oz.jpg"
+      }
+    ],
+    "_main": "images/spotsticker/football-swimbait/_main.jpg"
+  },
+  "screwlock_swimbait": {
+    "_slugs": [
+      "screwlock-swimbait-heads"
+    ],
+    "variants": [
+      {
+        "color": null,
+        "size": "18-oz",
+        "pack": "4",
+        "image": "images/spotsticker/screwlock-swimbait/main-18-oz.jpg"
+      },
+      {
+        "color": null,
+        "size": "14-oz",
+        "pack": "4",
+        "image": "images/spotsticker/screwlock-swimbait/main-14-oz.jpg"
+      },
+      {
+        "color": null,
+        "size": "38-oz",
+        "pack": "4",
+        "image": "images/spotsticker/screwlock-swimbait/main-38-oz.jpg"
+      },
+      {
+        "color": null,
+        "size": "38-oz",
+        "pack": "10",
+        "image": "images/spotsticker/screwlock-swimbait/main-38-oz.jpg"
+      },
+      {
+        "color": null,
+        "size": "14-oz",
+        "pack": "10",
+        "image": "images/spotsticker/screwlock-swimbait/main-14-oz.jpg"
+      },
+      {
+        "color": null,
+        "size": "18-oz",
+        "pack": "10",
+        "image": "images/spotsticker/screwlock-swimbait/main-18-oz.jpg"
+      }
+    ],
+    "_main": "images/spotsticker/screwlock-swimbait/_main.jpg"
+  },
+  "twin_tail_grub": {
+    "_slugs": [
+      "5-twin-tail-grub"
+    ],
+    "variants": [
+      {
+        "color": "watermelon-seed",
+        "size": "",
+        "pack": null,
+        "image": "images/spotsticker/twin-tail-grub/watermelon-seed.jpg"
+      },
+      {
+        "color": "green-pumpkin",
+        "size": "",
+        "pack": null,
+        "image": "images/spotsticker/twin-tail-grub/green-pumpkin.jpg"
+      },
+      {
+        "color": "cinnamon-black-flake",
+        "size": "",
+        "pack": null,
+        "image": "images/spotsticker/twin-tail-grub/cinnamon-black-flake.jpg"
+      },
+      {
+        "color": "brown-black-flake",
+        "size": "",
+        "pack": null,
+        "image": "images/spotsticker/twin-tail-grub/brown-black-flake.jpg"
+      },
+      {
+        "color": "black-blue-swirl",
+        "size": "",
+        "pack": null,
+        "image": "images/spotsticker/twin-tail-grub/black-blue-swirl.jpg"
+      }
+    ],
+    "_main": "images/spotsticker/twin-tail-grub/_main.jpg"
+  },
+  "finesse_stick": {
+    "_slugs": [
+      "6-finesse-stick"
+    ],
+    "variants": [
+      {
+        "color": "sand",
+        "size": "",
+        "pack": null,
+        "image": "images/spotsticker/finesse-stick/sand.jpg"
+      },
+      {
+        "color": "watermelon-red",
+        "size": "",
+        "pack": null,
+        "image": "images/spotsticker/finesse-stick/watermelon-red.jpg"
+      },
+      {
+        "color": "tilapia",
+        "size": "",
+        "pack": null,
+        "image": "images/spotsticker/finesse-stick/tilapia.jpg"
+      },
+      {
+        "color": "pearl-shad",
+        "size": "",
+        "pack": null,
+        "image": "images/spotsticker/finesse-stick/pearl-shad.jpg"
+      },
+      {
+        "color": "green-pumpkin-purple",
+        "size": "",
+        "pack": null,
+        "image": "images/spotsticker/finesse-stick/green-pumpkin-purple.jpg"
+      },
+      {
+        "color": "green-pumpkin-green",
+        "size": "",
+        "pack": null,
+        "image": "images/spotsticker/finesse-stick/green-pumpkin-green.jpg"
+      },
+      {
+        "color": "green-pumpkin",
+        "size": "",
+        "pack": null,
+        "image": "images/spotsticker/finesse-stick/green-pumpkin.jpg"
+      },
+      {
+        "color": "electric-shad",
+        "size": "",
+        "pack": null,
+        "image": "images/spotsticker/finesse-stick/electric-shad.jpg"
+      },
+      {
+        "color": "cinnamon-purple",
+        "size": "",
+        "pack": null,
+        "image": "images/spotsticker/finesse-stick/cinnamon-purple.jpg"
+      },
+      {
+        "color": "blueback-herring",
+        "size": "",
+        "pack": null,
+        "image": "images/spotsticker/finesse-stick/blueback-herring.jpg"
+      }
+    ],
+    "_main": "images/spotsticker/finesse-stick/_main.jpg"
+  },
+  "dropshot_worm_6": {
+    "_slugs": [
+      "drop-shot-worms"
+    ],
+    "variants": [
+      {
+        "color": "ss-sunrise",
+        "size": "6-inch",
+        "pack": null,
+        "image": "images/spotsticker/dropshot-worm-6/ss-sunrise-6-inch.jpg"
+      },
+      {
+        "color": "sand",
+        "size": "6-inch",
+        "pack": null,
+        "image": "images/spotsticker/dropshot-worm-6/sand-6-inch.jpg"
+      },
+      {
+        "color": "morning-dawn",
+        "size": "6-inch",
+        "pack": null,
+        "image": "images/spotsticker/dropshot-worm-6/morning-dawn-6-inch.jpg"
+      },
+      {
+        "color": "lavender-shad",
+        "size": "6-inch",
+        "pack": null,
+        "image": "images/spotsticker/dropshot-worm-6/lavender-shad-6-inch.jpg"
+      },
+      {
+        "color": "hot-tomato",
+        "size": "6-inch",
+        "pack": null,
+        "image": "images/spotsticker/dropshot-worm-6/hot-tomato-6-inch.jpg"
+      },
+      {
+        "color": "green-pumpkin-green",
+        "size": "6-inch",
+        "pack": null,
+        "image": "images/spotsticker/dropshot-worm-6/green-pumpkin-green-6-inch.jpg"
+      },
+      {
+        "color": "electric-shad",
+        "size": "6-inch",
+        "pack": null,
+        "image": "images/spotsticker/dropshot-worm-6/electric-shad-6-inch.jpg"
+      },
+      {
+        "color": "crushed-herring",
+        "size": "6-inch",
+        "pack": null,
+        "image": "images/spotsticker/dropshot-worm-6/crushed-herring-6-inch.jpg"
+      },
+      {
+        "color": "cinnamon-purple",
+        "size": "6-inch",
+        "pack": null,
+        "image": "images/spotsticker/dropshot-worm-6/cinnamon-purple-6-inch.jpg"
+      },
+      {
+        "color": "blue-shad",
+        "size": "6-inch",
+        "pack": null,
+        "image": "images/spotsticker/dropshot-worm-6/blue-shad-6-inch.jpg"
+      },
+      {
+        "color": "ss-sunrise",
+        "size": "4-5-inch",
+        "pack": null,
+        "image": "images/spotsticker/dropshot-worm-6/ss-sunrise-4-5-inch.jpg"
+      },
+      {
+        "color": "sand",
+        "size": "4-5-inch",
+        "pack": null,
+        "image": "images/spotsticker/dropshot-worm-6/sand-4-5-inch.jpg"
+      },
+      {
+        "color": "morning-dawn",
+        "size": "4-5-inch",
+        "pack": null,
+        "image": "images/spotsticker/dropshot-worm-6/morning-dawn-4-5-inch.jpg"
+      },
+      {
+        "color": "lavender-shad",
+        "size": "4-5-inch",
+        "pack": null,
+        "image": "images/spotsticker/dropshot-worm-6/lavender-shad-4-5-inch.jpg"
+      },
+      {
+        "color": "hot-tomato",
+        "size": "4-5-inch",
+        "pack": null,
+        "image": "images/spotsticker/dropshot-worm-6/hot-tomato-4-5-inch.jpg"
+      },
+      {
+        "color": "green-pumpkin-green",
+        "size": "4-5-inch",
+        "pack": null,
+        "image": "images/spotsticker/dropshot-worm-6/green-pumpkin-green-4-5-inch.jpg"
+      },
+      {
+        "color": "electric-shad",
+        "size": "4-5-inch",
+        "pack": null,
+        "image": "images/spotsticker/dropshot-worm-6/electric-shad-4-5-inch.jpg"
+      },
+      {
+        "color": "crushed-herring",
+        "size": "4-5-inch",
+        "pack": null,
+        "image": "images/spotsticker/dropshot-worm-6/crushed-herring-4-5-inch.jpg"
+      },
+      {
+        "color": "cinnamon-purple",
+        "size": "4-5-inch",
+        "pack": null,
+        "image": "images/spotsticker/dropshot-worm-6/cinnamon-purple-4-5-inch.jpg"
+      },
+      {
+        "color": "blue-shad",
+        "size": "4-5-inch",
+        "pack": null,
+        "image": "images/spotsticker/dropshot-worm-6/blue-shad-4-5-inch.jpg"
+      }
+    ],
+    "_main": "images/spotsticker/dropshot-worm-6/_main.jpg"
+  },
+  "dropshot_worm_45": {
+    "_slugs": [
+      "drop-shot-worms"
+    ],
+    "variants": [
+      {
+        "color": "ss-sunrise",
+        "size": "6-inch",
+        "pack": null,
+        "image": "images/spotsticker/dropshot-worm-45/ss-sunrise-6-inch.jpg"
+      },
+      {
+        "color": "sand",
+        "size": "6-inch",
+        "pack": null,
+        "image": "images/spotsticker/dropshot-worm-45/sand-6-inch.jpg"
+      },
+      {
+        "color": "morning-dawn",
+        "size": "6-inch",
+        "pack": null,
+        "image": "images/spotsticker/dropshot-worm-45/morning-dawn-6-inch.jpg"
+      },
+      {
+        "color": "lavender-shad",
+        "size": "6-inch",
+        "pack": null,
+        "image": "images/spotsticker/dropshot-worm-45/lavender-shad-6-inch.jpg"
+      },
+      {
+        "color": "hot-tomato",
+        "size": "6-inch",
+        "pack": null,
+        "image": "images/spotsticker/dropshot-worm-45/hot-tomato-6-inch.jpg"
+      },
+      {
+        "color": "green-pumpkin-green",
+        "size": "6-inch",
+        "pack": null,
+        "image": "images/spotsticker/dropshot-worm-45/green-pumpkin-green-6-inch.jpg"
+      },
+      {
+        "color": "electric-shad",
+        "size": "6-inch",
+        "pack": null,
+        "image": "images/spotsticker/dropshot-worm-45/electric-shad-6-inch.jpg"
+      },
+      {
+        "color": "crushed-herring",
+        "size": "6-inch",
+        "pack": null,
+        "image": "images/spotsticker/dropshot-worm-45/crushed-herring-6-inch.jpg"
+      },
+      {
+        "color": "cinnamon-purple",
+        "size": "6-inch",
+        "pack": null,
+        "image": "images/spotsticker/dropshot-worm-45/cinnamon-purple-6-inch.jpg"
+      },
+      {
+        "color": "blue-shad",
+        "size": "6-inch",
+        "pack": null,
+        "image": "images/spotsticker/dropshot-worm-45/blue-shad-6-inch.jpg"
+      },
+      {
+        "color": "ss-sunrise",
+        "size": "4-5-inch",
+        "pack": null,
+        "image": "images/spotsticker/dropshot-worm-45/ss-sunrise-4-5-inch.jpg"
+      },
+      {
+        "color": "sand",
+        "size": "4-5-inch",
+        "pack": null,
+        "image": "images/spotsticker/dropshot-worm-45/sand-4-5-inch.jpg"
+      },
+      {
+        "color": "morning-dawn",
+        "size": "4-5-inch",
+        "pack": null,
+        "image": "images/spotsticker/dropshot-worm-45/morning-dawn-4-5-inch.jpg"
+      },
+      {
+        "color": "lavender-shad",
+        "size": "4-5-inch",
+        "pack": null,
+        "image": "images/spotsticker/dropshot-worm-45/lavender-shad-4-5-inch.jpg"
+      },
+      {
+        "color": "hot-tomato",
+        "size": "4-5-inch",
+        "pack": null,
+        "image": "images/spotsticker/dropshot-worm-45/hot-tomato-4-5-inch.jpg"
+      },
+      {
+        "color": "green-pumpkin-green",
+        "size": "4-5-inch",
+        "pack": null,
+        "image": "images/spotsticker/dropshot-worm-45/green-pumpkin-green-4-5-inch.jpg"
+      },
+      {
+        "color": "electric-shad",
+        "size": "4-5-inch",
+        "pack": null,
+        "image": "images/spotsticker/dropshot-worm-45/electric-shad-4-5-inch.jpg"
+      },
+      {
+        "color": "crushed-herring",
+        "size": "4-5-inch",
+        "pack": null,
+        "image": "images/spotsticker/dropshot-worm-45/crushed-herring-4-5-inch.jpg"
+      },
+      {
+        "color": "cinnamon-purple",
+        "size": "4-5-inch",
+        "pack": null,
+        "image": "images/spotsticker/dropshot-worm-45/cinnamon-purple-4-5-inch.jpg"
+      },
+      {
+        "color": "blue-shad",
+        "size": "4-5-inch",
+        "pack": null,
+        "image": "images/spotsticker/dropshot-worm-45/blue-shad-4-5-inch.jpg"
+      }
+    ],
+    "_main": "images/spotsticker/dropshot-worm-45/_main.jpg"
+  },
+  "swimbait_38": {
+    "_slugs": [
+      "3-8-soft-swimbait"
+    ],
+    "variants": [
+      {
+        "color": "white-ice",
+        "size": "3-3",
+        "pack": null,
+        "image": "images/spotsticker/swimbait-38/white-ice-3-3.jpg"
+      },
+      {
+        "color": "white-ice",
+        "size": "3-8",
+        "pack": null,
+        "image": "images/spotsticker/swimbait-38/white-ice-3-8.jpg"
+      },
+      {
+        "color": "pearl",
+        "size": "3-8",
+        "pack": null,
+        "image": "images/spotsticker/swimbait-38/pearl-3-8.jpg"
+      },
+      {
+        "color": "watermelon-pearl",
+        "size": "3-3",
+        "pack": null,
+        "image": "images/spotsticker/swimbait-38/watermelon-pearl-3-3.jpg"
+      },
+      {
+        "color": "cripple-shad",
+        "size": "3-3",
+        "pack": null,
+        "image": "images/spotsticker/swimbait-38/cripple-shad-3-3.jpg"
+      },
+      {
+        "color": "albino",
+        "size": "3-3",
+        "pack": null,
+        "image": "images/spotsticker/swimbait-38/albino-3-3.jpg"
+      },
+      {
+        "color": "blueback-herring",
+        "size": "3-3",
+        "pack": null,
+        "image": "images/spotsticker/swimbait-38/blueback-herring-3-3.jpg"
+      },
+      {
+        "color": "pearl",
+        "size": "3-3",
+        "pack": null,
+        "image": "images/spotsticker/swimbait-38/pearl-3-3.jpg"
+      },
+      {
+        "color": "watermelon-pearl",
+        "size": "3-8",
+        "pack": null,
+        "image": "images/spotsticker/swimbait-38/watermelon-pearl-3-8.jpg"
+      },
+      {
+        "color": "cripple-shad",
+        "size": "3-8",
+        "pack": null,
+        "image": "images/spotsticker/swimbait-38/cripple-shad-3-8.jpg"
+      },
+      {
+        "color": "blueback-herring",
+        "size": "3-8",
+        "pack": null,
+        "image": "images/spotsticker/swimbait-38/blueback-herring-3-8.jpg"
+      },
+      {
+        "color": "albino",
+        "size": "3-8",
+        "pack": null,
+        "image": "images/spotsticker/swimbait-38/albino-3-8.jpg"
+      }
+    ],
+    "_main": "images/spotsticker/swimbait-38/_main.jpg"
+  },
+  "swimbait_33": {
+    "_slugs": [
+      "3-swimbait"
+    ],
+    "variants": [
+      {
+        "size": null,
+        "pack": null,
+        "image": "images/spotsticker/swimbait-33/main.jpg"
+      }
+    ],
+    "_main": "images/spotsticker/swimbait-33/_main.jpg"
+  },
+  "casting_jigs": {
+    "_slugs": [
+      "black-hand-tied-casting-jigs",
+      "brown-hand-tied-casting-jigs",
+      "brownolive-hand-tied-casting-jigs",
+      "brownmelon-hand-tied-casting-jigs",
+      "brownorange-hand-tied-casting-jigs",
+      "brownpurple-casting-jig",
+      "green-craw-hand-tied-casting-jigs",
+      "georgia-craw-hand-tied-casting-jigs",
+      "chartreuse-craw-hand-tied-casting-jigs",
+      "green-pumpkin-craw",
+      "rootbeer-hand-tied-casting-jigs",
+      "cinnamon-pepper-hand-tied-casting-jigs",
+      "dark-smoke-hand-tied-casting-jigs",
+      "pbj-hand-tied-casting-jigs",
+      "black-pumpkin-hand-tied-casting-jig",
+      "spot-c-ducer-hand-tied-casting-jig",
+      "black-blue-reptile-hand-tied-casting-jig",
+      "brown-orange-reptile-hand-tied-casting-jig",
+      "brown-black-reptile-hand-tied-casting-jig",
+      "green-pearl-casting-jig-swim-jig"
+    ],
+    "variants": [
+      {
+        "color": "Black",
+        "size": "14-oz",
+        "pack": null,
+        "image": "images/spotsticker/casting-jigs/black-14-oz.jpg"
+      },
+      {
+        "color": "Black",
+        "size": "38-oz",
+        "pack": null,
+        "image": "images/spotsticker/casting-jigs/black-38-oz.jpg"
+      },
+      {
+        "color": "Black",
+        "size": "12-oz",
+        "pack": null,
+        "image": "images/spotsticker/casting-jigs/black-12-oz.jpg"
+      },
+      {
+        "color": "Brown",
+        "size": "14-oz",
+        "pack": null,
+        "image": "images/spotsticker/casting-jigs/brown-14-oz.jpg"
+      },
+      {
+        "color": "Brown",
+        "size": "38-oz",
+        "pack": null,
+        "image": "images/spotsticker/casting-jigs/brown-38-oz.jpg"
+      },
+      {
+        "color": "Brown",
+        "size": "12-oz",
+        "pack": null,
+        "image": "images/spotsticker/casting-jigs/brown-12-oz.jpg"
+      },
+      {
+        "color": "Brown/Olive",
+        "size": "14-oz",
+        "pack": null,
+        "image": "images/spotsticker/casting-jigs/brownolive-14-oz.jpg"
+      },
+      {
+        "color": "Brown/Olive",
+        "size": "38-oz",
+        "pack": null,
+        "image": "images/spotsticker/casting-jigs/brownolive-38-oz.jpg"
+      },
+      {
+        "color": "Brown/Olive",
+        "size": "12-oz",
+        "pack": null,
+        "image": "images/spotsticker/casting-jigs/brownolive-12-oz.jpg"
+      },
+      {
+        "color": "Brown/Melon",
+        "size": "14-oz",
+        "pack": null,
+        "image": "images/spotsticker/casting-jigs/brownmelon-14-oz.jpg"
+      },
+      {
+        "color": "Brown/Melon",
+        "size": "38-oz",
+        "pack": null,
+        "image": "images/spotsticker/casting-jigs/brownmelon-38-oz.jpg"
+      },
+      {
+        "color": "Brown/Melon",
+        "size": "12-oz",
+        "pack": null,
+        "image": "images/spotsticker/casting-jigs/brownmelon-12-oz.jpg"
+      },
+      {
+        "color": "Brown/Orange",
+        "size": "14-oz",
+        "pack": null,
+        "image": "images/spotsticker/casting-jigs/brownorange-14-oz.jpg"
+      },
+      {
+        "color": "Brown/Orange",
+        "size": "38-oz",
+        "pack": null,
+        "image": "images/spotsticker/casting-jigs/brownorange-38-oz.jpg"
+      },
+      {
+        "color": "Brown/Orange",
+        "size": "12-oz",
+        "pack": null,
+        "image": "images/spotsticker/casting-jigs/brownorange-12-oz.jpg"
+      },
+      {
+        "color": "Brown/Purple",
+        "size": "14-oz",
+        "pack": null,
+        "image": "images/spotsticker/casting-jigs/brownpurple-14-oz.jpg"
+      },
+      {
+        "color": "Brown/Purple",
+        "size": "38-oz",
+        "pack": null,
+        "image": "images/spotsticker/casting-jigs/brownpurple-38-oz.jpg"
+      },
+      {
+        "color": "Brown/Purple",
+        "size": "12-oz",
+        "pack": null,
+        "image": "images/spotsticker/casting-jigs/brownpurple-12-oz.jpg"
+      },
+      {
+        "color": "Green Craw",
+        "size": "14-oz",
+        "pack": null,
+        "image": "images/spotsticker/casting-jigs/green-craw-14-oz.jpg"
+      },
+      {
+        "color": "Green Craw",
+        "size": "38-oz",
+        "pack": null,
+        "image": "images/spotsticker/casting-jigs/green-craw-38-oz.jpg"
+      },
+      {
+        "color": "Green Craw",
+        "size": "12-oz",
+        "pack": null,
+        "image": "images/spotsticker/casting-jigs/green-craw-12-oz.jpg"
+      },
+      {
+        "color": "Georgia Craw",
+        "size": "38-oz",
+        "pack": null,
+        "image": "images/spotsticker/casting-jigs/georgia-craw-38-oz.jpg"
+      },
+      {
+        "color": "Georgia Craw",
+        "size": "12-oz",
+        "pack": null,
+        "image": "images/spotsticker/casting-jigs/georgia-craw-12-oz.jpg"
+      },
+      {
+        "color": "Georgia Craw",
+        "size": "14-oz",
+        "pack": null,
+        "image": "images/spotsticker/casting-jigs/georgia-craw-14-oz.jpg"
+      },
+      {
+        "color": "Chartreuse Craw",
+        "size": "14-oz",
+        "pack": null,
+        "image": "images/spotsticker/casting-jigs/chartreuse-craw-14-oz.jpg"
+      },
+      {
+        "color": "Chartreuse Craw",
+        "size": "38-oz",
+        "pack": null,
+        "image": "images/spotsticker/casting-jigs/chartreuse-craw-38-oz.jpg"
+      },
+      {
+        "color": "Chartreuse Craw",
+        "size": "12-oz",
+        "pack": null,
+        "image": "images/spotsticker/casting-jigs/chartreuse-craw-12-oz.jpg"
+      },
+      {
+        "color": "Green Pumpkin Craw",
+        "size": "14-oz",
+        "pack": null,
+        "image": "images/spotsticker/casting-jigs/green-pumpkin-craw-14-oz.jpg"
+      },
+      {
+        "color": "Green Pumpkin Craw",
+        "size": "38-oz",
+        "pack": null,
+        "image": "images/spotsticker/casting-jigs/green-pumpkin-craw-38-oz.jpg"
+      },
+      {
+        "color": "Green Pumpkin Craw",
+        "size": "12-oz",
+        "pack": null,
+        "image": "images/spotsticker/casting-jigs/green-pumpkin-craw-12-oz.jpg"
+      },
+      {
+        "color": "Rootbeer",
+        "size": "14-oz",
+        "pack": null,
+        "image": "images/spotsticker/casting-jigs/rootbeer-14-oz.jpg"
+      },
+      {
+        "color": "Rootbeer",
+        "size": "38-oz",
+        "pack": null,
+        "image": "images/spotsticker/casting-jigs/rootbeer-38-oz.jpg"
+      },
+      {
+        "color": "Rootbeer",
+        "size": "12-oz",
+        "pack": null,
+        "image": "images/spotsticker/casting-jigs/rootbeer-12-oz.jpg"
+      },
+      {
+        "color": "Cinnamon Pepper",
+        "size": "14-oz",
+        "pack": null,
+        "image": "images/spotsticker/casting-jigs/cinnamon-pepper-14-oz.jpg"
+      },
+      {
+        "color": "Cinnamon Pepper",
+        "size": "38-oz",
+        "pack": null,
+        "image": "images/spotsticker/casting-jigs/cinnamon-pepper-38-oz.jpg"
+      },
+      {
+        "color": "Cinnamon Pepper",
+        "size": "12-oz",
+        "pack": null,
+        "image": "images/spotsticker/casting-jigs/cinnamon-pepper-12-oz.jpg"
+      },
+      {
+        "color": "Dark Smoke",
+        "size": "14-oz",
+        "pack": null,
+        "image": "images/spotsticker/casting-jigs/dark-smoke-14-oz.jpg"
+      },
+      {
+        "color": "Dark Smoke",
+        "size": "38-oz",
+        "pack": null,
+        "image": "images/spotsticker/casting-jigs/dark-smoke-38-oz.jpg"
+      },
+      {
+        "color": "Dark Smoke",
+        "size": "12-oz",
+        "pack": null,
+        "image": "images/spotsticker/casting-jigs/dark-smoke-12-oz.jpg"
+      },
+      {
+        "color": "PB&J",
+        "size": "14-oz",
+        "pack": null,
+        "image": "images/spotsticker/casting-jigs/pbj-14-oz.jpg"
+      },
+      {
+        "color": "PB&J",
+        "size": "38-oz",
+        "pack": null,
+        "image": "images/spotsticker/casting-jigs/pbj-38-oz.jpg"
+      },
+      {
+        "color": "PB&J",
+        "size": "12-oz",
+        "pack": null,
+        "image": "images/spotsticker/casting-jigs/pbj-12-oz.jpg"
+      },
+      {
+        "color": "Black Pumpkin",
+        "size": "14-oz",
+        "pack": null,
+        "image": "images/spotsticker/casting-jigs/black-pumpkin-14-oz.jpg"
+      },
+      {
+        "color": "Black Pumpkin",
+        "size": "38-oz",
+        "pack": null,
+        "image": "images/spotsticker/casting-jigs/black-pumpkin-38-oz.jpg"
+      },
+      {
+        "color": "Black Pumpkin",
+        "size": "12-oz",
+        "pack": null,
+        "image": "images/spotsticker/casting-jigs/black-pumpkin-12-oz.jpg"
+      },
+      {
+        "color": "Spot C Ducer",
+        "size": "14-oz",
+        "pack": null,
+        "image": "images/spotsticker/casting-jigs/spot-c-ducer-14-oz.jpg"
+      },
+      {
+        "color": "Spot C Ducer",
+        "size": "38-oz",
+        "pack": null,
+        "image": "images/spotsticker/casting-jigs/spot-c-ducer-38-oz.jpg"
+      },
+      {
+        "color": "Spot C Ducer",
+        "size": "12-oz",
+        "pack": null,
+        "image": "images/spotsticker/casting-jigs/spot-c-ducer-12-oz.jpg"
+      },
+      {
+        "color": "Reptile - Black/Blue",
+        "size": "14-oz",
+        "pack": null,
+        "image": "images/spotsticker/casting-jigs/reptile-blackblue-14-oz.jpg"
+      },
+      {
+        "color": "Reptile - Black/Blue",
+        "size": "38-oz",
+        "pack": null,
+        "image": "images/spotsticker/casting-jigs/reptile-blackblue-38-oz.jpg"
+      },
+      {
+        "color": "Reptile - Black/Blue",
+        "size": "12-oz",
+        "pack": null,
+        "image": "images/spotsticker/casting-jigs/reptile-blackblue-12-oz.jpg"
+      },
+      {
+        "color": "Reptile - Brown/Orange",
+        "size": "14-oz",
+        "pack": null,
+        "image": "images/spotsticker/casting-jigs/reptile-brownorange-14-oz.jpg"
+      },
+      {
+        "color": "Reptile - Brown/Orange",
+        "size": "38-oz",
+        "pack": null,
+        "image": "images/spotsticker/casting-jigs/reptile-brownorange-38-oz.jpg"
+      },
+      {
+        "color": "Reptile - Brown/Orange",
+        "size": "12-oz",
+        "pack": null,
+        "image": "images/spotsticker/casting-jigs/reptile-brownorange-12-oz.jpg"
+      },
+      {
+        "color": "Reptile - Brown/Black",
+        "size": "14-oz",
+        "pack": null,
+        "image": "images/spotsticker/casting-jigs/reptile-brownblack-14-oz.jpg"
+      },
+      {
+        "color": "Reptile - Brown/Black",
+        "size": "38-oz",
+        "pack": null,
+        "image": "images/spotsticker/casting-jigs/reptile-brownblack-38-oz.jpg"
+      },
+      {
+        "color": "Reptile - Brown/Black",
+        "size": "12-oz",
+        "pack": null,
+        "image": "images/spotsticker/casting-jigs/reptile-brownblack-12-oz.jpg"
+      },
+      {
+        "color": "Green Pearl",
+        "size": "14-oz",
+        "pack": null,
+        "image": "images/spotsticker/casting-jigs/green-pearl-14-oz.jpg"
+      },
+      {
+        "color": "Green Pearl",
+        "size": "38-oz",
+        "pack": null,
+        "image": "images/spotsticker/casting-jigs/green-pearl-38-oz.jpg"
+      },
+      {
+        "color": "Green Pearl",
+        "size": "12-oz",
+        "pack": null,
+        "image": "images/spotsticker/casting-jigs/green-pearl-12-oz.jpg"
+      }
+    ],
+    "_main": "images/spotsticker/casting-jigs/_main.jpg"
+  },
+  "football_jigs": {
+    "_slugs": [
+      "green-craw-blue-hand-tied-football-jig",
+      "georgia-craw-hand-tied-football-jig",
+      "green-pumpkin-craw-hand-tied-football-jig",
+      "pbj-hand-tied-football-jig",
+      "black-pumpkin-hand-tied-football-jig",
+      "black-blue-reptile-hand-tied-football-jig",
+      "brown-orange-reptile-hand-tied-football-jig"
+    ],
+    "variants": [
+      {
+        "color": "Green Craw",
+        "size": "38-oz",
+        "pack": null,
+        "image": "images/spotsticker/football-jigs/green-craw-38-oz.jpg"
+      },
+      {
+        "color": "Green Craw",
+        "size": "12-oz",
+        "pack": null,
+        "image": "images/spotsticker/football-jigs/green-craw-12-oz.jpg"
+      },
+      {
+        "color": "Green Craw",
+        "size": "34-oz",
+        "pack": null,
+        "image": "images/spotsticker/football-jigs/green-craw-34-oz.jpg"
+      },
+      {
+        "color": "Georgia Craw",
+        "size": "38-oz",
+        "pack": null,
+        "image": "images/spotsticker/football-jigs/georgia-craw-38-oz.jpg"
+      },
+      {
+        "color": "Georgia Craw",
+        "size": "12-oz",
+        "pack": null,
+        "image": "images/spotsticker/football-jigs/georgia-craw-12-oz.jpg"
+      },
+      {
+        "color": "Georgia Craw",
+        "size": "34-oz",
+        "pack": null,
+        "image": "images/spotsticker/football-jigs/georgia-craw-34-oz.jpg"
+      },
+      {
+        "color": "Green Pumpkin Craw",
+        "size": "38-oz",
+        "pack": null,
+        "image": "images/spotsticker/football-jigs/green-pumpkin-craw-38-oz.jpg"
+      },
+      {
+        "color": "Green Pumpkin Craw",
+        "size": "12-oz",
+        "pack": null,
+        "image": "images/spotsticker/football-jigs/green-pumpkin-craw-12-oz.jpg"
+      },
+      {
+        "color": "Green Pumpkin Craw",
+        "size": "34-oz",
+        "pack": null,
+        "image": "images/spotsticker/football-jigs/green-pumpkin-craw-34-oz.jpg"
+      },
+      {
+        "color": "PB&J",
+        "size": "38-oz",
+        "pack": null,
+        "image": "images/spotsticker/football-jigs/pbj-38-oz.jpg"
+      },
+      {
+        "color": "PB&J",
+        "size": "12-oz",
+        "pack": null,
+        "image": "images/spotsticker/football-jigs/pbj-12-oz.jpg"
+      },
+      {
+        "color": "PB&J",
+        "size": "34-oz",
+        "pack": null,
+        "image": "images/spotsticker/football-jigs/pbj-34-oz.jpg"
+      },
+      {
+        "color": "Black Pumpkin",
+        "size": "38-oz",
+        "pack": null,
+        "image": "images/spotsticker/football-jigs/black-pumpkin-38-oz.jpg"
+      },
+      {
+        "color": "Black Pumpkin",
+        "size": "12-oz",
+        "pack": null,
+        "image": "images/spotsticker/football-jigs/black-pumpkin-12-oz.jpg"
+      },
+      {
+        "color": "Black Pumpkin",
+        "size": "34-oz",
+        "pack": null,
+        "image": "images/spotsticker/football-jigs/black-pumpkin-34-oz.jpg"
+      },
+      {
+        "color": "Reptile - Black/Blue",
+        "size": "38-oz",
+        "pack": null,
+        "image": "images/spotsticker/football-jigs/reptile-blackblue-38-oz.jpg"
+      },
+      {
+        "color": "Reptile - Black/Blue",
+        "size": "12-oz",
+        "pack": null,
+        "image": "images/spotsticker/football-jigs/reptile-blackblue-12-oz.jpg"
+      },
+      {
+        "color": "Reptile - Black/Blue",
+        "size": "34-oz",
+        "pack": null,
+        "image": "images/spotsticker/football-jigs/reptile-blackblue-34-oz.jpg"
+      },
+      {
+        "color": "Reptile - Brown/Orange",
+        "size": "38-oz",
+        "pack": null,
+        "image": "images/spotsticker/football-jigs/reptile-brownorange-38-oz.jpg"
+      },
+      {
+        "color": "Reptile - Brown/Orange",
+        "size": "12-oz",
+        "pack": null,
+        "image": "images/spotsticker/football-jigs/reptile-brownorange-12-oz.jpg"
+      },
+      {
+        "color": "Reptile - Brown/Orange",
+        "size": "34-oz",
+        "pack": null,
+        "image": "images/spotsticker/football-jigs/reptile-brownorange-34-oz.jpg"
+      }
+    ],
+    "_main": "images/spotsticker/football-jigs/_main.jpg"
+  }
+}

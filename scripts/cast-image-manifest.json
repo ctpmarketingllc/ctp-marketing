@@ -1,0 +1,108 @@
+{
+  "prodigy": {
+    "byColorBySize": {
+      "3": {
+        "_main": "images/cast/prodigy/prodigy-3-main.jpg",
+        "prodigy3carbon": "images/cast/prodigy/prodigy-3-prodigy3carbon.jpg",
+        "prodigy3ozark": "images/cast/prodigy/prodigy-3-prodigy3ozark.jpg",
+        "prodigy3amethyst": "images/cast/prodigy/prodigy-3-prodigy3amethyst.jpg",
+        "prodigy3ether": "images/cast/prodigy/prodigy-3-prodigy3ether.jpg",
+        "prodigy3bluebackherring": "images/cast/prodigy/prodigy-3-prodigy3bluebackherring.jpg",
+        "prodigy3lanier72f5d2c85678485ea7f461367769579f": "images/cast/prodigy/prodigy-3-prodigy3lanier72f5d2c85678485ea7f461367769579f.jpg",
+        "big": "images/cast/prodigy/prodigy-3-big.jpg"
+      },
+      "41": {
+        "_main": "images/cast/prodigy/prodigy-41-main.jpg",
+        "prodigy41bluebackherring": "images/cast/prodigy/prodigy-41-prodigy41bluebackherring.jpg",
+        "prodigy41amethyst": "images/cast/prodigy/prodigy-41-prodigy41amethyst.jpg",
+        "prodigy41ozark": "images/cast/prodigy/prodigy-41-prodigy41ozark.jpg",
+        "prodigy41carbon": "images/cast/prodigy/prodigy-41-prodigy41carbon.jpg",
+        "prodigy41titan": "images/cast/prodigy/prodigy-41-prodigy41titan.jpg",
+        "prodigy41ether": "images/cast/prodigy/prodigy-41-prodigy41ether.jpg",
+        "prodigy41lanier": "images/cast/prodigy/prodigy-41-prodigy41lanier.jpg",
+        "big4": "images/cast/prodigy/prodigy-41-big4.jpg"
+      }
+    }
+  },
+  "echo": {
+    "byColorBySize": {
+      "35": {
+        "_main": "images/cast/echo/echo-35-main.jpg",
+        "echo35titan": "images/cast/echo/echo-35-echo35titan.jpg",
+        "echo35carbon": "images/cast/echo/echo-35-echo35carbon.jpg",
+        "echoozark35": "images/cast/echo/echo-35-echoozark35.jpg",
+        "echo35ether": "images/cast/echo/echo-35-echo35ether.jpg",
+        "echo35amethyst": "images/cast/echo/echo-35-echo35amethyst.jpg",
+        "echobluebackherring": "images/cast/echo/echo-35-echobluebackherring.jpg",
+        "echo35lanier": "images/cast/echo/echo-35-echo35lanier.jpg"
+      },
+      "54": {
+        "_main": "images/cast/echo/echo-54-main.jpg",
+        "echo72lanier2c6022cad565420087fc1b19f8b95e23": "images/cast/echo/echo-54-echo72lanier2c6022cad565420087fc1b19f8b95e23.jpg",
+        "echo72bluebackherring4dc09b1e1ba74ba492fd974f5d9e9b83": "images/cast/echo/echo-54-echo72bluebackherring4dc09b1e1ba74ba492fd974f5d9e9b83.jpg",
+        "echo72amethyst16be05163be84c50bb45dbdb0192fd55": "images/cast/echo/echo-54-echo72amethyst16be05163be84c50bb45dbdb0192fd55.jpg",
+        "echo72ether": "images/cast/echo/echo-54-echo72ether.jpg",
+        "echo72carbon": "images/cast/echo/echo-54-echo72carbon.jpg",
+        "echo72ozark": "images/cast/echo/echo-54-echo72ozark.jpg",
+        "echo72titan": "images/cast/echo/echo-54-echo72titan.jpg"
+      },
+      "72": {
+        "_main": "images/cast/echo/echo-72-main.jpg",
+        "echo72lanier2c6022cad565420087fc1b19f8b95e23": "images/cast/echo/echo-72-echo72lanier2c6022cad565420087fc1b19f8b95e23.jpg",
+        "echo72bluebackherring4dc09b1e1ba74ba492fd974f5d9e9b83": "images/cast/echo/echo-72-echo72bluebackherring4dc09b1e1ba74ba492fd974f5d9e9b83.jpg",
+        "echo72amethyst16be05163be84c50bb45dbdb0192fd55": "images/cast/echo/echo-72-echo72amethyst16be05163be84c50bb45dbdb0192fd55.jpg",
+        "echo72ether": "images/cast/echo/echo-72-echo72ether.jpg",
+        "echo72carbon": "images/cast/echo/echo-72-echo72carbon.jpg",
+        "echo72ozark": "images/cast/echo/echo-72-echo72ozark.jpg",
+        "echo72titan": "images/cast/echo/echo-72-echo72titan.jpg"
+      },
+      "275": {
+        "_main": "images/cast/echo/echo-275-main.jpg",
+        "echo275amethyst": "images/cast/echo/echo-275-echo275amethyst.jpg",
+        "echo275carbon": "images/cast/echo/echo-275-echo275carbon.jpg",
+        "echo275ozark": "images/cast/echo/echo-275-echo275ozark.jpg",
+        "echo275titan": "images/cast/echo/echo-275-echo275titan.jpg",
+        "echo275etherac37598f00264019af8029814e599321": "images/cast/echo/echo-275-echo275etherac37598f00264019af8029814e599321.jpg",
+        "echo275bluebackherring": "images/cast/echo/echo-275-echo275bluebackherring.jpg",
+        "echo275lanier": "images/cast/echo/echo-275-echo275lanier.jpg"
+      }
+    }
+  },
+  "nova": {
+    "byColorBySize": {
+      "45": {
+        "_main": "images/cast/nova/nova-45-main.jpg",
+        "nova45webtilemamba5a678a7881724d1ba74005b642632545": "images/cast/nova/nova-45-nova45webtilemamba5a678a7881724d1ba74005b642632545.jpg",
+        "nova45webtilelanier66c8c046ca1448d091d28dcbce7d65ad": "images/cast/nova/nova-45-nova45webtilelanier66c8c046ca1448d091d28dcbce7d65ad.jpg",
+        "nova45webtilespikedpumpkin811cb014294a49218dc053b6b2b21003": "images/cast/nova/nova-45-nova45webtilespikedpumpkin811cb014294a49218dc053b6b2b21003.jpg",
+        "nove45webtilejellybeanresized": "images/cast/nova/nova-45-nove45webtilejellybeanresized.jpg",
+        "nova45webtilespacejam487b9ee7410e4d3c83e834d653c68010": "images/cast/nova/nova-45-nova45webtilespacejam487b9ee7410e4d3c83e834d653c68010.jpg",
+        "nova45webtileamethyst556972b2d8044a4e89fefa8ff0f0f4b4": "images/cast/nova/nova-45-nova45webtileamethyst556972b2d8044a4e89fefa8ff0f0f4b4.jpg"
+      }
+    }
+  },
+  "x12": {
+    "byColorBySize": {
+      "330": {
+        "_main": "images/cast/x12/x12-330-main.jpg",
+        "x12braidwebtile": "images/cast/x12/x12-330-x12braidwebtile.jpg",
+        "x12braidpackagewebtile4ce15e2055c345be818030c4bf168eb5": "images/cast/x12/x12-330-x12braidpackagewebtile4ce15e2055c345be818030c4bf168eb5.jpg"
+      },
+      "440": {
+        "_main": "images/cast/x12/x12-440-main.jpg",
+        "x12braidwebtile": "images/cast/x12/x12-440-x12braidwebtile.jpg",
+        "x12braidpackagewebtile4ce15e2055c345be818030c4bf168eb5": "images/cast/x12/x12-440-x12braidpackagewebtile4ce15e2055c345be818030c4bf168eb5.jpg"
+      }
+    }
+  },
+  "bfs": {
+    "byColorBySize": {
+      "150": {
+        "_main": "images/cast/bfs/bfs-150-main.jpg",
+        "bfsbraidwebtile": "images/cast/bfs/bfs-150-bfsbraidwebtile.jpg",
+        "bfsbraidwebtile3": "images/cast/bfs/bfs-150-bfsbraidwebtile3.jpg",
+        "bfsbraidwebtile2": "images/cast/bfs/bfs-150-bfsbraidwebtile2.jpg"
+      }
+    }
+  }
+}

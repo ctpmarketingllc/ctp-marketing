@@ -1,0 +1,77 @@
+{
+  "finesse_worm": {
+    "vendorTitle": "Rattl'n Finesse Worm 4\" - Green Pumpkin - Craw",
+    "vendorType": "Finesse Worm",
+    "image": "images/lanier/finesse-worm.jpg"
+  },
+  "jerk_shad": {
+    "vendorTitle": "Rattl'n Sowbelly 3.5\" - Watermelon - Black Red Tip",
+    "vendorType": "Sowbelly",
+    "image": "images/lanier/jerk-shad.jpg"
+  },
+  "hover_shad": {
+    "vendorTitle": "Rattl'n Sowbelly 3.5\" - Watermelon - Black Red Tip",
+    "vendorType": "Sowbelly",
+    "image": "images/lanier/hover-shad.jpg"
+  },
+  "swim_minnow": {
+    "vendorTitle": "Boogie Worm - Green Pumpkin - Black Green",
+    "vendorType": "Boogie Worm",
+    "image": "images/lanier/swim-minnow.jpg"
+  },
+  "hooch_craw": {
+    "vendorTitle": "Rattl'n Hybrid Craw - Green Pumpkin Junebug - Purple Tip",
+    "vendorType": "Rattling Hybrid Craw",
+    "image": "images/lanier/hooch-craw.jpg"
+  },
+  "shakey_ned": {
+    "vendorTitle": "Nedbait - Pearl - Ghost",
+    "vendorType": "Nedbait",
+    "image": "images/lanier/shakey-ned.jpg"
+  },
+  "ball_jig": {
+    "vendorTitle": "Turn-n-Burn Finesse Head (3pk)",
+    "vendorType": "Jig Head",
+    "image": "images/lanier/ball-jig.jpg"
+  },
+  "damiki": {
+    "vendorTitle": "Turn-n-Burn Finesse Head (3pk)",
+    "vendorType": "Jig Head",
+    "image": "images/lanier/damiki.jpg"
+  },
+  "dropshot": {
+    "vendorTitle": "Tungsten Skinny Drop Shot Weights",
+    "vendorType": "Tungsten",
+    "image": "images/lanier/dropshot.jpg"
+  },
+  "eliminator": {
+    "vendorTitle": "Turn-n-Burn Finesse Head (3pk)",
+    "vendorType": "Jig Head",
+    "image": "images/lanier/eliminator.jpg"
+  },
+  "hooks": {
+    "vendorTitle": "Longshank Hooks",
+    "vendorType": "",
+    "image": "images/lanier/hooks.jpg"
+  },
+  "swivels": {
+    "vendorTitle": "Swivels",
+    "vendorType": "",
+    "image": "images/lanier/swivels.jpg"
+  },
+  "spoons": {
+    "vendorTitle": "Pro Football Jig",
+    "vendorType": "Jig",
+    "image": "images/lanier/spoons.jpg"
+  },
+  "shad_spin": {
+    "vendorTitle": "Pro Football Jig",
+    "vendorType": "Jig",
+    "image": "images/lanier/shad-spin.jpg"
+  },
+  "hard_swimmer": {
+    "vendorTitle": "\"White-Out\" WakeWalker LT",
+    "vendorType": "Swimbaits",
+    "image": "images/lanier/hard-swimmer.jpg"
+  }
+}

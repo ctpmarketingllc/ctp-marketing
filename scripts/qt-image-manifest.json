@@ -1,0 +1,197 @@
+{
+  "porcupine_balls": {
+    "_slugs": [
+      "baby-8-porcupine-balls",
+      "deadcenter-15"
+    ],
+    "_main": "images/queen-tackle/porcupine-balls/_main.jpg",
+    "Cinnamon": "images/queen-tackle/porcupine-balls/cinnamon.jpg",
+    "Wintergreen": "images/queen-tackle/porcupine-balls/wintergreen.jpg",
+    "Greenpumpkin Green": "images/queen-tackle/porcupine-balls/greenpumpkin-green.jpg",
+    "Morning Dawn": "images/queen-tackle/porcupine-balls/morning-dawn.jpg",
+    "Blue Grape": "images/queen-tackle/porcupine-balls/blue-grape.jpg",
+    "Black": "images/queen-tackle/porcupine-balls/black.jpg",
+    "Barney": "images/queen-tackle/porcupine-balls/barney.jpg"
+  },
+  "ghost_jig_heads": {
+    "_slugs": [
+      "ghost-finesse-jig-head"
+    ],
+    "_main": "images/queen-tackle/ghost-jig-heads/_main.jpg"
+  },
+  "ls_rollin_strollin": {
+    "_slugs": [
+      "ls-tungsten-rollin-strollin-jig-heads"
+    ],
+    "_main": "images/queen-tackle/ls-rollin-strollin/_main.jpg"
+  },
+  "line_throughs_nail_weights": {
+    "_slugs": [
+      "line-throughs-tungsten-nail-weights"
+    ],
+    "_main": "images/queen-tackle/line-throughs-nail-weights/_main.jpg"
+  },
+  "ls_underspins": {
+    "_slugs": [
+      "ls-tungsten-undoerspin"
+    ],
+    "_main": "images/queen-tackle/ls-underspins/_main.jpg"
+  },
+  "ls_jigging_spoons": {
+    "_slugs": [
+      "ls-tungsten-scoping-spoon"
+    ],
+    "_main": "images/queen-tackle/ls-jigging-spoons/_main.jpg"
+  },
+  "finesse_peanut_jigs": {
+    "_slugs": [
+      "tungsten-finesse-football-peanut-jigs"
+    ],
+    "_main": "images/queen-tackle/finesse-peanut-jigs/_main.jpg",
+    "1/4 oz Black Magic Special": "images/queen-tackle/finesse-peanut-jigs/14-oz-black-magic-special.jpg",
+    "3/8 oz Black Magic Special": "images/queen-tackle/finesse-peanut-jigs/38-oz-black-magic-special.jpg",
+    "1/4 oz Goby": "images/queen-tackle/finesse-peanut-jigs/14-oz-goby.jpg",
+    "3/8 oz Goby": "images/queen-tackle/finesse-peanut-jigs/38-oz-goby.jpg",
+    "1/4 oz Green Pumpkin Green": "images/queen-tackle/finesse-peanut-jigs/14-oz-green-pumpkin-green.jpg",
+    "3/8 oz Green Pumpkin Green": "images/queen-tackle/finesse-peanut-jigs/38-oz-green-pumpkin-green.jpg",
+    "1/4 oz KJ Camo": "images/queen-tackle/finesse-peanut-jigs/14-oz-kj-camo.jpg",
+    "3/8 KJ Camo": "images/queen-tackle/finesse-peanut-jigs/38-kj-camo.jpg",
+    "1/4 oz Hot Mess": "images/queen-tackle/finesse-peanut-jigs/14-oz-hot-mess.jpg",
+    "3/8 oz Hot Mess": "images/queen-tackle/finesse-peanut-jigs/38-oz-hot-mess.jpg",
+    "1/4 oz Summer Goby": "images/queen-tackle/finesse-peanut-jigs/14-oz-summer-goby.jpg",
+    "3/8 oz Summer Goby": "images/queen-tackle/finesse-peanut-jigs/38-oz-summer-goby.jpg",
+    "1/4 oz Cat Jelly": "images/queen-tackle/finesse-peanut-jigs/14-oz-cat-jelly.jpg"
+  },
+  "flipping_jigs": {
+    "_slugs": [
+      "catamount-candy"
+    ],
+    "_main": "images/queen-tackle/flipping-jigs/_main.jpg",
+    "Black Magic": "images/queen-tackle/flipping-jigs/black-magic.jpg",
+    "Blue Craw": "images/queen-tackle/flipping-jigs/blue-craw.jpg",
+    "Blue Grape": "images/queen-tackle/flipping-jigs/blue-grape.jpg",
+    "Gator Green": "images/queen-tackle/flipping-jigs/gator-green.jpg",
+    "KJ Camo": "images/queen-tackle/flipping-jigs/kj-camo.jpg",
+    "MR Craw": "images/queen-tackle/flipping-jigs/mr-craw.jpg",
+    "Tennessee Craw": "images/queen-tackle/flipping-jigs/tennessee-craw.jpg",
+    "Tequila Blue Bear": "images/queen-tackle/flipping-jigs/tequila-blue-bear.jpg",
+    "Wildcat Jelly": "images/queen-tackle/flipping-jigs/wildcat-jelly.jpg",
+    "Pirate Morning": "images/queen-tackle/flipping-jigs/pirate-morning.jpg",
+    "Greenpumpkin Green": "images/queen-tackle/flipping-jigs/greenpumpkin-green.jpg"
+  },
+  "swim_jigs": {
+    "_slugs": [
+      "silver-falcon-swim-jig"
+    ],
+    "_main": "images/queen-tackle/swim-jigs/_main.jpg",
+    "Citric Shad": "images/queen-tackle/swim-jigs/citric-shad.jpg",
+    "Glimmer Blue Shad": "images/queen-tackle/swim-jigs/glimmer-blue-shad.jpg",
+    "Bluegill Ghost": "images/queen-tackle/swim-jigs/bluegill-ghost.jpg",
+    "Black Magic": "images/queen-tackle/swim-jigs/black-magic.jpg",
+    "Greenpumpkin Green": "images/queen-tackle/swim-jigs/greenpumpkin-green.jpg",
+    "Gizzard": "images/queen-tackle/swim-jigs/gizzard.jpg",
+    "White Blue Speckles": "images/queen-tackle/swim-jigs/white-blue-speckles.jpg"
+  },
+  "football_jigs": {
+    "_slugs": [
+      "kjs-magic-1"
+    ],
+    "_main": "images/queen-tackle/football-jigs/_main.jpg",
+    "Black Magic": "images/queen-tackle/football-jigs/black-magic.jpg",
+    "KJ Camo": "images/queen-tackle/football-jigs/kj-camo.jpg",
+    "MR Craw": "images/queen-tackle/football-jigs/mr-craw.jpg",
+    "Tequila Blue Bear": "images/queen-tackle/football-jigs/tequila-blue-bear.jpg",
+    "Tennessee Craw": "images/queen-tackle/football-jigs/tennessee-craw.jpg",
+    "Gator Green": "images/queen-tackle/football-jigs/gator-green.jpg",
+    "Wildcat Jelly": "images/queen-tackle/football-jigs/wildcat-jelly.jpg"
+  },
+  "hammerhead_jigs": {
+    "_slugs": [
+      "hammerhead-jig"
+    ],
+    "_main": "images/queen-tackle/hammerhead-jigs/_main.jpg",
+    "Blue Grape": "images/queen-tackle/hammerhead-jigs/blue-grape.jpg",
+    "Greenpumkin Green": "images/queen-tackle/hammerhead-jigs/greenpumkin-green.jpg",
+    "Tennessee Craw": "images/queen-tackle/hammerhead-jigs/tennessee-craw.jpg",
+    "Green Jelly": "images/queen-tackle/hammerhead-jigs/green-jelly.jpg",
+    "Blue Craw": "images/queen-tackle/hammerhead-jigs/blue-craw.jpg",
+    "Gator Green": "images/queen-tackle/hammerhead-jigs/gator-green.jpg",
+    "Firegill": "images/queen-tackle/hammerhead-jigs/firegill.jpg",
+    "Gizzard Shad": "images/queen-tackle/hammerhead-jigs/gizzard-shad.jpg",
+    "KJ Camo": "images/queen-tackle/hammerhead-jigs/kj-camo.jpg"
+  },
+  "ping_jigs": {
+    "_slugs": [
+      "ls-tungsten-ping-jigs-2-per-pack"
+    ],
+    "_main": "images/queen-tackle/ping-jigs/_main.jpg"
+  },
+  "switch_blades": {
+    "_slugs": [
+      "switch-blade"
+    ],
+    "_main": "images/queen-tackle/switch-blades/_main.jpg"
+  },
+  "switch_blade_jig": {
+    "_slugs": [
+      "switchblade-tungsten-bladed-jig"
+    ],
+    "_main": "images/queen-tackle/switch-blade-jig/_main.jpg",
+    "Black Crappie": "images/queen-tackle/switch-blade-jig/black-crappie.jpg",
+    "Black Magic": "images/queen-tackle/switch-blade-jig/black-magic.jpg",
+    "Black Magic Special": "images/queen-tackle/switch-blade-jig/black-magic-special.jpg",
+    "Bluegill Ghost": "images/queen-tackle/switch-blade-jig/bluegill-ghost.jpg",
+    "Citric Shad": "images/queen-tackle/switch-blade-jig/citric-shad.jpg",
+    "Glimmer Blue Shad": "images/queen-tackle/switch-blade-jig/glimmer-blue-shad.jpg",
+    "Green Pumpkin Green": "images/queen-tackle/switch-blade-jig/green-pumpkin-green.jpg",
+    "Perch": "images/queen-tackle/switch-blade-jig/perch.jpg",
+    "Shellcracker": "images/queen-tackle/switch-blade-jig/shellcracker.jpg",
+    "White Blue Speckles": "images/queen-tackle/switch-blade-jig/white-blue-speckles.jpg",
+    "Hot Sauce": "images/queen-tackle/switch-blade-jig/hot-sauce.jpg",
+    "Pink Pixie Dust": "images/queen-tackle/switch-blade-jig/pink-pixie-dust.jpg"
+  },
+  "worm_weights": {
+    "_slugs": [
+      "tungsten-worm-weight"
+    ],
+    "_main": "images/queen-tackle/worm-weights/_main.jpg",
+    "Black with blue fleck": "images/queen-tackle/worm-weights/black-with-blue-fleck.jpg",
+    "Greenpumkin": "images/queen-tackle/worm-weights/greenpumkin.jpg"
+  },
+  "swingheads": {
+    "_slugs": [
+      "football-swinghead"
+    ],
+    "_main": "images/queen-tackle/swingheads/_main.jpg"
+  },
+  "shakeyheads": {
+    "_slugs": [
+      "tungsten-shakey-head",
+      "hammer-shake"
+    ],
+    "_main": "images/queen-tackle/shakeyheads/_main.jpg",
+    "Black w/ Blue Fleck": "images/queen-tackle/shakeyheads/black-w-blue-fleck.jpg",
+    "Watermelon Red": "images/queen-tackle/shakeyheads/watermelon-red.jpg",
+    "Green Pumpkin": "images/queen-tackle/shakeyheads/green-pumpkin.jpg"
+  },
+  "punch_skirts": {
+    "_slugs": [
+      "blue-racer-punchskirt"
+    ],
+    "_main": "images/queen-tackle/punch-skirts/_main.jpg"
+  },
+  "flipping_weights": {
+    "_slugs": [
+      "tungsten-flippin-weight"
+    ],
+    "_main": "images/queen-tackle/flipping-weights/_main.jpg",
+    "Black w/ Blue Fleck": "images/queen-tackle/flipping-weights/black-w-blue-fleck.jpg",
+    "Green Pumpkin": "images/queen-tackle/flipping-weights/green-pumpkin.jpg"
+  },
+  "dropshot_weights": {
+    "_slugs": [
+      "royal-tungsten-dropshot"
+    ],
+    "_main": "images/queen-tackle/dropshot-weights/_main.jpg"
+  }
+}
