@@ -1,0 +1,909 @@
+{
+  "BRZ-SWM-01": {
+    "image": "images/brazalo/swim-jigs/swm-01.jpg",
+    "color": "Green Pumpkin",
+    "size": "3/8 oz"
+  },
+  "BRZ-SWM-02": {
+    "image": "images/brazalo/swim-jigs/swm-02.jpg",
+    "color": "Green Pumpkin",
+    "size": "1/2 oz"
+  },
+  "BRZ-SWM-03": {
+    "image": "images/brazalo/swim-jigs/swm-03.jpg",
+    "color": "White",
+    "size": "3/8 oz"
+  },
+  "BRZ-SWM-04": {
+    "image": "images/brazalo/swim-jigs/swm-04.jpg",
+    "color": "White",
+    "size": "1/2 oz"
+  },
+  "BRZ-SWM-05": {
+    "image": "images/brazalo/swim-jigs/swm-05.jpg",
+    "color": "Bama Bream",
+    "size": "3/8 oz"
+  },
+  "BRZ-SWM-06": {
+    "image": "images/brazalo/swim-jigs/swm-06.jpg",
+    "color": "Bama Bream",
+    "size": "1/2 oz"
+  },
+  "BRZ-SWM-07": {
+    "image": "images/brazalo/swim-jigs/swm-07.jpg",
+    "color": "Bream",
+    "size": "3/8 oz"
+  },
+  "BRZ-SWM-08": {
+    "image": "images/brazalo/swim-jigs/swm-08.jpg",
+    "color": "Bream",
+    "size": "1/2 oz"
+  },
+  "BRZ-SWM-09": {
+    "image": "images/brazalo/swim-jigs/swm-09.jpg",
+    "color": "Bluegill",
+    "size": "3/8 oz"
+  },
+  "BRZ-SWM-10": {
+    "image": "images/brazalo/swim-jigs/swm-10.jpg",
+    "color": "Bluegill",
+    "size": "1/2 oz"
+  },
+  "BRZ-SWM-11": {
+    "image": "images/brazalo/swim-jigs/swm-11.jpg",
+    "color": "Black n Blue",
+    "size": "3/8 oz"
+  },
+  "BRZ-SWM-12": {
+    "image": "images/brazalo/swim-jigs/swm-12.jpg",
+    "color": "Black n Blue",
+    "size": "1/2 oz"
+  },
+  "BRZ-SWM-16": {
+    "image": "images/brazalo/swim-jigs/swm-16.jpg",
+    "color": "Bone",
+    "size": "3/8 oz"
+  },
+  "BRZ-SWM-17": {
+    "image": "images/brazalo/swim-jigs/swm-17.jpg",
+    "color": "Bone",
+    "size": "1/2 oz"
+  },
+  "BRZ-SWM-18": {
+    "image": "images/brazalo/swim-jigs/swm-18.jpg",
+    "color": "Morning Dawn",
+    "size": "3/8 oz"
+  },
+  "BRZ-SWM-19": {
+    "image": "images/brazalo/swim-jigs/swm-19.jpg",
+    "color": "Morning Dawn",
+    "size": "1/2 oz"
+  },
+  "BRZ-SWM-20": {
+    "image": "images/brazalo/swim-jigs/swm-20.jpg",
+    "color": "Peachy",
+    "size": "3/8 oz"
+  },
+  "BRZ-SWM-21": {
+    "image": "images/brazalo/swim-jigs/swm-21.jpg",
+    "color": "Peachy",
+    "size": "1/2 oz"
+  },
+  "BRZ-SWM-22": {
+    "image": "images/brazalo/swim-jigs/swm-22.jpg",
+    "color": "Citrus Shad",
+    "size": "3/8 oz"
+  },
+  "BRZ-SWM-23": {
+    "image": "images/brazalo/swim-jigs/swm-23.jpg",
+    "color": "Citrus Shad",
+    "size": "1/2 oz"
+  },
+  "BRZ-SWM-24": {
+    "image": "images/brazalo/swim-jigs/swm-24.jpg",
+    "color": "GP Shad",
+    "size": "3/8 oz"
+  },
+  "BRZ-SWM-25": {
+    "image": "images/brazalo/swim-jigs/swm-25.jpg",
+    "color": "GP Shad",
+    "size": "1/2 oz"
+  },
+  "BRZ-SWM-26": {
+    "image": "images/brazalo/swim-jigs/swm-26.jpg",
+    "color": "Arkansas Shiner",
+    "size": "3/8 oz"
+  },
+  "BRZ-SWM-27": {
+    "image": "images/brazalo/swim-jigs/swm-27.jpg",
+    "color": "Arkansas Shiner",
+    "size": "1/2 oz"
+  },
+  "BRZ-FTBL-01": {
+    "image": "images/brazalo/football-jigs/ftbl-01.jpg",
+    "color": "PB&J",
+    "size": "1/2 oz"
+  },
+  "BRZ-FTBL-02": {
+    "image": "images/brazalo/football-jigs/ftbl-02.jpg",
+    "color": "PB&J",
+    "size": "3/4 oz"
+  },
+  "BRZ-FTBL-03": {
+    "image": "images/brazalo/football-jigs/ftbl-03.jpg",
+    "color": "Perfect Creeper",
+    "size": "1/2 oz"
+  },
+  "BRZ-FTBL-04": {
+    "image": "images/brazalo/football-jigs/ftbl-04.jpg",
+    "color": "Perfect Creeper",
+    "size": "3/4 oz"
+  },
+  "BRZ-FTBL-05": {
+    "image": "images/brazalo/football-jigs/ftbl-05.jpg",
+    "color": "Black n Blue",
+    "size": "1/2 oz"
+  },
+  "BRZ-FTBL-06": {
+    "image": "images/brazalo/football-jigs/ftbl-06.jpg",
+    "color": "Black n Blue",
+    "size": "3/4 oz"
+  },
+  "BRZ-FTBL-07": {
+    "image": "images/brazalo/football-jigs/ftbl-07.jpg",
+    "color": "Green Pumpkin",
+    "size": "1/2 oz"
+  },
+  "BRZ-FTBL-08": {
+    "image": "images/brazalo/football-jigs/ftbl-08.jpg",
+    "color": "Green Pumpkin",
+    "size": "3/4 oz"
+  },
+  "BRZ-FTBL-09": {
+    "image": "images/brazalo/football-jigs/ftbl-09.jpg",
+    "color": "Rotten Watermelon",
+    "size": "1/2 oz"
+  },
+  "BRZ-FTBL-10": {
+    "image": "images/brazalo/football-jigs/ftbl-10.jpg",
+    "color": "Rotten Watermelon",
+    "size": "3/4 oz"
+  },
+  "BRZ-FTBL-11": {
+    "image": "images/brazalo/football-jigs/ftbl-11.jpg",
+    "color": "Green Pumpkin Orange",
+    "size": "1/2 oz"
+  },
+  "BRZ-FTBL-12": {
+    "image": "images/brazalo/football-jigs/ftbl-12.jpg",
+    "color": "Green Pumpkin Orange",
+    "size": "3/4 oz"
+  },
+  "BRZ-FTBL-17": {
+    "image": "images/brazalo/football-jigs/ftbl-17.jpg",
+    "color": "Phantom Craw",
+    "size": "1/2 oz"
+  },
+  "BRZ-FTBL-18": {
+    "image": "images/brazalo/football-jigs/ftbl-18.jpg",
+    "color": "Phantom Craw",
+    "size": "3/4 oz"
+  },
+  "BRZ-FTBL-19": {
+    "image": "images/brazalo/football-jigs/ftbl-19.jpg",
+    "color": "Camo Craw Red",
+    "size": "1/2 oz"
+  },
+  "BRZ-FTBL-20": {
+    "image": "images/brazalo/football-jigs/ftbl-20.jpg",
+    "color": "Camo Craw Red",
+    "size": "3/4 oz"
+  },
+  "BRZ-FTBL-23": {
+    "image": "images/brazalo/football-jigs/ftbl-23.jpg",
+    "color": "Camo Craw Orange",
+    "size": "1/2 oz"
+  },
+  "BRZ-FTBL-24": {
+    "image": "images/brazalo/football-jigs/ftbl-24.jpg",
+    "color": "Camo Craw Orange",
+    "size": "3/4 oz"
+  },
+  "BRZ-FTBL-25": {
+    "image": "images/brazalo/football-jigs/ftbl-25.jpg",
+    "color": "Sour Grape",
+    "size": "1/2 oz"
+  },
+  "BRZ-FTBL-26": {
+    "image": "images/brazalo/football-jigs/ftbl-26.jpg",
+    "color": "Sour Grape",
+    "size": "3/4 oz"
+  },
+  "BRZ-FTBL-27": {
+    "image": "images/brazalo/football-jigs/ftbl-27.jpg",
+    "color": "South African Special",
+    "size": "1/2 oz"
+  },
+  "BRZ-FTBL-28": {
+    "image": "images/brazalo/football-jigs/ftbl-28.jpg",
+    "color": "South African Special",
+    "size": "3/4 oz"
+  },
+  "BRZ-FTBL-29": {
+    "image": "images/brazalo/football-jigs/ftbl-29.jpg",
+    "color": "Westrock Crawler",
+    "size": "1/2 oz"
+  },
+  "BRZ-FTBL-30": {
+    "image": "images/brazalo/football-jigs/ftbl-30.jpg",
+    "color": "Westrock Crawler",
+    "size": "3/4 oz"
+  },
+  "BRZ-FTBL-33": {
+    "image": "images/brazalo/football-jigs/ftbl-33.jpg",
+    "color": "Watermelon Red",
+    "size": "1/2 oz"
+  },
+  "BRZ-FTBL-34": {
+    "image": "images/brazalo/football-jigs/ftbl-34.jpg",
+    "color": "Watermelon Red",
+    "size": "3/4 oz"
+  },
+  "BRZ-FBTL-35": {
+    "image": "images/brazalo/football-jigs/fbtl-35.jpg",
+    "color": "Watermelon Candy",
+    "size": "1/2 oz"
+  },
+  "BRZ-FTBL-36": {
+    "image": "images/brazalo/football-jigs/ftbl-36.jpg",
+    "color": "Watermelon Candy",
+    "size": "3/4 oz"
+  },
+  "BRZ-FLOJ-04": {
+    "image": "images/brazalo/football-jigs/floj-04.jpg",
+    "color": "JuneBug",
+    "size": "3/8 oz"
+  },
+  "BRZ-FLOJ-05": {
+    "image": "images/brazalo/football-jigs/floj-05.jpg",
+    "color": "JuneBug",
+    "size": "1/2 oz"
+  },
+  "BRZ-FLOJ-06": {
+    "image": "images/brazalo/football-jigs/floj-06.jpg",
+    "color": "Junebug",
+    "size": "3/4 oz"
+  },
+  "BRZ-FLOJ-07": {
+    "image": "images/brazalo/football-jigs/floj-07.jpg",
+    "color": "Blue Grass",
+    "size": "3/8 oz"
+  },
+  "BRZ-FLOJ-08": {
+    "image": "images/brazalo/football-jigs/floj-08.jpg",
+    "color": "Blue Grass",
+    "size": "1/2 oz"
+  },
+  "BRZ-FLOJ-09": {
+    "image": "images/brazalo/football-jigs/floj-09.jpg",
+    "color": "Blue Grass",
+    "size": "3/4 oz"
+  },
+  "BRZ-FLOJ-10": {
+    "image": "images/brazalo/football-jigs/floj-10.jpg",
+    "color": "Black n Blue",
+    "size": "3/8 oz"
+  },
+  "BRZ-FLOJ-11": {
+    "image": "images/brazalo/football-jigs/floj-11.jpg",
+    "color": "Black n Blue",
+    "size": "1/2 oz"
+  },
+  "BRZ-FLOJ-12": {
+    "image": "images/brazalo/football-jigs/floj-12.jpg",
+    "color": "Black n Blue",
+    "size": "3/4 oz"
+  },
+  "BRZ-FLOJ-13": {
+    "image": "images/brazalo/football-jigs/floj-13.jpg",
+    "color": "Perfect Creeper",
+    "size": "3/8 oz"
+  },
+  "BRZ-FLOJ-14": {
+    "image": "images/brazalo/football-jigs/floj-14.jpg",
+    "color": "Perfect Creeper",
+    "size": "1/2 oz"
+  },
+  "BRZ-FLOJ-15": {
+    "image": "images/brazalo/football-jigs/floj-15.jpg",
+    "color": "Perfect Creeper",
+    "size": "3/4 oz"
+  },
+  "BRZ-FLOJ-19": {
+    "image": "images/brazalo/football-jigs/floj-19.jpg",
+    "color": "Delta Bug",
+    "size": "3/8 oz"
+  },
+  "BRZ-FLOJ-20": {
+    "image": "images/brazalo/football-jigs/floj-20.jpg",
+    "color": "Delta Bug",
+    "size": "1/2 oz"
+  },
+  "BRZ-FLOJ-21": {
+    "image": "images/brazalo/football-jigs/floj-21.jpg",
+    "color": "Delta Bug",
+    "size": "3/4 oz"
+  },
+  "BRZ-FLOJ-22": {
+    "image": "images/brazalo/football-jigs/floj-22.jpg",
+    "color": "Slumpbuster",
+    "size": "3/8 oz"
+  },
+  "BRZ-FLOJ-23": {
+    "image": "images/brazalo/football-jigs/floj-23.jpg",
+    "color": "Slumpbuster",
+    "size": "1/2 oz"
+  },
+  "BRZ-FLOJ-24": {
+    "image": "images/brazalo/football-jigs/floj-24.jpg",
+    "color": "Slumpbuster",
+    "size": "3/4 oz"
+  },
+  "BRZ-FLOJ-25": {
+    "image": "images/brazalo/football-jigs/floj-25.jpg",
+    "color": "Diamond Craw",
+    "size": "3/8 oz"
+  },
+  "BRZ-FLOJ-26": {
+    "image": "images/brazalo/football-jigs/floj-26.jpg",
+    "color": "Diamond Craw",
+    "size": "1/2 oz"
+  },
+  "BRZ-FLOJ-27": {
+    "image": "images/brazalo/football-jigs/floj-27.jpg",
+    "color": "Diamond Craw",
+    "size": "3/4 oz"
+  },
+  "BRZ-FLOJ-28": {
+    "image": "images/brazalo/football-jigs/floj-28.jpg",
+    "color": "Watermelon Candy",
+    "size": "3/8 oz"
+  },
+  "BRZ-FLOJ-29": {
+    "image": "images/brazalo/football-jigs/floj-29.jpg",
+    "color": "Watermelon Candy",
+    "size": "1/2 oz"
+  },
+  "BRZ-FLOJ-30": {
+    "image": "images/brazalo/football-jigs/floj-30.jpg",
+    "color": "Watermelon Candy",
+    "size": "3/4 oz"
+  },
+  "BRZ-FNSW-01": {
+    "image": "images/brazalo/finesse-swim-jigs/fnsw-01.jpg",
+    "color": "Baby June",
+    "size": "1/4 oz"
+  },
+  "BRZ-FNSW-02": {
+    "image": "images/brazalo/finesse-swim-jigs/fnsw-02.jpg",
+    "color": "Baby June",
+    "size": "3/8 oz"
+  },
+  "BRZ-FNSW-03": {
+    "image": "images/brazalo/finesse-swim-jigs/fnsw-03.jpg",
+    "color": "Bama Bream",
+    "size": "1/4 oz"
+  },
+  "BRZ-FNSW-04": {
+    "image": "images/brazalo/finesse-swim-jigs/fnsw-04.jpg",
+    "color": "Bama Bream",
+    "size": "3/8 oz"
+  },
+  "BRZ-FNSW-05": {
+    "image": "images/brazalo/finesse-swim-jigs/fnsw-05.jpg",
+    "color": "Parakeet",
+    "size": "1/4 oz"
+  },
+  "BRZ-FNSW-06": {
+    "image": "images/brazalo/finesse-swim-jigs/fnsw-06.jpg",
+    "color": "parakeet",
+    "size": "3/8 oz"
+  },
+  "BRZ-FNSW-09": {
+    "image": "images/brazalo/finesse-swim-jigs/fnsw-09.jpg",
+    "color": "Sunburst",
+    "size": "1/4 oz"
+  },
+  "BRZ-FNSW-10": {
+    "image": "images/brazalo/finesse-swim-jigs/fnsw-10.jpg",
+    "color": "Sunburst",
+    "size": "3/8 oz"
+  },
+  "BRZ-501J-01": {
+    "image": "images/brazalo/jigs-501/501j-01.jpg",
+    "color": "PB&J",
+    "size": "3/8 oz"
+  },
+  "BRZ-501J-02": {
+    "image": "images/brazalo/jigs-501/501j-02.jpg",
+    "color": "PB&J",
+    "size": "1/2 oz"
+  },
+  "BRZ-501J-03": {
+    "image": "images/brazalo/jigs-501/501j-03.jpg",
+    "color": "PB&J",
+    "size": "5/8 oz"
+  },
+  "BRZ-501J-04": {
+    "image": "images/brazalo/jigs-501/501j-04.jpg",
+    "color": "Blue Oyster",
+    "size": "3/8 oz"
+  },
+  "BRZ-501J-05": {
+    "image": "images/brazalo/jigs-501/501j-05.jpg",
+    "color": "Blue Oyster",
+    "size": "1/2 oz"
+  },
+  "BRZ-501J-06": {
+    "image": "images/brazalo/jigs-501/501j-06.jpg",
+    "color": "Blue Oyster",
+    "size": "5/8 oz"
+  },
+  "BRZ-501J-07": {
+    "image": "images/brazalo/jigs-501/501j-07.jpg",
+    "color": "Gilly",
+    "size": "3/8 oz"
+  },
+  "BRZ-501J-08": {
+    "image": "images/brazalo/jigs-501/501j-08.jpg",
+    "color": "Gilly",
+    "size": "1/2 oz"
+  },
+  "BRZ-501J-09": {
+    "image": "images/brazalo/jigs-501/501j-09.jpg",
+    "color": "Gilly",
+    "size": "5/8 oz"
+  },
+  "BRZ-501J-10": {
+    "image": "images/brazalo/jigs-501/501j-10.jpg",
+    "color": "Spring Craw",
+    "size": "3/8 oz"
+  },
+  "BRZ-501J-11": {
+    "image": "images/brazalo/jigs-501/501j-11.jpg",
+    "color": "Spring Craw",
+    "size": "1/2 oz"
+  },
+  "BRZ-501J-12": {
+    "image": "images/brazalo/jigs-501/501j-12.jpg",
+    "color": "Spring Craw",
+    "size": "5/8 oz"
+  },
+  "BRZ-501J-13": {
+    "image": "images/brazalo/jigs-501/501j-13.jpg",
+    "color": "Green Pumpkin Orange",
+    "size": "3/8 oz"
+  },
+  "BRZ-501J-14": {
+    "image": "images/brazalo/jigs-501/501j-14.jpg",
+    "color": "Green Pumpkin Orange",
+    "size": "1/2 oz"
+  },
+  "BRZ-501J-15": {
+    "image": "images/brazalo/jigs-501/501j-15.jpg",
+    "color": "Green Pumpkin Orange",
+    "size": "5/8 oz"
+  },
+  "BRZ-501J-16": {
+    "image": "images/brazalo/jigs-501/501j-16.jpg",
+    "color": "Slumpbuster",
+    "size": "3/8 oz"
+  },
+  "BRZ-501J-17": {
+    "image": "images/brazalo/jigs-501/501j-17.jpg",
+    "color": "Slumpbuster",
+    "size": "1/2 oz"
+  },
+  "BRZ-501J-18": {
+    "image": "images/brazalo/jigs-501/501j-18.jpg",
+    "color": "Slumpbuster",
+    "size": "5/8 oz"
+  },
+  "BRZ-501J-19": {
+    "image": "images/brazalo/jigs-501/501j-19.jpg",
+    "color": "Delta Bug",
+    "size": "3/8 oz"
+  },
+  "BRZ-501J-20": {
+    "image": "images/brazalo/jigs-501/501j-20.jpg",
+    "color": "Delta Bug",
+    "size": "1/2 oz"
+  },
+  "BRZ-501J-21": {
+    "image": "images/brazalo/jigs-501/501j-21.jpg",
+    "color": "Delta Bug",
+    "size": "5/8 oz"
+  },
+  "BRZ-501J-22": {
+    "image": "images/brazalo/jigs-501/501j-22.jpg",
+    "color": "Gator Bite",
+    "size": "3/8 oz"
+  },
+  "BRZ-501J-23": {
+    "image": "images/brazalo/jigs-501/501j-23.jpg",
+    "color": "Gator Bite",
+    "size": "1/2 oz"
+  },
+  "BRZ-501J-24": {
+    "image": "images/brazalo/jigs-501/501j-24.jpg",
+    "color": "Gator Bite",
+    "size": "5/8 oz"
+  },
+  "BRZ-501J-25": {
+    "image": "images/brazalo/jigs-501/501j-25.jpg",
+    "color": "Perfect Creeper",
+    "size": "3/8 oz"
+  },
+  "BRZ-501J-26": {
+    "image": "images/brazalo/jigs-501/501j-26.jpg",
+    "color": "Perfect Creeper",
+    "size": "1/2 oz"
+  },
+  "BRZ-501J-27": {
+    "image": "images/brazalo/jigs-501/501j-27.jpg",
+    "color": "Perfect Creeper",
+    "size": "5/8 oz"
+  },
+  "BRZ-501J-28": {
+    "image": "images/brazalo/jigs-501/501j-28.jpg",
+    "color": "Phantom",
+    "size": "3/8 oz"
+  },
+  "BRZ-501J-29": {
+    "image": "images/brazalo/jigs-501/501j-29.jpg",
+    "color": "Phantom",
+    "size": "1/2 oz"
+  },
+  "BRZ-501J-30": {
+    "image": "images/brazalo/jigs-501/501j-30.jpg",
+    "color": "Phantom",
+    "size": "5/8 oz"
+  },
+  "BRZ-501J-31": {
+    "image": "images/brazalo/jigs-501/501j-31.jpg",
+    "color": "Bama Bug",
+    "size": "3/8 oz"
+  },
+  "BRZ-501J-32": {
+    "image": "images/brazalo/jigs-501/501j-32.jpg",
+    "color": "Bama Bug",
+    "size": "1/2 oz"
+  },
+  "BRZ-501J-33": {
+    "image": "images/brazalo/jigs-501/501j-33.jpg",
+    "color": "Bama Bug",
+    "size": "5/8 oz"
+  },
+  "BRZ-501J-34": {
+    "image": "images/brazalo/jigs-501/501j-34.jpg",
+    "color": "Black n Blue",
+    "size": "3/8 oz"
+  },
+  "BRZ-501J-35": {
+    "image": "images/brazalo/jigs-501/501j-35.jpg",
+    "color": "Black n Blue",
+    "size": "1/2 oz"
+  },
+  "BRZ-501J-36": {
+    "image": "images/brazalo/jigs-501/501j-36.jpg",
+    "color": "Black n Blue",
+    "size": "5/8 oz"
+  },
+  "BRZ-FNSJ-01": {
+    "image": "images/brazalo/power-finesse-jigs/fnsj-01.jpg",
+    "color": "Cowpatty (brown rubber)",
+    "size": "5/16 oz"
+  },
+  "BRZ-FNSJ-02": {
+    "image": "images/brazalo/power-finesse-jigs/fnsj-02.jpg",
+    "color": "Cowpatty (brown rubber)",
+    "size": "7/16 oz"
+  },
+  "BRZ-FNSJ-03": {
+    "image": "images/brazalo/power-finesse-jigs/fnsj-03.jpg",
+    "color": "Green Pumpkin Orange",
+    "size": "5/16 oz"
+  },
+  "BRZ-FNSJ-04": {
+    "image": "images/brazalo/power-finesse-jigs/fnsj-04.jpg",
+    "color": "Green Pumpkin Orange",
+    "size": "7/16 oz"
+  },
+  "BRZ-FNSJ-05": {
+    "image": "images/brazalo/power-finesse-jigs/fnsj-05.jpg",
+    "color": "Hammer Craw",
+    "size": "5/16 oz"
+  },
+  "BRZ-FNSJ-06": {
+    "image": "images/brazalo/power-finesse-jigs/fnsj-06.jpg",
+    "color": "Hammer Craw",
+    "size": "7/16 oz"
+  },
+  "BRZ-FNSJ-07": {
+    "image": "images/brazalo/power-finesse-jigs/fnsj-07.jpg",
+    "color": "Black n Blue",
+    "size": "5/16 oz"
+  },
+  "BRZ-FNSJ-08": {
+    "image": "images/brazalo/power-finesse-jigs/fnsj-08.jpg",
+    "color": "Black n Blue",
+    "size": "7/16 oz"
+  },
+  "BRZ-FNSJ-09": {
+    "image": "images/brazalo/power-finesse-jigs/fnsj-09.jpg",
+    "color": "Melon Candy",
+    "size": "5/16 oz"
+  },
+  "BRZ-FNSJ-10": {
+    "image": "images/brazalo/power-finesse-jigs/fnsj-10.jpg",
+    "color": "Melon Candy",
+    "size": "7/16 oz"
+  },
+  "BRZ-FNSJ-11": {
+    "image": "images/brazalo/power-finesse-jigs/fnsj-11.jpg",
+    "color": "PB&J",
+    "size": "5/16 oz"
+  },
+  "BRZ-FNSJ-12": {
+    "image": "images/brazalo/power-finesse-jigs/fnsj-12.jpg",
+    "color": "PB&J",
+    "size": "7/16 oz"
+  },
+  "BRZ-FNSJ-13": {
+    "image": "images/brazalo/power-finesse-jigs/fnsj-13.jpg",
+    "color": "Perfect Creeper",
+    "size": "5/16 oz"
+  },
+  "BRZ-FNSJ-14": {
+    "image": "images/brazalo/power-finesse-jigs/fnsj-14.jpg",
+    "color": "Perfect Creeper",
+    "size": "7/16 oz"
+  },
+  "BRZ-FNSJ-19": {
+    "image": "images/brazalo/power-finesse-jigs/fnsj-19.jpg",
+    "color": "Green Pumpkin",
+    "size": "5/16 oz"
+  },
+  "BRZ-FNSJ-20": {
+    "image": "images/brazalo/power-finesse-jigs/fnsj-20.jpg",
+    "color": "Green Pumpkin",
+    "size": "7/16 oz"
+  },
+  "BRZ-FNSJ-21": {
+    "image": "images/brazalo/power-finesse-jigs/fnsj-21.jpg",
+    "color": "Junebug",
+    "size": "5/16 oz"
+  },
+  "BRZ-FNSJ-22": {
+    "image": "images/brazalo/power-finesse-jigs/fnsj-22.jpg",
+    "color": "Junebug",
+    "size": "7/16 oz"
+  },
+  "BRZ-FNSJ-23": {
+    "image": "images/brazalo/power-finesse-jigs/fnsj-23.jpg",
+    "color": "Ozark Craw",
+    "size": "5/16 oz"
+  },
+  "BRZ-FNSJ-24": {
+    "image": "images/brazalo/power-finesse-jigs/fnsj-24.jpg",
+    "color": "Ozark Craw",
+    "size": "7/16 oz"
+  },
+  "BRZ-SHAK-13": {
+    "image": "images/brazalo/power-finesse-jigs/shak-13.jpg",
+    "color": "Green Pumpkin",
+    "size": "1/2 oz"
+  },
+  "BRZ-SHAK-15": {
+    "image": "images/brazalo/power-finesse-jigs/shak-15.jpg",
+    "color": "Black",
+    "size": "1/2 oz"
+  },
+  "BRZ-SHAK-17": {
+    "image": "images/brazalo/power-finesse-jigs/shak-17.jpg",
+    "color": "Green Pumpkin",
+    "size": "3/4 oz"
+  },
+  "BRZ-SHAK-19": {
+    "image": "images/brazalo/power-finesse-jigs/shak-19.jpg",
+    "color": "Black",
+    "size": "3/4 oz"
+  },
+  "BRZ-BNED-01": {
+    "image": "images/brazalo/b-ned/bned-01.jpg",
+    "color": "B-Ned",
+    "size": "1/8 oz"
+  },
+  "BRZ-BNED-02": {
+    "image": "images/brazalo/b-ned/bned-02.jpg",
+    "color": "B-Ned",
+    "size": "3/16 oz"
+  },
+  "BRZ-BNED-03": {
+    "image": "images/brazalo/b-ned/bned-03.jpg",
+    "color": "B-Ned",
+    "size": "1/4 oz"
+  },
+  "BRZ-TKO-01": {
+    "image": "images/brazalo/tko-ffs-head/tko-01.jpg",
+    "color": "TKO FFS head (chrome)",
+    "size": "1/4 oz"
+  },
+  "BRZ-TKO-02": {
+    "image": "images/brazalo/tko-ffs-head/tko-02.jpg",
+    "color": "TKO FFS head (Chrome)",
+    "size": "3/8 oz"
+  },
+  "BRZ-TKO-03": {
+    "image": "images/brazalo/tko-ffs-head/tko-03.jpg",
+    "color": "TKO FFS head (chrome)",
+    "size": "1/2 oz"
+  },
+  "BRZ-TKO-04": {
+    "image": "images/brazalo/tko-ffs-head/tko-04.jpg",
+    "color": "TKO FFS head (chrome)",
+    "size": "1/8 oz"
+  },
+  "BRZ-TKO-05": {
+    "image": "images/brazalo/skirted-tko-ffs/tko-05.jpg",
+    "color": "White",
+    "size": "1/8 oz"
+  },
+  "BRZ-TKO-06": {
+    "image": "images/brazalo/skirted-tko-ffs/tko-06.jpg",
+    "color": "White",
+    "size": "1/4 oz"
+  },
+  "BRZ-TKO-07": {
+    "image": "images/brazalo/skirted-tko-ffs/tko-07.jpg",
+    "color": "White",
+    "size": "3/8 oz"
+  },
+  "BRZ-TKO-08": {
+    "image": "images/brazalo/skirted-tko-ffs/tko-08.jpg",
+    "color": "White",
+    "size": "1/2 oz"
+  },
+  "BRZ-TKO-09": {
+    "image": "images/brazalo/skirted-tko-ffs/tko-09.jpg",
+    "color": "Spot Remover",
+    "size": "1/8 oz"
+  },
+  "BRZ-TKO-10": {
+    "image": "images/brazalo/skirted-tko-ffs/tko-10.jpg",
+    "color": "Spot Remover",
+    "size": "1/4 oz"
+  },
+  "BRZ-TKO-11": {
+    "image": "images/brazalo/skirted-tko-ffs/tko-11.jpg",
+    "color": "Spot Remover",
+    "size": "3/8 oz"
+  },
+  "BRZ-TKO-12": {
+    "image": "images/brazalo/skirted-tko-ffs/tko-12.jpg",
+    "color": "Spot Remover",
+    "size": "1/2 oz"
+  },
+  "BRZ-TKO-13": {
+    "image": "images/brazalo/skirted-tko-ffs/tko-13.jpg",
+    "color": "Wagasaki",
+    "size": "1/8 oz"
+  },
+  "BRZ-TKO-14": {
+    "image": "images/brazalo/skirted-tko-ffs/tko-14.jpg",
+    "color": "Wagasaki",
+    "size": "1/4 oz"
+  },
+  "BRZ-TKO-15": {
+    "image": "images/brazalo/skirted-tko-ffs/tko-15.jpg",
+    "color": "Wagasaki",
+    "size": "3/8 oz"
+  },
+  "BRZ-TKO-16": {
+    "image": "images/brazalo/skirted-tko-ffs/tko-16.jpg",
+    "color": "Wagasaki",
+    "size": "1/2 oz"
+  },
+  "BRZ-TKO-17": {
+    "image": "images/brazalo/skirted-tko-ffs/tko-17.jpg",
+    "color": "Ayu",
+    "size": "1/8 oz"
+  },
+  "BRZ-TKO-18": {
+    "image": "images/brazalo/skirted-tko-ffs/tko-18.jpg",
+    "color": "Ayu",
+    "size": "1/4 oz"
+  },
+  "BRZ-TKO-19": {
+    "image": "images/brazalo/skirted-tko-ffs/tko-19.jpg",
+    "color": "Ayu",
+    "size": "3/8 oz"
+  },
+  "BRZ-TKO-20": {
+    "image": "images/brazalo/skirted-tko-ffs/tko-20.jpg",
+    "color": "Ayu",
+    "size": "1/2 oz"
+  },
+  "BRZ-SMB-01": {
+    "image": "images/brazalo/smallie-ballz/_main.jpg",
+    "color": "Black n Blue",
+    "size": "1/8 oz",
+    "isFallback": true
+  },
+  "BRZ-SMB-02": {
+    "image": "images/brazalo/smallie-ballz/_main.jpg",
+    "color": "Black n Blue",
+    "size": "3/16 oz",
+    "isFallback": true
+  },
+  "BRZ-SMB-03": {
+    "image": "images/brazalo/smallie-ballz/_main.jpg",
+    "color": "PB&J",
+    "size": "1/8 oz",
+    "isFallback": true
+  },
+  "BRZ-SMB-04": {
+    "image": "images/brazalo/smallie-ballz/_main.jpg",
+    "color": "PB&J",
+    "size": "3/16 oz",
+    "isFallback": true
+  },
+  "BRZ-SMB-05": {
+    "image": "images/brazalo/smallie-ballz/_main.jpg",
+    "color": "Green Pumpkin",
+    "size": "1/8 oz",
+    "isFallback": true
+  },
+  "BRZ-SMB-06": {
+    "image": "images/brazalo/smallie-ballz/_main.jpg",
+    "color": "Green Pumpkin",
+    "size": "3/16 oz",
+    "isFallback": true
+  },
+  "BRZ-SMB-07": {
+    "image": "images/brazalo/smallie-ballz/_main.jpg",
+    "color": "Green Pumpkin Orange",
+    "size": "1/8 oz",
+    "isFallback": true
+  },
+  "BRZ-SMB-08": {
+    "image": "images/brazalo/smallie-ballz/_main.jpg",
+    "color": "Green Pumpkin Orange",
+    "size": "3/16 oz",
+    "isFallback": true
+  },
+  "BRZ-SMB-09": {
+    "image": "images/brazalo/smallie-ballz/_main.jpg",
+    "color": "GP Purple",
+    "size": "1/8 oz",
+    "isFallback": true
+  },
+  "BRZ-SMB-10": {
+    "image": "images/brazalo/smallie-ballz/_main.jpg",
+    "color": "GP Purple",
+    "size": "3/16 oz",
+    "isFallback": true
+  },
+  "BRZ-SMB-11": {
+    "image": "images/brazalo/smallie-ballz/_main.jpg",
+    "color": "Missouri Craw",
+    "size": "1/8 oz",
+    "isFallback": true
+  },
+  "BRZ-SMB-12": {
+    "image": "images/brazalo/smallie-ballz/_main.jpg",
+    "color": "Missouri Craw",
+    "size": "3/16 oz",
+    "isFallback": true
+  }
+}

@@ -9,6 +9,7 @@
 <script src="queen-tackle-catalog-new.js"></script>
 <script src="spotsticker-catalog.js"></script>
 <script src="copperredbait-catalog.js"></script>
+<script src="brazalo-catalog.js"></script>
 <style>
   :root {
     --navy: #0a1628;
@@ -403,6 +404,18 @@
       </div>
     </div>
 
+    <div class="brand-card active" data-brand="brazalo">
+      <div class="brand-card-inner">
+        <div class="brand-logo-area"><img src="images/logos/brazalo-logo.png" alt="Brazalo Custom Lures" style="max-width:54px;max-height:54px;object-fit:contain;"></div>
+        <div class="brand-info">
+          <div class="brand-card-name">Brazalo Custom Lures</div>
+          <div class="brand-card-desc">Swim Jigs · Football Jigs · 501 Jigs · Finesse Jigs · Smallie Ballz · TKO FFS Heads · More</div>
+          <div class="brand-card-tag">179 SKUs Available</div>
+        </div>
+        <div class="brand-arrow">→</div>
+      </div>
+    </div>
+
     <div class="brand-card active" data-brand="lanier">
       <div class="brand-card-inner">
         <div class="brand-logo-area"><div class="brand-initials">LB</div></div>
@@ -541,6 +554,14 @@
       </div>
     </div>
 
+    <!-- BRAZALO CUSTOM LURES (dynamic) -->
+    <div id="brazaloForm" style="display:none">
+      <div class="product-section">
+        <div class="section-label">Products — Enter Quantity to Order</div>
+        <div id="brazalo-sections"></div>
+      </div>
+    </div>
+
     <!-- LANIER BAITS -->
     <div id="lanierForm" style="display:none">
       <div class="product-section">
@@ -659,7 +680,7 @@ async function initPage() {
 }
 
 function hideAllForms() {
-  ['castForm','feathermoonForm','qtForm','lanierForm','spotstickerForm','copperredForm']
+  ['castForm','feathermoonForm','qtForm','brazaloForm','lanierForm','spotstickerForm','copperredForm']
     .forEach(id => document.getElementById(id).style.display = 'none');
 }
 
@@ -686,6 +707,9 @@ function showBrand(brand, title) {
   } else if (brand === 'queen') {
     document.getElementById('qtForm').style.display = 'block';
     if (!document.getElementById('qt-sections').hasChildNodes()) renderAllQTSections();
+  } else if (brand === 'brazalo') {
+    document.getElementById('brazaloForm').style.display = 'block';
+    if (!document.getElementById('brazalo-sections').hasChildNodes()) renderAllBrazaloSections();
   } else if (brand === 'lanier') {
     document.getElementById('lanierForm').style.display = 'block';
     if (!document.getElementById('lb-finesse_worm-rows').hasChildNodes()) renderAllLanierRows();
@@ -700,7 +724,8 @@ function showBrand(brand, title) {
 
 const brandNames = {
   cast: 'Cast Fishing Co', feathermoon: 'FeatherMoon Outdoors',
-  queen: 'Queen Tackle', lanier: 'Lanier Baits',
+  queen: 'Queen Tackle', brazalo: 'Brazalo Custom Lures',
+  lanier: 'Lanier Baits',
   spotsticker: 'SpotSticker Baits',
   copperred: 'Copper Red Baits'
 };
