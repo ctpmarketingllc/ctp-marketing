@@ -10,6 +10,7 @@
 <script src="spotsticker-catalog.js"></script>
 <script src="copperredbait-catalog.js"></script>
 <script src="brazalo-catalog.js"></script>
+<script src="jbros-catalog.js"></script>
 <style>
   :root {
     --navy: #0a1628;
@@ -416,6 +417,18 @@
       </div>
     </div>
 
+    <div class="brand-card active" data-brand="jbros">
+      <div class="brand-card-inner">
+        <div class="brand-logo-area" style="background:var(--navy-light);"><img src="images/logos/jbros-logo.svg" alt="J Bro's Lures" style="max-width:54px;max-height:54px;object-fit:contain;"></div>
+        <div class="brand-info">
+          <div class="brand-card-name">J Bro's Lures</div>
+          <div class="brand-card-desc">Trifinity Worms · Sentinel Tubes · Jester · Skinny Stick · Glider · NED Rigs · Grubs · More</div>
+          <div class="brand-card-tag">229 SKUs Available</div>
+        </div>
+        <div class="brand-arrow">→</div>
+      </div>
+    </div>
+
     <div class="brand-card active" data-brand="lanier">
       <div class="brand-card-inner">
         <div class="brand-logo-area"><div class="brand-initials">LB</div></div>
@@ -562,6 +575,14 @@
       </div>
     </div>
 
+    <!-- J BRO'S LURES (dynamic) -->
+    <div id="jbrosForm" style="display:none">
+      <div class="product-section">
+        <div class="section-label">Products — Enter Quantity to Order</div>
+        <div id="jbros-sections"></div>
+      </div>
+    </div>
+
     <!-- LANIER BAITS -->
     <div id="lanierForm" style="display:none">
       <div class="product-section">
@@ -680,7 +701,7 @@ async function initPage() {
 }
 
 function hideAllForms() {
-  ['castForm','feathermoonForm','qtForm','brazaloForm','lanierForm','spotstickerForm','copperredForm']
+  ['castForm','feathermoonForm','qtForm','brazaloForm','jbrosForm','lanierForm','spotstickerForm','copperredForm']
     .forEach(id => document.getElementById(id).style.display = 'none');
 }
 
@@ -710,6 +731,9 @@ function showBrand(brand, title) {
   } else if (brand === 'brazalo') {
     document.getElementById('brazaloForm').style.display = 'block';
     if (!document.getElementById('brazalo-sections').hasChildNodes()) renderAllBrazaloSections();
+  } else if (brand === 'jbros') {
+    document.getElementById('jbrosForm').style.display = 'block';
+    if (!document.getElementById('jbros-sections').hasChildNodes()) renderAllJbrosSections();
   } else if (brand === 'lanier') {
     document.getElementById('lanierForm').style.display = 'block';
     if (!document.getElementById('lb-finesse_worm-rows').hasChildNodes()) renderAllLanierRows();
@@ -725,6 +749,7 @@ function showBrand(brand, title) {
 const brandNames = {
   cast: 'Cast Fishing Co', feathermoon: 'FeatherMoon Outdoors',
   queen: 'Queen Tackle', brazalo: 'Brazalo Custom Lures',
+  jbros: "J Bro's Lures",
   lanier: 'Lanier Baits',
   spotsticker: 'SpotSticker Baits',
   copperred: 'Copper Red Baits'
