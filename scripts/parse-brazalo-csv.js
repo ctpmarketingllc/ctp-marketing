@@ -22,6 +22,15 @@ const SECTIONS = {
   'B-Ned Ned Rig':                        { key: 'b_ned',              label: 'B-Ned Ned Rig' },
   'TKO FFS Head':                         { key: 'tko_ffs_head',       label: 'TKO FFS Head' },
   'Skirted TKO FFS Head':                 { key: 'skirted_tko_ffs',    label: 'Skirted TKO FFS Head' },
+  'Pro Elite Bushwhacker':                { key: 'pro_elite_bushwhacker', label: 'Pro Elite Bushwhacker' },
+  '"Schlapper" Pro Bushwhacker':          { key: 'schlapper_bushwhacker', label: 'Schlapper Pro Bushwhacker' },
+  '"OG" Bushwhacker':                     { key: 'og_bushwhacker',     label: 'OG Bushwhacker' },
+  'Pro Buzzbait (non clacking traditional buzzbait)': { key: 'pro_buzzbait', label: 'Pro Buzzbait' },
+  'Wee-Whackers':                         { key: 'wee_whackers',       label: 'Wee-Whackers' },
+  'Bufo Buzz (non-clacker)':              { key: 'bufo_buzz',          label: 'Bufo Buzz' },
+  'M1 Pro Buzzbait Pro Elite Head':       { key: 'm1_pro_buzzbait',    label: 'M1 Pro Buzzbait' },
+  'Strutters':                            { key: 'strutters',          label: 'Strutters' },
+  'Salty Head':                           { key: 'salty_head',         label: 'Salty Head' },
 };
 
 function parseDollar(s) {

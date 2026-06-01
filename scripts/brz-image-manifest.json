@@ -834,6 +834,521 @@
     "color": "Ayu",
     "size": "1/2 oz"
   },
+  "BRZ-PRO-01": {
+    "image": "images/brazalo/pro-elite-bushwhacker/pro-01.jpg",
+    "color": "Pro Elite Bushwhacker with Pink \\",
+    "size": ""
+  },
+  "BRZ-PRO-02": {
+    "image": "images/brazalo/pro-elite-bushwhacker/pro-02.jpg",
+    "color": "Pro Elite Bushwhacker with Pink \\",
+    "size": ""
+  },
+  "BRZ-PRO-03": {
+    "image": "images/brazalo/pro-elite-bushwhacker/pro-03.jpg",
+    "color": "Pro Elite Bushwhacker with Copper \\",
+    "size": ""
+  },
+  "BRZ-PRO-04": {
+    "image": "images/brazalo/pro-elite-bushwhacker/pro-04.jpg",
+    "color": "Pro Elite Bushwhacker with Copper \\",
+    "size": ""
+  },
+  "BRZ-PRO-05": {
+    "image": "images/brazalo/pro-elite-bushwhacker/pro-05.jpg",
+    "color": "Pro Elite Bushwhacker with Chartreuse \\",
+    "size": ""
+  },
+  "BRZ-PRO-06": {
+    "image": "images/brazalo/pro-elite-bushwhacker/pro-06.jpg",
+    "color": "Pro Elite Bushwhacker with Chartreuse \\",
+    "size": ""
+  },
+  "BRZ-PRO-07": {
+    "image": "images/brazalo/pro-elite-bushwhacker/pro-07.jpg",
+    "color": "Pro Elite Bushwhacker with White \\",
+    "size": ""
+  },
+  "BRZ-PRO-08": {
+    "image": "images/brazalo/pro-elite-bushwhacker/pro-08.jpg",
+    "color": "Pro Elite Bushwhacker with White \\",
+    "size": ""
+  },
+  "BRZ-PRO-09": {
+    "image": "images/brazalo/pro-elite-bushwhacker/pro-09.jpg",
+    "color": "Pro Elite Bushwhacker with Black \\",
+    "size": ""
+  },
+  "BRZ-PRO-10": {
+    "image": "images/brazalo/pro-elite-bushwhacker/pro-10.jpg",
+    "color": "Pro Elite Bushwhacker with Black \\",
+    "size": ""
+  },
+  "BRZ-PRO-11": {
+    "image": "images/brazalo/pro-elite-bushwhacker/pro-11.jpg",
+    "color": "Pro Elite Bushwhacker with Silver \\",
+    "size": ""
+  },
+  "BRZ-PRO-12": {
+    "image": "images/brazalo/pro-elite-bushwhacker/pro-12.jpg",
+    "color": "Pro Elite Bushwhacker with Silver \\",
+    "size": ""
+  },
+  "BRZ-PRO-13": {
+    "image": "images/brazalo/pro-elite-bushwhacker/pro-13.jpg",
+    "color": "Pro Elite Bushwhacker with Gold \\",
+    "size": ""
+  },
+  "BRZ-PRO-14": {
+    "image": "images/brazalo/pro-elite-bushwhacker/pro-14.jpg",
+    "color": "Pro Elite Bushwhacker with Gold \\",
+    "size": ""
+  },
+  "BRZ-SCH-01": {
+    "image": "images/brazalo/schlapper-bushwhacker/sch-01.jpg",
+    "color": "Schalpper Pro Gold \\",
+    "size": ""
+  },
+  "BRZ-SCH-02": {
+    "image": "images/brazalo/schlapper-bushwhacker/sch-02.jpg",
+    "color": "Schlapper Pro Gold \\",
+    "size": ""
+  },
+  "BRZ-SCH-03": {
+    "image": "images/brazalo/schlapper-bushwhacker/sch-03.jpg",
+    "color": "Schlapper Pro Silver \\",
+    "size": ""
+  },
+  "BRZ-SCH-04": {
+    "image": "images/brazalo/schlapper-bushwhacker/sch-04.jpg",
+    "color": "Schlapper Pro Silver \\",
+    "size": ""
+  },
+  "BRZ-SCH-05": {
+    "image": "images/brazalo/schlapper-bushwhacker/sch-05.jpg",
+    "color": "Schlapper Pro Black \\",
+    "size": ""
+  },
+  "BRZ-SCH-06": {
+    "image": "images/brazalo/schlapper-bushwhacker/sch-06.jpg",
+    "color": "Schlapper Pro Black \\",
+    "size": ""
+  },
+  "BRZ-SCH-07": {
+    "image": "images/brazalo/schlapper-bushwhacker/sch-07.jpg",
+    "color": "Schlapper Pro White \\",
+    "size": ""
+  },
+  "BRZ-SCH-08": {
+    "image": "images/brazalo/schlapper-bushwhacker/sch-08.jpg",
+    "color": "Schlapper Pro White \\",
+    "size": ""
+  },
+  "BRZ-SCH-09": {
+    "image": "images/brazalo/schlapper-bushwhacker/sch-09.jpg",
+    "color": "Schlapper Pro Pink \\",
+    "size": ""
+  },
+  "BRZ-SCH-10": {
+    "image": "images/brazalo/schlapper-bushwhacker/sch-10.jpg",
+    "color": "Schlapper Pro Pink \\",
+    "size": ""
+  },
+  "BRZ-BWKR-01": {
+    "image": "images/brazalo/og-bushwhacker/bwkr-01.jpg",
+    "color": "Black Bushwhacker with Copper blade",
+    "size": "3/8 oz"
+  },
+  "BRZ-BWKR-02": {
+    "image": "images/brazalo/og-bushwhacker/bwkr-02.jpg",
+    "color": "Black Bushwhacker with Copper blade",
+    "size": "1/2 oz"
+  },
+  "BRZ-BWKR-03": {
+    "image": "images/brazalo/og-bushwhacker/bwkr-03.jpg",
+    "color": "White Bushwhacker with Chartreuse blade",
+    "size": "3/8 oz"
+  },
+  "BRZ-BWKR-04": {
+    "image": "images/brazalo/og-bushwhacker/bwkr-04.jpg",
+    "color": "White Bushwhacker with Chartreuse blade",
+    "size": "1/2 oz"
+  },
+  "BRZ-BWKR-05": {
+    "image": "images/brazalo/og-bushwhacker/bwkr-05.jpg",
+    "color": "Black Bushwhacker with Chartreuse blade",
+    "size": "3/8 oz"
+  },
+  "BRZ-BWKR-06": {
+    "image": "images/brazalo/og-bushwhacker/bwkr-06.jpg",
+    "color": "Black Bushwhacker with Chartreuse blade",
+    "size": "1/2 oz"
+  },
+  "BRZ-BWKR-07": {
+    "image": "images/brazalo/og-bushwhacker/bwkr-07.jpg",
+    "color": "White Bushwhacker with Silver blade",
+    "size": "3/8 oz"
+  },
+  "BRZ-BWKR-08": {
+    "image": "images/brazalo/og-bushwhacker/bwkr-08.jpg",
+    "color": "White Bushwhacker with Silver blade",
+    "size": "1/2 oz"
+  },
+  "BRZ-BWKR-09": {
+    "image": "images/brazalo/og-bushwhacker/bwkr-09.jpg",
+    "color": "Black Bushwhacker with Silver blade",
+    "size": "3/8 oz"
+  },
+  "BRZ-BWKR-10": {
+    "image": "images/brazalo/og-bushwhacker/bwkr-10.jpg",
+    "color": "Black Bushwhacker with Silver blade",
+    "size": "1/2 oz"
+  },
+  "BRZ-BWKR-11": {
+    "image": "images/brazalo/og-bushwhacker/bwkr-11.jpg",
+    "color": "Black Bushwhacker with Black blade",
+    "size": "3/8 oz"
+  },
+  "BRZ-BWKR-12": {
+    "image": "images/brazalo/og-bushwhacker/bwkr-12.jpg",
+    "color": "Black Bushwhacker with Black blade",
+    "size": "1/2 oz"
+  },
+  "BRZ-BWKR-13": {
+    "image": "images/brazalo/og-bushwhacker/bwkr-13.jpg",
+    "color": "Black Bushwhacker with Gold Blade",
+    "size": "3/8 oz"
+  },
+  "BRZ-BWKR-14": {
+    "image": "images/brazalo/og-bushwhacker/bwkr-14.jpg",
+    "color": "Black Bushwhacker with Gold blade",
+    "size": "1/2 oz"
+  },
+  "BRZ-BWKR-15": {
+    "image": "images/brazalo/og-bushwhacker/bwkr-15.jpg",
+    "color": "White Bushwhacker with Copper blade",
+    "size": "3/8 oz"
+  },
+  "BRZ-BWKR-16": {
+    "image": "images/brazalo/og-bushwhacker/bwkr-16.jpg",
+    "color": "White Bushwhacker with Copper blade",
+    "size": "1/2 oz"
+  },
+  "BRZ-BWKR-17": {
+    "image": "images/brazalo/og-bushwhacker/bwkr-17.jpg",
+    "color": "White Bushwhacker with Gold blade",
+    "size": "3/8 oz"
+  },
+  "BRZ-BWKR-18": {
+    "image": "images/brazalo/og-bushwhacker/bwkr-18.jpg",
+    "color": "White Bushwhacker with Gold blade",
+    "size": "1/2 oz"
+  },
+  "BRZ-BWKR-19": {
+    "image": "images/brazalo/og-bushwhacker/bwkr-19.jpg",
+    "color": "White Bushwhacker with White blade",
+    "size": "3/8 oz"
+  },
+  "BRZ-BWKR-20": {
+    "image": "images/brazalo/og-bushwhacker/bwkr-20.jpg",
+    "color": "White Bushwhacker with White blade",
+    "size": "1/2 oz"
+  },
+  "BRZ-BUZZ-01": {
+    "image": "images/brazalo/pro-buzzbait/buzz-01.jpg",
+    "color": "White Buzzbait with White blade",
+    "size": "3/8 oz"
+  },
+  "BRZ-BUZZ-02": {
+    "image": "images/brazalo/pro-buzzbait/buzz-02.jpg",
+    "color": "White Buzzbait with White blade",
+    "size": "1/2 oz"
+  },
+  "BRZ-BUZZ-03": {
+    "image": "images/brazalo/pro-buzzbait/buzz-03.jpg",
+    "color": "River Classic Buzzbait (chartreuse blade)",
+    "size": "3/8 oz"
+  },
+  "BRZ-BUZZ-04": {
+    "image": "images/brazalo/pro-buzzbait/buzz-04.jpg",
+    "color": "River Classic Buzzbait (chartreuse blade)",
+    "size": "1/2 oz"
+  },
+  "BRZ-BUZZ-05": {
+    "image": "images/brazalo/pro-buzzbait/buzz-05.jpg",
+    "color": "Black Buzzbait with Gold blade",
+    "size": "3/8 oz"
+  },
+  "BRZ-BUZZ-06": {
+    "image": "images/brazalo/pro-buzzbait/buzz-06.jpg",
+    "color": "Black Buzzbait with Gold blade",
+    "size": "1/2 oz"
+  },
+  "BRZ-BUZZ-07": {
+    "image": "images/brazalo/pro-buzzbait/buzz-07.jpg",
+    "color": "Black Buzzbait with Black blade",
+    "size": "3/8 oz"
+  },
+  "BRZ-BUZZ-08": {
+    "image": "images/brazalo/pro-buzzbait/buzz-08.jpg",
+    "color": "Black Buzzbait with Black blade",
+    "size": "1/2 oz"
+  },
+  "BRZ-BUZZ-09": {
+    "image": "images/brazalo/pro-buzzbait/buzz-09.jpg",
+    "color": "Black Buzzbait with Silver blade",
+    "size": "3/8 oz"
+  },
+  "BRZ-BUZZ-10": {
+    "image": "images/brazalo/pro-buzzbait/buzz-10.jpg",
+    "color": "Black Buzzbait with Silver blade",
+    "size": "1/2 oz"
+  },
+  "BRZ-BUZZ-11": {
+    "image": "images/brazalo/pro-buzzbait/buzz-11.jpg",
+    "color": "Black Buzzbait with Copper blade",
+    "size": "3/8 oz"
+  },
+  "BRZ-BUZZ-12": {
+    "image": "images/brazalo/pro-buzzbait/buzz-12.jpg",
+    "color": "Black Buzzbait with Copper blade",
+    "size": "1/2 oz"
+  },
+  "BRZ-BUZZ-13": {
+    "image": "images/brazalo/pro-buzzbait/buzz-13.jpg",
+    "color": "Arkansas River Special Buzzbait Gold Blade",
+    "size": "3/8 oz"
+  },
+  "BRZ-BUZZ-14": {
+    "image": "images/brazalo/pro-buzzbait/buzz-14.jpg",
+    "color": "Arkansas River Special Buzzbait Gold Blade",
+    "size": "1/2 oz"
+  },
+  "BRZ-BUZZ-15": {
+    "image": "images/brazalo/pro-buzzbait/buzz-15.jpg",
+    "color": "Brazalo Bream Buzzbait Gold Blade",
+    "size": "3/8 oz"
+  },
+  "BRZ-BUZZ-16": {
+    "image": "images/brazalo/pro-buzzbait/buzz-16.jpg",
+    "color": "Brazalo Bream Buzzbait Gold Blade",
+    "size": "1/2 oz"
+  },
+  "BRZ-BUZZ-17": {
+    "image": "images/brazalo/pro-buzzbait/buzz-17.jpg",
+    "color": "White Buzzbait with Silver blade",
+    "size": "3/8 oz"
+  },
+  "BRZ-BUZZ-18": {
+    "image": "images/brazalo/pro-buzzbait/buzz-18.jpg",
+    "color": "White Buzzbait with Silver blade",
+    "size": "1/2 oz"
+  },
+  "BRZ-BUZZ-19": {
+    "image": "images/brazalo/pro-buzzbait/buzz-19.jpg",
+    "color": "White Buzzbait with Gold blade",
+    "size": "3/8 oz"
+  },
+  "BRZ-BUZZ-20": {
+    "image": "images/brazalo/pro-buzzbait/buzz-20.jpg",
+    "color": "White Buzzbait with Gold blade",
+    "size": "1/2 oz"
+  },
+  "BRZ-BUZZ-21": {
+    "image": "images/brazalo/pro-buzzbait/buzz-21.jpg",
+    "color": "White Buzzbait with Copper blade",
+    "size": "3/8 oz"
+  },
+  "BRZ-BUZZ-22": {
+    "image": "images/brazalo/pro-buzzbait/buzz-22.jpg",
+    "color": "White Buzzbait with Copper blade",
+    "size": "1/2 oz"
+  },
+  "BRZ-WEE-01": {
+    "image": "images/brazalo/wee-whackers/wee-01.jpg",
+    "color": "Wee-Whacker Gold Blade",
+    "size": ""
+  },
+  "BRZ-WEE-02": {
+    "image": "images/brazalo/wee-whackers/wee-02.jpg",
+    "color": "Wee-Whacker Silver Blade",
+    "size": ""
+  },
+  "BRZ-WEE-03": {
+    "image": "images/brazalo/wee-whackers/wee-03.jpg",
+    "color": "Wee-Whacker Candy Chartreuse Blade",
+    "size": ""
+  },
+  "BRZ-WEE-04": {
+    "image": "images/brazalo/wee-whackers/wee-04.jpg",
+    "color": "Wee-Whacker Black Blade",
+    "size": ""
+  },
+  "BRZ-WEE-05": {
+    "image": "images/brazalo/wee-whackers/wee-05.jpg",
+    "color": "Wee-Whacker Tequilla Rose Blade",
+    "size": ""
+  },
+  "BRZ-PRBZZ-01": {
+    "image": "images/brazalo/bufo-buzz/prbzz-01.jpg",
+    "color": "Bufo Buzz Black \\",
+    "size": ""
+  },
+  "BRZ-PRBZZ-02": {
+    "image": "images/brazalo/bufo-buzz/prbzz-02.jpg",
+    "color": "Bufo Buzz Black \\",
+    "size": ""
+  },
+  "BRZ-PRBZZ-03": {
+    "image": "images/brazalo/bufo-buzz/prbzz-03.jpg",
+    "color": "Bufo Buzz Gold \\",
+    "size": ""
+  },
+  "BRZ-PRBZZ-04": {
+    "image": "images/brazalo/bufo-buzz/prbzz-04.jpg",
+    "color": "Bufo Buzz Gold \\",
+    "size": ""
+  },
+  "BRZ-PRBZZ-05": {
+    "image": "images/brazalo/bufo-buzz/prbzz-05.jpg",
+    "color": "Bufo Buzz Silver \\",
+    "size": ""
+  },
+  "BRZ-PRBZZ-06": {
+    "image": "images/brazalo/bufo-buzz/prbzz-06.jpg",
+    "color": "Bufo Buzz Silver \\",
+    "size": ""
+  },
+  "BRZ-MGWKR-01": {
+    "image": "images/brazalo/m1-pro-buzzbait/mgwkr-01.jpg",
+    "color": "M1 Pro Gold \\",
+    "size": ""
+  },
+  "BRZ-MGWKR-02": {
+    "image": "images/brazalo/m1-pro-buzzbait/mgwkr-02.jpg",
+    "color": "M1 Pro Gold \\",
+    "size": ""
+  },
+  "BRZ-MGWKR-03": {
+    "image": "images/brazalo/m1-pro-buzzbait/mgwkr-03.jpg",
+    "color": "M1 Pro Silver \\",
+    "size": ""
+  },
+  "BRZ-MGWKR-04": {
+    "image": "images/brazalo/m1-pro-buzzbait/mgwkr-04.jpg",
+    "color": "M1 Pro Silver \\",
+    "size": ""
+  },
+  "BRZ-MGWKR-05": {
+    "image": "images/brazalo/m1-pro-buzzbait/mgwkr-05.jpg",
+    "color": "M1 Pro Black \\",
+    "size": ""
+  },
+  "BRZ-MGWKR-06": {
+    "image": "images/brazalo/m1-pro-buzzbait/mgwkr-06.jpg",
+    "color": "M1 Pro Black \\",
+    "size": ""
+  },
+  "BRZ-MGWKR-07": {
+    "image": "images/brazalo/m1-pro-buzzbait/mgwkr-07.jpg",
+    "color": "M1 Pro White \\",
+    "size": ""
+  },
+  "BRZ-MGWKR-08": {
+    "image": "images/brazalo/m1-pro-buzzbait/mgwkr-08.jpg",
+    "color": "M1 Pro White \\",
+    "size": ""
+  },
+  "BRZ-STRT-01": {
+    "image": "images/brazalo/strutters/strt-01.jpg",
+    "color": "White Strutter Silver Blade",
+    "size": "3/8 oz"
+  },
+  "BRZ-STRT-02": {
+    "image": "images/brazalo/strutters/strt-02.jpg",
+    "color": "White Strutter Silver Blade",
+    "size": "1/2 oz"
+  },
+  "BRZ-STRT-03": {
+    "image": "images/brazalo/strutters/strt-03.jpg",
+    "color": "White Strutter Gold Blade",
+    "size": "3/8 oz"
+  },
+  "BRZ-STRT-04": {
+    "image": "images/brazalo/strutters/strt-04.jpg",
+    "color": "White Strutter Gold Blade",
+    "size": "1/2 oz"
+  },
+  "BRZ-STRT-05": {
+    "image": "images/brazalo/strutters/strt-05.jpg",
+    "color": "Green Pumpkin Strutter GP Blade",
+    "size": "3/8 oz"
+  },
+  "BRZ-STRT-06": {
+    "image": "images/brazalo/strutters/strt-06.jpg",
+    "color": "Green Pumpkin Strutter GP Blade",
+    "size": "1/2 oz"
+  },
+  "BRZ-STRT-07": {
+    "image": "images/brazalo/strutters/strt-07.jpg",
+    "color": "Peachy Strutter Silver Blade",
+    "size": "3/8 oz"
+  },
+  "BRZ-STRT-08": {
+    "image": "images/brazalo/strutters/strt-08.jpg",
+    "color": "Peachy Strutter Silver Blade",
+    "size": "1/2 oz"
+  },
+  "BRZ-STRT-09": {
+    "image": "images/brazalo/strutters/strt-09.jpg",
+    "color": "Arkansas River Special Strutter Gold Blade",
+    "size": "3/8 oz"
+  },
+  "BRZ-STRT-10": {
+    "image": "images/brazalo/strutters/strt-10.jpg",
+    "color": "Arkansas River Special Strutter Gold Blade",
+    "size": "1/2 oz"
+  },
+  "BRZ-STRT-11": {
+    "image": "images/brazalo/strutters/strt-11.jpg",
+    "color": "Black N Blue Strutter Black Blade",
+    "size": "3/8 oz"
+  },
+  "BRZ-STRT-12": {
+    "image": "images/brazalo/strutters/strt-12.jpg",
+    "color": "Black N Blue Strutter Black Blade",
+    "size": "1/2 oz"
+  },
+  "BRZ-STRT-13": {
+    "image": "images/brazalo/strutters/strt-13.jpg",
+    "color": "Brazalo Bream Strutter Gold Blade",
+    "size": "3/8 oz"
+  },
+  "BRZ-STRT-14": {
+    "image": "images/brazalo/strutters/strt-14.jpg",
+    "color": "Brazalo Bream Strutter Gold Blade",
+    "size": "1/2 oz"
+  },
+  "BRZ-STRT-15": {
+    "image": "images/brazalo/strutters/strt-15.jpg",
+    "color": "GP Shad Strutter GP Blade",
+    "size": "3/8 oz"
+  },
+  "BRZ-STRT-16": {
+    "image": "images/brazalo/strutters/strt-16.jpg",
+    "color": "GP Shad Strutter GP Blade",
+    "size": "1/2 oz"
+  },
+  "BRZ-STRT-17": {
+    "image": "images/brazalo/strutters/strt-17.jpg",
+    "color": "Morning Dawn Strutter Dawn Blade",
+    "size": "3/8 oz"
+  },
+  "BRZ-STRT-18": {
+    "image": "images/brazalo/strutters/strt-18.jpg",
+    "color": "Morning Dawn Strutter Dawn Blade",
+    "size": "1/2 oz"
+  },
   "BRZ-SMB-01": {
     "image": "images/brazalo/smallie-ballz/_main.jpg",
     "color": "Black n Blue",

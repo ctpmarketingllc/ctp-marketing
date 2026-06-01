@@ -222,6 +222,141 @@ Order Qty,Model #,Description,Per Unit Price,Extended Price,MAP,MSRP,UPC,,,,,,,,
 ,TKO-18,1/4 oz Ayu Skirted TKO FFS head ,$3.60, $-   ,$4.19,$5.99,709402358121,,,,,,,,,,,,,,,,,
 ,TKO-19,3/8 oz Ayu Skirted TKO FFS head ,$3.60, $-   ,$4.19,$5.99,709402358138,,,,,,,,,,,,,,,,,
 ,TKO-20,1/2 oz Ayu Skirted TKO FFS head ,$3.60, $-   ,$4.19,$5.99,709402358541,,,,,,,,,,,,,,,,,
+,,Pro Elite Bushwhacker,,,MAP,MSRP,
+,PRO-01,"Pro Elite Bushwhacker with Pink ""A"" blade",$6.59, $-   ,$8.49,$9.99,709402357780
+,PRO-02,"Pro Elite Bushwhacker with Pink ""C"" blade",$6.59, $-   ,$8.49,$9.99,709402356110
+,PRO-03,"Pro Elite Bushwhacker with Copper ""A"" blade",$6.00, $-   ,$8.49,$9.99,709402357773
+,PRO-04,"Pro Elite Bushwhacker with Copper ""C"" blade",$6.00, $-   ,$8.49,$9.99,709402356127
+,PRO-05,"Pro Elite Bushwhacker with Chartreuse ""A"" blade",$6.59, $-   ,$8.49,$9.99,709402357766
+,PRO-06,"Pro Elite Bushwhacker with Chartreuse ""C"" blade",$6.59, $-   ,$8.49,$9.99,709402356332
+,PRO-07,"Pro Elite Bushwhacker with White ""A"" blade",$6.59, $-   ,$8.49,$9.99,709402357759
+,PRO-08,"Pro Elite Bushwhacker with White ""C"" blade",$6.59, $-   ,$8.49,$9.99,709402355267
+,PRO-09,"Pro Elite Bushwhacker with Black ""A"" blade",$6.59, $-   ,$8.49,$9.99,709402357711
+,PRO-10,"Pro Elite Bushwhacker with Black ""C"" blade",$6.59, $-   ,$8.49,$9.99,709402355038
+,PRO-11,"Pro Elite Bushwhacker with Silver ""A"" blade",$6.59, $-   ,$8.49,$9.99,709402357704
+,PRO-12,"Pro Elite Bushwhacker with Silver ""C"" blade",$6.59, $-   ,$8.49,$9.99,709402355021
+,PRO-13,"Pro Elite Bushwhacker with Gold ""A"" blade",$6.59, $-   ,$8.49,$9.99,709402357698
+,PRO-14,"Pro Elite Bushwhacker with Gold ""C"" blade",$6.59, $-   ,$8.49,$9.99,709402355625
+,,,,,,,,
+,,"""Schlapper"" Pro Bushwhacker",,,,,
+,SCH-01,"Schalpper Pro Gold ""A"" blade",$6.59, $-   ,$8.79,$10.99,709402359159
+,SCH-02,"Schlapper Pro Gold ""C"" blade",$6.59, $-   ,$8.79,$10.99,709402359166
+,SCH-03,"Schlapper Pro Silver ""A"" blade",$6.59, $-   ,$8.79,$10.99,709402359173
+,SCH-04,"Schlapper Pro Silver ""C"" blade",$6.59, $-   ,$8.79,$10.99,709402359180
+,SCH-05,"Schlapper Pro Black ""A"" blade",$6.59, $-   ,$8.79,$10.99,709402354536
+,SCH-06,"Schlapper Pro Black ""C"" blade",$6.59, $-   ,$8.79,$10.99,709402354550
+,SCH-07,"Schlapper Pro White ""A"" blade",$6.59, $-   ,$8.79,$10.99,709402354604
+,SCH-08,"Schlapper Pro White ""C"" blade",$6.59, $-   ,$8.79,$10.99,709402354611
+,SCH-09,"Schlapper Pro Pink ""A"" blade",$6.59, $-   ,$8.79,$10.99,709402354413
+,SCH-10,"Schlapper Pro Pink ""C"" blade",$6.59, $-   ,$8.79,$10.99,709402354437
+,,,,,,,,
+,,"""OG"" Bushwhacker",,,,,
+,BWKR-01,3/8 oz Black Bushwhacker with Copper blade,$6.00, $-   ,$8.49,$9.99,709402357322
+,BWKR-02,1/2 oz Black Bushwhacker with Copper blade,$6.00, $-   ,$8.49,$9.99,709402357216
+,BWKR-03,3/8 oz White Bushwhacker with Chartreuse blade,$6.00, $-   ,$8.49,$9.99,709402357735
+,BWKR-04,1/2 oz White Bushwhacker with Chartreuse blade,$6.00, $-   ,$8.49,$9.99,709402355380
+,BWKR-05,3/8 oz Black Bushwhacker with Chartreuse blade,$6.00, $-   ,$8.49,$9.99,709402357339
+,BWKR-06,1/2 oz Black Bushwhacker with Chartreuse blade,$6.00, $-   ,$8.49,$9.99,709402359197
+,BWKR-07,3/8 oz White Bushwhacker with Silver blade,$6.00, $-   ,$8.49,$9.99,709402354758
+,BWKR-08,1/2 oz White Bushwhacker with Silver blade,$6.00, $-   ,$8.49,$9.99,709402354741
+,BWKR-09,3/8 oz Black Bushwhacker with Silver blade,$6.00, $-   ,$8.49,$9.99,709402356776
+,BWKR-10,1/2 oz Black Bushwhacker with Silver blade,$6.00, $-   ,$8.49,$9.99,709402356769
+,BWKR-11,3/8 oz Black Bushwhacker with Black blade,$6.00, $-   ,$8.49,$9.99,709402355236
+,BWKR-12,1/2 oz Black Bushwhacker with Black blade,$6.00, $-   ,$8.49,$9.99,709402355168
+,BWKR-13,3/8 oz Black Bushwhacker with Gold Blade,$6.00, $-   ,$8.49,$9.99,709402355243
+,BWKR-14,1/2 oz Black Bushwhacker with Gold blade,$6.00, $-   ,$8.49,$9.99,709402355984
+,BWKR-15,3/8 oz White Bushwhacker with Copper blade,$6.00, $-   ,$8.49,$9.99,709402355595
+,BWKR-16,1/2 oz White Bushwhacker with Copper blade,$6.00, $-   ,$8.49,$9.99,709402355373
+,BWKR-17,3/8 oz White Bushwhacker with Gold blade,$6.00, $-   ,$8.49,$9.99,709402354727
+,BWKR-18,1/2 oz White Bushwhacker with Gold blade,$6.00, $-   ,$8.49,$9.99,709402354734
+,BWKR-19,3/8 oz White Bushwhacker with White blade,$6.00, $-   ,$8.49,$9.99,709402354703
+,BWKR-20,1/2 oz White Bushwhacker with White blade,$6.00, $-   ,$8.49,$9.99,709402354710
+,,,,,,,,
+,,Pro Buzzbait (non clacking traditional buzzbait),,,,,
+,BUZZ-01,3/8 oz White Buzzbait with White blade,$4.25, $-   ,$5.85,$6.99,709402356639
+,BUZZ-02,1/2 oz White Buzzbait with White blade,$4.25, $-   ,$5.85,$6.99,709402356622
+,BUZZ-03,3/8 oz River Classic Buzzbait (chartreuse blade),$4.25, $-   ,$5.85,$6.99,709402356608
+,BUZZ-04,1/2 oz River Classic Buzzbait (chartreuse blade),$4.25, $-   ,$5.85,$6.99,709402356592
+,BUZZ-05,3/8 oz Black Buzzbait with Gold blade,$4.25, $-   ,$5.85,$6.99,709402355601
+,BUZZ-06,1/2 oz Black Buzzbait with Gold blade,$4.25, $-   ,$5.85,$6.99,709402355366
+,BUZZ-07,3/8 oz Black Buzzbait with Black blade,$4.25, $-   ,$5.85,$6.99,709402355281
+,BUZZ-08,1/2 oz Black Buzzbait with Black blade,$4.25, $-   ,$5.85,$6.99,709402355274
+,BUZZ-09,3/8 oz Black Buzzbait with Silver blade,$4.25, $-   ,$5.85,$6.99,709402355403
+,BUZZ-10,1/2 oz Black Buzzbait with Silver blade,$4.25, $-   ,$5.85,$6.99,709402355397
+,BUZZ-11,3/8 oz Black Buzzbait with Copper blade,$4.25, $-   ,$5.85,$6.99,709402355526
+,BUZZ-12,1/2 oz Black Buzzbait with Copper blade,$4.25, $-   ,$5.85,$6.99,709402355519
+,BUZZ-13,3/8 oz Arkansas River Special Buzzbait Gold Blade,$4.25, $-   ,$5.85,$6.99,709402355465
+,BUZZ-14,1/2 oz Arkansas River Special Buzzbait Gold Blade,$4.25, $-   ,$5.85,$6.99,709402355458
+,BUZZ-15,3/8 oz Brazalo Bream Buzzbait Gold Blade,$4.25, $-   ,$5.85,$6.99,709402355496
+,BUZZ-16,1/2 oz Brazalo Bream Buzzbait Gold Blade,$4.25, $-   ,$5.85,$6.99,709402355489
+,BUZZ-17,3/8 oz White Buzzbait with Silver blade,$4.25, $-   ,$5.85,$6.99,709402355311
+,BUZZ-18,1/2 oz White Buzzbait with Silver blade,$4.25, $-   ,$5.85,$6.99,709402355304
+,BUZZ-19,3/8 oz White Buzzbait with Gold blade,$4.25, $-   ,$5.85,$6.99,709402355434
+,BUZZ-20,1/2 oz White Buzzbait with Gold blade,$4.25, $-   ,$5.85,$6.99,709402355427
+,BUZZ-21,3/8 oz White Buzzbait with Copper blade,$4.25, $-   ,$5.85,$6.99,709402355557
+,BUZZ-22,1/2 oz White Buzzbait with Copper blade,$4.25, $-   ,$5.85,$6.99,709402355540
+,,,,,,,,
+,,Wee-Whackers,,,,,
+,WEE-01,Wee-Whacker Gold Blade,$6.00, $-   ,$8.49,$9.99,709402358879
+,WEE-02,Wee-Whacker Silver Blade,$6.00, $-   ,$8.49,$9.99,709402358862
+,WEE-03,Wee-Whacker Candy Chartreuse Blade,$6.00, $-   ,$8.49,$9.99,709402358893
+,WEE-04,Wee-Whacker Black Blade,$6.00, $-   ,$8.49,$9.99,709402358909
+,WEE-05,Wee-Whacker Tequilla Rose Blade,$6.00, $-   ,$8.49,$9.99,709402358329
+,,,,,,,,
+,,Bufo Buzz (non-clacker),,,,,
+,PRBZZ-01,"Bufo Buzz Black ""A"" blade",$4.25, $-   ,$5.85,$6.99,709402358916
+,PRBZZ-02,"Bufo Buzz Black ""C"" blade",$4.25, $-   ,$5.85,$6.99,709402358923
+,PRBZZ-03,"Bufo Buzz Gold ""A"" blade",$4.25, $-   ,$5.85,$6.99,709402358930
+,PRBZZ-04,"Bufo Buzz Gold ""C"" blade",$4.25, $-   ,$5.85,$6.99,709402358947
+,PRBZZ-05,"Bufo Buzz Silver ""A"" blade",$4.25, $-   ,$5.85,$6.99,709402358954
+,PRBZZ-06,"Bufo Buzz Silver ""C"" blade",$4.25, $-   ,$5.85,$6.99,709402358961
+,,,,,,,,
+,,"M1 Pro Buzzbait Pro Elite Head",,,,,
+,MGWKR-01,"M1 Pro Gold ""A"" Blade",$6.59, $-   ,$8.79,$10.99,709402357247
+,MGWKR-02,"M1 Pro Gold ""C"" Blade",$6.59, $-   ,$8.79,$10.99,709402358992
+,MGWKR-03,"M1 Pro Silver ""A"" Blade",$6.59, $-   ,$8.79,$10.99,709402357803
+,MGWKR-04,"M1 Pro Silver ""C"" blade",$6.59, $-   ,$8.79,$10.99,709402359005
+,MGWKR-05,"M1 Pro Black ""A"" Blade",$6.59, $-   ,$8.79,$10.99,709402357230
+,MGWKR-06,"M1 Pro Black ""C"" Blade",$6.59, $-   ,$8.79,$10.99,709402359012
+,MGWKR-07,"M1 Pro White ""A"" Blade",$6.59, $-   ,$8.79,$10.99,709402357797
+,MGWKR-08,"M1 Pro White ""C"" Blade",$6.59, $-   ,$8.79,$10.99,709402359029
+,,,,,,,,
+,,Strutters,,,MAP,MSRP,
+,STRT-01,3/8 oz White Strutter Silver Blade,$6.00, $-   ,$8.49,$9.99,709402355786
+,STRT-02,1/2 oz White Strutter Silver Blade,$6.00, $-   ,$8.49,$9.99,709402354376
+,STRT-03,3/8 oz White Strutter Gold Blade,$6.00, $-   ,$8.49,$9.99,709402354383
+,STRT-04,1/2 oz White Strutter Gold Blade,$6.00, $-   ,$8.49,$9.99,709402359289
+,STRT-05,3/8 oz Green Pumpkin Strutter GP Blade,$6.00, $-   ,$8.49,$9.99,709402359272
+,STRT-06,1/2 oz Green Pumpkin Strutter GP Blade,$6.00, $-   ,$8.49,$9.99,709402359265
+,STRT-07,3/8 oz Peachy Strutter Silver Blade,$6.00, $-   ,$8.49,$9.99,709402359258
+,STRT-08,1/2 oz Peachy Strutter Silver Blade,$6.00, $-   ,$8.49,$9.99,709402359241
+,STRT-09,3/8 oz Arkansas River Special Strutter Gold Blade,$6.00, $-   ,$8.49,$9.99,709402359234
+,STRT-10,1/2 oz Arkansas River Special Strutter Gold Blade,$6.00, $-   ,$8.49,$9.99,709402359227
+,STRT-11,3/8 oz Black N Blue Strutter Black Blade,$6.00, $-   ,$8.49,$9.99,709402359210
+,STRT-12,1/2 oz Black N Blue Strutter Black Blade,$6.00, $-   ,$8.49,$9.99,709402359203
+,STRT-13,3/8 oz Brazalo Bream Strutter Gold Blade,$6.00, $-   ,$8.49,$9.99,709402356936
+,STRT-14,1/2 oz Brazalo Bream Strutter Gold Blade,$6.00, $-   ,$8.49,$9.99,709402356844
+,STRT-15,3/8 oz GP Shad Strutter GP Blade,$6.00, $-   ,$8.49,$9.99,709402356943
+,STRT-16,1/2 oz GP Shad Strutter GP Blade,$6.00, $-   ,$8.49,$9.99,709402356868
+,STRT-17,3/8 oz Morning Dawn Strutter Dawn Blade,$6.00, $-   ,$8.49,$9.99,709402356806
+,STRT-18,1/2 oz Morning Dawn Strutter Dawn Blade,$6.00, $-   ,$8.49,$9.99,709402356851
+,,,,,,,,
+,,Salty Head,,,MAP,MSRP,
+,SALT-01,1/16 oz White Salty Head,$6.00, $-   ,$9.99,$11.99,709402354352
+,SALT-02,1/8 oz White Salty Head,$6.00, $-   ,$9.99,$11.99,709402354680
+,SALT-03,1/4 oz White Salty Head,$6.00, $-   ,$9.99,$11.99,709402354871
+,SALT-04,1/16 oz Pink Salty Head,$6.00, $-   ,$9.99,$11.99,709402356547
+,SALT-05,1/8 oz Pink Salty Head,$6.00, $-   ,$9.99,$11.99,709402354369
+,SALT-06,1/4 oz Pink Salty Head,$6.00, $-   ,$9.99,$11.99,709402354697
+,SALT-07,1/16 oz Chartreuse Salty Head,$6.00, $-   ,$9.99,$11.99,709402354864
+,SALT-08,1/8 oz Chartreuse Salty Head,$6.00, $-   ,$9.99,$11.99,709402356530
+,SALT-09,1/4 oz Chartreuse Salty Head,$6.00, $-   ,$9.99,$11.99,709402358008
+,SALT-10,1/16 oz Red Salty Head,$6.00, $-   ,$9.99,$11.99,709402358435
+,SALT-11,1/8 oz Red Salty Head,$6.00, $-   ,$9.99,$11.99,709402358442
+,SALT-12,1/4 oz Red Salty Head,$6.00, $-   ,$9.99,$11.99,709402358459
+,SALT-13,1/16 oz Bare Salty Head,$6.00, $-   ,$9.99,$11.99,709402358466
+,SALT-14,1/8 oz Bare Salty Head,$6.00, $-   ,$9.99,$11.99,709402358305
+,SALT-15,1/4 oz Bare Salty Head,$6.00, $-   ,$9.99,$11.99,709402358299
 ,,,,,,,,,,,,,,,,,,,,,,,,
 0,Total, $500 = Free Shipping                                                      PO TOTAL,, $-   ,,,,,,,,,,,,,,,,,,,,
 ,,,,,,,,,,,,,,,,,,,,,,,,

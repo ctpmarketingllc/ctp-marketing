@@ -28,6 +28,19 @@ const CATEGORY_SOURCES = [
   { cat: 'b_ned',              titleRe: /B-Ned Rig/i },
   { cat: 'tko_ffs_head',       titleRe: /T\.K\.O\. FFS Head – Forward Facing/i },
   { cat: 'skirted_tko_ffs',    titleRe: /Skirted T\.K\.O\. FFS/i },
+  { cat: 'pro_elite_bushwhacker', titleRe: /Pro Elite Bushwhacker/i },
+  { cat: 'schlapper_bushwhacker', titleRe: /Schlapper Pro Bushwhacker/i },
+  // OG must NOT match Pro Elite or Schlapper; the generic "Bushwhacker – Tuned Buzzbait" is it.
+  { cat: 'og_bushwhacker',     titleRe: /^Brazalo Custom Lures Bushwhacker – Tuned/i },
+  { cat: 'pro_buzzbait',       titleRe: /Pro Buzz – Skirted/i },
+  // Catalog "Wee-Whackers" is the standalone Wee-Whacker Buzzbait, not the Skirted variant.
+  { cat: 'wee_whackers',       titleRe: /^Brazalo Wee-Whacker Buzzbait/i },
+  { cat: 'bufo_buzz',          titleRe: /Bufo Buzz/i },
+  { cat: 'm1_pro_buzzbait',    titleRe: /M1 Pro Buzzbait/i },
+  // Pick the "Brazalo Strutter 2.0", not the "Custom Brazalo Strutter 2.0" build-your-own variant.
+  { cat: 'strutters',          titleRe: /^Brazalo Strutter 2\.0 Bladed Jig/i },
+  // Salty Head has no public vendor product yet — left out of CATEGORY_SOURCES intentionally;
+  // those 15 SKUs will render with a placeholder dash until vendor adds them.
 ];
 
 function colorKey(s) { return String(s || '').toLowerCase().replace(/[^a-z0-9]/g, ''); }
@@ -115,10 +128,12 @@ async function main() {
   const catalog = [];
   let currentCat = null;
   for (const line of catalogSrc.split(/\r?\n/)) {
-    const catMatch = line.match(/^\s*([a-z_0-9]+):\s*\[/);
-    if (catMatch && /^(swim_jigs|football_jigs|finesse_swim_jigs|jigs_501|power_finesse_jigs|smallie_ballz|b_ned|tko_ffs_head|skirted_tko_ffs)$/.test(catMatch[1])) {
-      currentCat = catMatch[1]; continue;
-    }
+    // Any indented "<key>: [" line that introduces a catalog category.
+    // We exclude const/let declarations and the closing "};" by requiring
+    // a snake_case key + the opening bracket — same shape as parse-brazalo-csv
+    // emits.
+    const catMatch = line.match(/^  ([a-z][a-z_0-9]+):\s*\[/);
+    if (catMatch) { currentCat = catMatch[1]; continue; }
     const m = line.match(/\{ sku:'([^']+)', model:'([^']+)', upc:'[^']*', desc:.*?, size:'([^']*)', color:("[^"]*"|'[^']*')/);
     if (m && currentCat) {
       const sku = m[1], model = m[2], size = m[3], color = m[4].slice(1, -1);
