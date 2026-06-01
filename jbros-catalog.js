@@ -268,6 +268,23 @@ const jbrosCatalog = {
     { sku:'JB-810110282100', upc:'810110282100', desc:"Ditch Lobster 4\" June Bug Qty 6", color:"June Bug", pack:'6', wholesale:2.98, image:'images/jbros/ditch-lobster/810110282100.jpg' },
     { sku:'JB-810110282117', upc:'810110282117', desc:"Ditch Lobster 4\" White Qty 6", color:"White", pack:'6', wholesale:2.98, image:'images/jbros/ditch-lobster/810110282117.jpg' },
   ],
+  brover: [
+    { sku:'JB-BROVER-BB', upc:'', desc:"Brover 4.25\" Black/Blue Quantity 5", color:"Black/Blue", pack:'5', wholesale:3.87, image:'images/jbros/brover/brover-bb.jpg' },
+    { sku:'JB-BROVER-WR', upc:'', desc:"Brover 4.25\" Watermelon Red Quantity 5", color:"Watermelon Red", pack:'5', wholesale:3.87, image:'images/jbros/brover/brover-wr.jpg' },
+    { sku:'JB-BROVER-GP', upc:'', desc:"Brover 4.25\" Green Pumpkin Quantity 5", color:"Green Pumpkin", pack:'5', wholesale:3.87, image:'images/jbros/brover/brover-gp.jpg' },
+    { sku:'JB-BROVER-JB', upc:'', desc:"Brover 4.25\" June Bug Quantity 5", color:"June Bug", pack:'5', wholesale:3.87, image:'images/jbros/brover/brover-jb.jpg' },
+  ],
+  honey_dipper: [
+    { sku:'JB-HONEY-BB', upc:'', desc:"Honey Dipper 7.3\" Black Blue Quantity 8", color:"Black Blue", pack:'8', wholesale:4.49, image:'images/jbros/honey-dipper/honey-bb.jpg' },
+    { sku:'JB-HONEY-GP', upc:'', desc:"Honey Dipper 7.3\" Green Pumpkin Quantity 8", color:"Green Pumpkin", pack:'8', wholesale:4.49, image:'images/jbros/honey-dipper/honey-gp.jpg' },
+    { sku:'JB-HONEY-GPP', upc:'', desc:"Honey Dipper 7.3\" Green Pumpkin Purple Quantity 8", color:"Green Pumpkin Purple", pack:'8', wholesale:4.49, image:'images/jbros/honey-dipper/honey-gpp.jpg' },
+    { sku:'JB-HONEY-JB', upc:'', desc:"Honey Dipper 7.3\" June Bug Quantity 8", color:"June Bug", pack:'8', wholesale:4.49, image:'images/jbros/honey-dipper/honey-jb.jpg' },
+    { sku:'JB-HONEY-MD', upc:'', desc:"Honey Dipper 7.3\" Morning Dawn Quantity 8", color:"Morning Dawn", pack:'8', wholesale:5.17, image:'images/jbros/honey-dipper/honey-md.jpg' },
+    { sku:'JB-HONEY-MO', upc:'', desc:"Honey Dipper 7.3\" Motor Oil Quantity 8", color:"Motor Oil", pack:'8', wholesale:4.49, image:'images/jbros/honey-dipper/honey-mo.jpg' },
+    { sku:'JB-HONEY-RB', upc:'', desc:"Honey Dipper 7.3\" Red Bug Quantity 8", color:"Red Bug", pack:'8', wholesale:4.49, image:'images/jbros/honey-dipper/honey-rb.jpg' },
+    { sku:'JB-HONEY-SS', upc:'', desc:"Honey Dipper 7.3\" Silver Shad Quantity 8", color:"Silver Shad", pack:'8', wholesale:5.17, image:'images/jbros/honey-dipper/honey-ss.jpg' },
+    { sku:'JB-HONEY-WR', upc:'', desc:"Honey Dipper 7.3\" Watermelon Red Quantity 8", color:"Watermelon Red", pack:'8', wholesale:4.49, image:'images/jbros/honey-dipper/honey-wr.jpg' },
+  ],
 };
 
 const jbrosCategories = [
@@ -289,6 +306,8 @@ const jbrosCategories = [
   { key:'patriot', label:"Patriot 4\"" },
   { key:'leech', label:"Leech 4.25\"" },
   { key:'ditch_lobster', label:"Ditch Lobster 4\"" },
+  { key:'brover', label:"4.25\" Brover Beaver Bait" },
+  { key:'honey_dipper', label:"7.3\" Honey Dipper" },
 ];
 
 function renderJbrosRows(cat, tbodyId) {

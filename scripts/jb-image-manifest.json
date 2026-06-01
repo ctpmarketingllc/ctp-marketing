@@ -1143,5 +1143,57 @@
     "image": "images/jbros/ditch-lobster/810110282117.jpg",
     "color": "White",
     "fromVariant": true
+  },
+  "JB-BROVER-BB": {
+    "image": "images/jbros/brover/brover-bb.jpg",
+    "color": "Black/Blue"
+  },
+  "JB-BROVER-WR": {
+    "image": "images/jbros/brover/brover-wr.jpg",
+    "color": "Watermelon Red"
+  },
+  "JB-BROVER-GP": {
+    "image": "images/jbros/brover/brover-gp.jpg",
+    "color": "Green Pumpkin"
+  },
+  "JB-BROVER-JB": {
+    "image": "images/jbros/brover/brover-jb.jpg",
+    "color": "June Bug"
+  },
+  "JB-HONEY-BB": {
+    "image": "images/jbros/honey-dipper/honey-bb.jpg",
+    "color": "Black Blue"
+  },
+  "JB-HONEY-GP": {
+    "image": "images/jbros/honey-dipper/honey-gp.jpg",
+    "color": "Green Pumpkin"
+  },
+  "JB-HONEY-GPP": {
+    "image": "images/jbros/honey-dipper/honey-gpp.jpg",
+    "color": "Green Pumpkin Purple"
+  },
+  "JB-HONEY-JB": {
+    "image": "images/jbros/honey-dipper/honey-jb.jpg",
+    "color": "June Bug"
+  },
+  "JB-HONEY-MD": {
+    "image": "images/jbros/honey-dipper/honey-md.jpg",
+    "color": "Morning Dawn"
+  },
+  "JB-HONEY-MO": {
+    "image": "images/jbros/honey-dipper/honey-mo.jpg",
+    "color": "Motor Oil"
+  },
+  "JB-HONEY-RB": {
+    "image": "images/jbros/honey-dipper/honey-rb.jpg",
+    "color": "Red Bug"
+  },
+  "JB-HONEY-SS": {
+    "image": "images/jbros/honey-dipper/honey-ss.jpg",
+    "color": "Silver Shad"
+  },
+  "JB-HONEY-WR": {
+    "image": "images/jbros/honey-dipper/honey-wr.jpg",
+    "color": "Watermelon Red"
   }
 }
