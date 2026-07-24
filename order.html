@@ -11,6 +11,7 @@
 <script src="copperredbait-catalog.js"></script>
 <script src="brazalo-catalog.js"></script>
 <script src="jbros-catalog.js"></script>
+<script src="fishnerd-catalog.js"></script>
 <style>
   :root {
     --navy: #0a1628;
@@ -465,6 +466,18 @@
       </div>
     </div>
 
+    <div class="brand-card active" data-brand="fishnerd">
+      <div class="brand-card-inner">
+        <div class="brand-logo-area"><span class="brand-initials">FNL</span></div>
+        <div class="brand-info">
+          <div class="brand-card-name">Fish Nerd Labs</div>
+          <div class="brand-card-desc">SmartSpray · SmartSoak · FOAMFADE · NeuroScent ONE</div>
+          <div class="brand-card-tag">10 SKUs Available</div>
+        </div>
+        <div class="brand-arrow">→</div>
+      </div>
+    </div>
+
   </div>
 </main>
 </div>
@@ -652,6 +665,19 @@
       </div>
     </div>
 
+    <!-- FISH NERD LABS -->
+    <div id="fishnerdForm" style="display:none">
+      <div class="product-section">
+        <div class="section-label">Products — Enter Quantity to Order</div>
+        <div class="category-header"><span class="category-name">Fish Nerd Labs</span><span class="category-desc">Fish Care &amp; Livewell Products</span></div>
+        <table><thead><tr>
+          <th class="center">Image</th><th>Product</th><th>SKU</th>
+          <th class="right">Wholesale</th><th class="right">Retail</th>
+          <th class="center">Qty</th><th class="right">Line Total</th>
+        </tr></thead><tbody id="fishnerd-rows"></tbody></table>
+      </div>
+    </div>
+
     <div class="section-label">Order Notes (Optional)</div>
     <textarea class="notes-field" id="orderNotes" placeholder="Special instructions, rush requests, or questions for CTP Marketing..."></textarea>
     <div id="statusMsg" class="status-msg"></div>
@@ -701,7 +727,7 @@ async function initPage() {
 }
 
 function hideAllForms() {
-  ['castForm','feathermoonForm','qtForm','brazaloForm','jbrosForm','lanierForm','spotstickerForm','copperredForm']
+  ['castForm','feathermoonForm','qtForm','brazaloForm','jbrosForm','lanierForm','spotstickerForm','copperredForm','fishnerdForm']
     .forEach(id => document.getElementById(id).style.display = 'none');
 }
 
@@ -743,6 +769,9 @@ function showBrand(brand, title) {
   } else if (brand === 'copperred') {
     document.getElementById('copperredForm').style.display = 'block';
     if (!document.getElementById('copperred-sections').hasChildNodes()) renderAllCopperredSections();
+  } else if (brand === 'fishnerd') {
+    document.getElementById('fishnerdForm').style.display = 'block';
+    if (!document.getElementById('fishnerd-rows').hasChildNodes()) renderFishNerdRows();
   }
 }
 
@@ -752,7 +781,8 @@ const brandNames = {
   jbros: "J Bro's Lures",
   lanier: 'Lanier Baits',
   spotsticker: 'SpotSticker Baits',
-  copperred: 'Copper Red Baits'
+  copperred: 'Copper Red Baits',
+  fishnerd: 'Fish Nerd Labs'
 };
 
 initPage().then(() => {
@@ -938,6 +968,30 @@ function renderFeathermoonRows() {
       <td style="text-align:center"><input class="qty-input" type="number" min="0" step="1"
         data-sku="${p.sku}" data-wholesale="${p.wholesale}"
         data-product="${p.desc}" data-color="" data-size="" data-retail="${p.retail}"
+        placeholder="0" autocomplete="off"></td>
+      <td class="right"><span class="line-total" id="lt-${p.sku.replace(/[.\s]/g,'_')}">—</span></td>
+    `;
+    tbody.appendChild(tr);
+  });
+}
+
+// ── Fish Nerd Labs catalog ────────────────────────────────────
+function renderFishNerdRows() {
+  const tbody = document.getElementById('fishnerd-rows');
+  fnlCatalog.forEach(p => {
+    const tr = document.createElement('tr');
+    const imgCell = p.image
+      ? `<img src="${p.image}" alt="${p.desc.replace(/"/g,'&quot;')}" class="product-thumb" loading="lazy">`
+      : '<span class="product-thumb-placeholder">—</span>';
+    tr.innerHTML = `
+      <td class="product-thumb-cell">${imgCell}</td>
+      <td class="bold">${p.desc}</td>
+      <td class="sku">${p.sku}</td>
+      <td class="right">$${p.wholesale.toFixed(2)}</td>
+      <td class="right" style="color:var(--muted)">$${p.retail.toFixed(2)}</td>
+      <td style="text-align:center"><input class="qty-input" type="number" min="0" step="1"
+        data-sku="${p.sku}" data-wholesale="${p.wholesale}"
+        data-product="${p.desc.replace(/"/g,'&quot;')}" data-color="" data-size="" data-retail="${p.retail}"
         placeholder="0" autocomplete="off"></td>
       <td class="right"><span class="line-total" id="lt-${p.sku.replace(/[.\s]/g,'_')}">—</span></td>
     `;
