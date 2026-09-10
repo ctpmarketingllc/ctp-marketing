@@ -12,6 +12,7 @@
 <script src="brazalo-catalog.js"></script>
 <script src="jbros-catalog.js"></script>
 <script src="fishnerd-catalog.js"></script>
+<script src="megatoad-catalog.js"></script>
 <style>
   :root {
     --navy: #0a1628;
@@ -478,6 +479,18 @@
       </div>
     </div>
 
+    <div class="brand-card active" data-brand="megatoad">
+      <div class="brand-card-inner">
+        <div class="brand-logo-area" style="background:#fff;"><img src="images/logos/megatoad-logo.jpg" alt="MegaToad Outdoors" style="max-width:58px;max-height:58px;object-fit:contain;"></div>
+        <div class="brand-info">
+          <div class="brand-card-name">MegaToad Outdoors</div>
+          <div class="brand-card-desc">M1 Broadcast Module · Full Feeder Assembly · Barrel Bands · Solar Panel</div>
+          <div class="brand-card-tag">5 SKUs Available</div>
+        </div>
+        <div class="brand-arrow">→</div>
+      </div>
+    </div>
+
   </div>
 </main>
 </div>
@@ -678,6 +691,22 @@
       </div>
     </div>
 
+    <!-- MEGATOAD OUTDOORS -->
+    <div id="megatoadForm" style="display:none">
+      <div class="product-section">
+        <div class="section-label">Products — Enter Quantity to Order</div>
+        <div class="category-header"><span class="category-name">MegaToad Outdoors</span><span class="category-desc">Deer Feeders &amp; Accessories — Ships FOB Oklahoma</span></div>
+        <p style="font-size:12px;color:var(--muted);margin:0 0 10px;line-height:1.5;"><strong>FF = Freight Free.</strong> Order at least the listed <strong>FF MOQ</strong> and you pay the <strong>FF Price</strong> with <strong>shipping included</strong>. Order below the FF MOQ and you pay the <strong>Single Unit</strong> price <strong>plus shipping</strong>. Line totals below switch automatically based on your quantity. <strong>MAP</strong> is the minimum a retailer may sell/advertise at; <strong>MSRP</strong> is the suggested retail price.</p>
+        <table><thead><tr>
+          <th class="center">Image</th><th>Product</th><th>SKU</th>
+          <th class="center">FF MOQ</th>
+          <th class="right">FF Price</th><th class="right">Single Unit</th>
+          <th class="right">MAP</th><th class="right">MSRP</th>
+          <th class="center">Qty</th><th class="right">Line Total</th>
+        </tr></thead><tbody id="megatoad-rows"></tbody></table>
+      </div>
+    </div>
+
     <div class="section-label">Order Notes (Optional)</div>
     <textarea class="notes-field" id="orderNotes" placeholder="Special instructions, rush requests, or questions for CTP Marketing..."></textarea>
     <div id="statusMsg" class="status-msg"></div>
@@ -727,7 +756,7 @@ async function initPage() {
 }
 
 function hideAllForms() {
-  ['castForm','feathermoonForm','qtForm','brazaloForm','jbrosForm','lanierForm','spotstickerForm','copperredForm','fishnerdForm']
+  ['castForm','feathermoonForm','qtForm','brazaloForm','jbrosForm','lanierForm','spotstickerForm','copperredForm','fishnerdForm','megatoadForm']
     .forEach(id => document.getElementById(id).style.display = 'none');
 }
 
@@ -772,6 +801,9 @@ function showBrand(brand, title) {
   } else if (brand === 'fishnerd') {
     document.getElementById('fishnerdForm').style.display = 'block';
     if (!document.getElementById('fishnerd-rows').hasChildNodes()) renderFishNerdRows();
+  } else if (brand === 'megatoad') {
+    document.getElementById('megatoadForm').style.display = 'block';
+    if (!document.getElementById('megatoad-rows').hasChildNodes()) renderMegatoadRows();
   }
 }
 
@@ -782,7 +814,8 @@ const brandNames = {
   lanier: 'Lanier Baits',
   spotsticker: 'SpotSticker Baits',
   copperred: 'Copper Red Baits',
-  fishnerd: 'Fish Nerd Labs'
+  fishnerd: 'Fish Nerd Labs',
+  megatoad: 'MegaToad Outdoors'
 };
 
 initPage().then(() => {
@@ -991,6 +1024,33 @@ function renderFishNerdRows() {
       <td class="right" style="color:var(--muted)">$${p.retail.toFixed(2)}</td>
       <td style="text-align:center"><input class="qty-input" type="number" min="0" step="1"
         data-sku="${p.sku}" data-wholesale="${p.wholesale}"
+        data-product="${p.desc.replace(/"/g,'&quot;')}" data-color="" data-size="" data-retail="${p.retail}"
+        placeholder="0" autocomplete="off"></td>
+      <td class="right"><span class="line-total" id="lt-${p.sku.replace(/[.\s]/g,'_')}">—</span></td>
+    `;
+    tbody.appendChild(tr);
+  });
+}
+
+// ── MegaToad Outdoors catalog ─────────────────────────────────
+function renderMegatoadRows() {
+  const tbody = document.getElementById('megatoad-rows');
+  megatoadCatalog.forEach(p => {
+    const tr = document.createElement('tr');
+    const imgCell = p.image
+      ? `<img src="${p.image}" alt="${p.desc.replace(/"/g,'&quot;')}" class="product-thumb" loading="lazy">`
+      : '<span class="product-thumb-placeholder">—</span>';
+    tr.innerHTML = `
+      <td class="product-thumb-cell">${imgCell}</td>
+      <td class="bold">${p.desc}</td>
+      <td class="sku">${p.sku}</td>
+      <td style="text-align:center">${p.moq}</td>
+      <td class="right">$${p.ff.toFixed(2)}</td>
+      <td class="right" style="color:var(--muted)">$${p.wholesale.toFixed(2)} <span style="font-size:10px">+ ship</span></td>
+      <td class="right">$${p.map.toFixed(2)}</td>
+      <td class="right" style="color:var(--muted)">$${p.retail.toFixed(2)}</td>
+      <td style="text-align:center"><input class="qty-input" type="number" min="0" step="1"
+        data-sku="${p.sku}" data-wholesale="${p.wholesale}" data-ff-moq="${p.moq}" data-ff-price="${p.ff}"
         data-product="${p.desc.replace(/"/g,'&quot;')}" data-color="" data-size="" data-retail="${p.retail}"
         placeholder="0" autocomplete="off"></td>
       <td class="right"><span class="line-total" id="lt-${p.sku.replace(/[.\s]/g,'_')}">—</span></td>
@@ -1295,11 +1355,22 @@ function renderAllCopperredSections() {
 }
 
 // ── Live totals ───────────────────────────────────────────────
+// Effective per-unit price. For MegaToad rows (which carry data-ff-moq/data-ff-price),
+// orders at or above the FF MOQ get the freight-free FF price; below it, the single-unit
+// price applies. All other brands have no FF attributes and just use data-wholesale.
+function effectiveUnitPrice(input, qty) {
+  const base = parseFloat(input.dataset.wholesale);
+  const ffMoq = parseInt(input.dataset.ffMoq);
+  const ffPrice = parseFloat(input.dataset.ffPrice);
+  if (ffMoq && !isNaN(ffPrice) && qty >= ffMoq) return ffPrice;
+  return base;
+}
+
 function updateTotals() {
   let totalCost = 0, totalItems = 0, totalSkus = 0;
   document.querySelectorAll('.qty-input').forEach(input => {
     const qty = parseInt(input.value) || 0;
-    const wholesale = parseFloat(input.dataset.wholesale);
+    const wholesale = effectiveUnitPrice(input, qty);
     const ltId = 'lt-' + input.dataset.sku.replace(/[.\s]/g,'_');
     const ltEl = document.getElementById(ltId);
     if (ltEl) {
@@ -1335,10 +1406,10 @@ document.getElementById('submitBtn').addEventListener('click', async () => {
         product_name: input.dataset.product,
         color: input.dataset.color || '',
         size: input.dataset.size || '',
-        wholesale_cost: parseFloat(input.dataset.wholesale),
+        wholesale_cost: effectiveUnitPrice(input, qty),
         retail_price: parseFloat(input.dataset.retail || 0),
         qty,
-        line_total: (qty * parseFloat(input.dataset.wholesale)).toFixed(2)
+        line_total: (qty * effectiveUnitPrice(input, qty)).toFixed(2)
       });
     }
   });
