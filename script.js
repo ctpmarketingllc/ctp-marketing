@@ -105,8 +105,47 @@ if (mobileMenuToggle) {
     });
 }
 
-// Form submission handled by Netlify Forms
-// The form now submits directly to Netlify with data-netlify="true" attribute
+// Contact form submission via Web3Forms (AJAX so the visitor stays on the page)
+const contactForm = document.getElementById('contactForm');
+if (contactForm) {
+    contactForm.addEventListener('submit', async (e) => {
+        e.preventDefault();
+
+        // Honeypot: if the hidden "website" field is filled, it's a bot — pretend success and stop
+        const honeypot = contactForm.querySelector('input[name="website"]');
+        if (honeypot && honeypot.value) return;
+
+        const messageEl = contactForm.querySelector('.form-message');
+        const submitBtn = contactForm.querySelector('.btn-submit');
+        if (submitBtn) submitBtn.classList.add('loading');
+
+        try {
+            const response = await fetch(contactForm.action, {
+                method: 'POST',
+                headers: { 'Accept': 'application/json' },
+                body: new FormData(contactForm)
+            });
+            const result = await response.json();
+
+            if (response.ok && result.success) {
+                if (messageEl) {
+                    messageEl.textContent = "Thanks! Your message has been sent — we'll be in touch soon.";
+                    messageEl.className = 'form-message success';
+                }
+                contactForm.reset();
+            } else {
+                throw new Error(result.message || 'Submission failed');
+            }
+        } catch (err) {
+            if (messageEl) {
+                messageEl.textContent = 'Sorry, something went wrong. Please email us directly or try again.';
+                messageEl.className = 'form-message error';
+            }
+        } finally {
+            if (submitBtn) submitBtn.classList.remove('loading');
+        }
+    });
+}
 
 // Parallax effect for hero
 window.addEventListener('scroll', () => {

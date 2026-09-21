@@ -436,8 +436,11 @@
                     </div>
                 </div>
                 <div class="contact-form" >
-                    <form id="contactForm" name="contact" method="POST" data-netlify="true" netlify-honeypot="website">
-                        <input type="hidden" name="form-name" value="contact">
+                    <form id="contactForm" name="contact" method="POST" action="https://api.web3forms.com/submit">
+                        <!-- Web3Forms: public submit-only access key. Submissions are emailed to the address registered at web3forms.com -->
+                        <input type="hidden" name="access_key" value="8db7c719-75de-4238-b77e-85a4f90514f7">
+                        <input type="hidden" name="subject" value="New CTP Marketing website inquiry">
+                        <input type="hidden" name="from_name" value="CTP Marketing Website">
                         <div class="form-group">
                             <label for="company">Company Name</label>
                             <input type="text" id="company" name="company" required>
