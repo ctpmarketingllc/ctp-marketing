@@ -431,7 +431,7 @@
     btn.textContent = 'SENDING...';
 
     const { error } = await sb.auth.resetPasswordForEmail(email, {
-      redirectTo: `${window.location.origin}/reset-password.html`
+      redirectTo: `${window.location.origin}/set-password.html`
     });
 
     if (error) {
