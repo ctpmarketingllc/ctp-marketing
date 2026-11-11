@@ -741,6 +741,11 @@ async function initPage() {
   if (!session) { window.location.href = '/login.html'; return; }
   currentUser = session.user;
   const { data: retailer } = await sb.from('retailers').select('*').eq('id', currentUser.id).single();
+  // Invited stores fill in their own details; send unfinished ones back to setup
+  if (retailer && (!retailer.store_name || !retailer.contact_name)) {
+    window.location.href = '/set-password.html';
+    return;
+  }
   currentRetailer = retailer;
   document.getElementById('retailerName').textContent = retailer?.store_name || currentUser.email;
   document.getElementById('infoStore').textContent = retailer?.store_name || '—';
